@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "mapName": "battle000_012",
+  "source": {
+    "collidersCsv": "level_probe/reports/battle000_012_colliders.csv",
+    "sceneObjectsCsv": "level_probe/reports/battle000_012_scene_objects.csv"
+  },
+  "stats": {
+    "colliderCount": 5,
+    "drawableCount": 3,
+    "typeCounts": {
+      "BoxCollider": 3,
+      "CapsuleCollider": 2
+    }
+  },
+  "colliders": [
+    {
+      "id": "742",
+      "type": "BoxCollider",
+      "gameObjectId": "12",
+      "gameObjectName": "Cube",
+      "layer": "9",
+      "enabled": "False",
+      "isTrigger": "False",
+      "position": {
+        "x": -0.047376,
+        "y": 0.24772,
+        "z": 0.110889
+      },
+      "positionSource": "scene_object_transform",
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "size": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "743",
+      "type": "BoxCollider",
+      "gameObjectId": "223",
+      "gameObjectName": "empty 1_0",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 1_0",
+      "walkability": "enter",
+      "blockType": 10
+    },
+    {
+      "id": "744",
+      "type": "BoxCollider",
+      "gameObjectId": "222",
+      "gameObjectName": "empty 0_0",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 0_0",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "781",
+      "type": "CapsuleCollider",
+      "gameObjectId": "15",
+      "gameObjectName": "Cylinder",
+      "layer": "9",
+      "enabled": "False",
+      "isTrigger": "False",
+      "position": {
+        "x": 3.674835,
+        "y": 5.62515,
+        "z": 7.966478
+      },
+      "positionSource": "scene_object_transform",
+      "center": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0
+      },
+      "size": null,
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "782",
+      "type": "CapsuleCollider",
+      "gameObjectId": "47",
+      "gameObjectName": "Cylinder",
+      "layer": "9",
+      "enabled": "False",
+      "isTrigger": "False",
+      "position": {
+        "x": 3.684734,
+        "y": 5.960943,
+        "z": 7.899986
+      },
+      "positionSource": "scene_object_transform",
+      "center": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0
+      },
+      "size": null,
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    }
+  ]
+}
