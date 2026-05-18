@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_city-os-du01401",
+  "source": {
+    "collidersCsv": "level_probe/reports/stage_city-os-du01401_colliders.csv",
+    "sceneObjectsCsv": "level_probe/reports/stage_city-os-du01401_scene_objects.csv"
+  },
+  "stats": {
+    "colliderCount": 2,
+    "drawableCount": 0,
+    "typeCounts": {
+      "MeshCollider": 2
+    }
+  },
+  "colliders": [
+    {
+      "id": "1281",
+      "type": "MeshCollider",
+      "gameObjectId": "210",
+      "gameObjectName": "boat",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": -3.287337,
+        "y": 15.248074,
+        "z": 27.696179
+      },
+      "positionSource": "scene_object_transform",
+      "center": null,
+      "size": null,
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "1282",
+      "type": "MeshCollider",
+      "gameObjectId": "209",
+      "gameObjectName": "boat",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": -3.287337,
+        "y": 15.248074,
+        "z": 27.696179
+      },
+      "positionSource": "scene_object_transform",
+      "center": null,
+      "size": null,
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    }
+  ]
+}
