@@ -1,0 +1,881 @@
+{
+  "schemaVersion": 1,
+  "mapName": "battle000_029",
+  "stats": {
+    "materialCount": 14,
+    "textureCount": 14,
+    "skippedTextureCount": 0
+  },
+  "materials": [
+    {
+      "id": "10",
+      "name": "common_sprite02",
+      "shader": "",
+      "mainTexture": {
+        "id": "-5279190316778669538",
+        "name": "common-sprite02",
+        "path": "textures/-5279190316778669538_common-sprite02.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-5279190316778669538",
+          "name": "common-sprite02",
+          "path": "textures/-5279190316778669538_common-sprite02.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "-5279190316778669538",
+          "name": "common-sprite02",
+          "path": "textures/-5279190316778669538_common-sprite02.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.65,
+          0.65,
+          0.65,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_ColorAdd": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "11",
+      "name": "glow_1",
+      "shader": "",
+      "mainTexture": null,
+      "textures": {},
+      "colors": {
+        "_BaseColor": [
+          1.0,
+          0.6501,
+          0.2594,
+          1.0
+        ],
+        "_BaseColorAddSubDiff": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_CameraFadeParams": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_EmissionColor": [
+          1.4016,
+          0.1345,
+          0.0255,
+          1.0
+        ],
+        "_SoftParticleFadeParams": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "13",
+      "name": "battle000_029-zhengti00",
+      "shader": "",
+      "mainTexture": {
+        "id": "-4625898334033983846",
+        "name": "battle000_029-zhengti00",
+        "path": "textures/-4625898334033983846_battle000_029-zhengti00.png",
+        "width": 1024,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-4625898334033983846",
+          "name": "battle000_029-zhengti00",
+          "path": "textures/-4625898334033983846_battle000_029-zhengti00.png",
+          "width": 1024,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "-4625898334033983846",
+          "name": "battle000_029-zhengti00",
+          "path": "textures/-4625898334033983846_battle000_029-zhengti00.png",
+          "width": 1024,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.6946,
+          0.7075,
+          0.564,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "14",
+      "name": "Unlit_VortexFlow_029",
+      "shader": "",
+      "mainTexture": null,
+      "textures": {
+        "_BGTex": {
+          "id": "-4195946105160550160",
+          "name": "fx_warp_113",
+          "path": "textures/-4195946105160550160_fx_warp_113.png",
+          "width": 256,
+          "height": 256
+        },
+        "_FGTex": {
+          "id": "9217626832112326247",
+          "name": "fx_vein_101",
+          "path": "textures/9217626832112326247_fx_vein_101.png",
+          "width": 256,
+          "height": 256
+        },
+        "_LineLutTex": {
+          "id": "3662138118170071899",
+          "name": "fx_wenli01_201",
+          "path": "textures/3662138118170071899_fx_wenli01_201.png",
+          "width": 64,
+          "height": 64
+        },
+        "_NoiseTex": {
+          "id": "5148827910298209171",
+          "name": "vortex_flow_cloud",
+          "path": "textures/5148827910298209171_vortex_flow_cloud.png",
+          "width": 256,
+          "height": 256
+        },
+        "_TilingNoiseTex": {
+          "id": "5337593751710255525",
+          "name": "TilingNoiseTex 1",
+          "path": "textures/5337593751710255525_TilingNoiseTex_1.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BGColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_CloudColor": [
+          0.0,
+          0.3814,
+          0.4717,
+          1.0
+        ],
+        "_CustomizeMaskTillingOffset": [
+          7.43,
+          0.94,
+          2.78,
+          1.24
+        ],
+        "_FGColor": [
+          0.0,
+          0.6316,
+          0.8396,
+          1.0
+        ],
+        "_FadeFogColor": [
+          0.0233,
+          0.11,
+          0.17,
+          1.0
+        ],
+        "_LineColor": [
+          0.0,
+          0.5031,
+          0.8491,
+          1.0
+        ],
+        "_MaskCenterPos": [
+          15.3,
+          12.2,
+          -52.92,
+          0.0
+        ],
+        "_SecondBiasColor": [
+          2.7954,
+          2.7954,
+          2.7954,
+          1.0
+        ],
+        "_VortexInnerColor": [
+          0.0431,
+          0.2325,
+          0.349,
+          1.0
+        ],
+        "_VortexOuterColor": [
+          0.0411,
+          0.3251,
+          0.411,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "16",
+      "name": "battle000_029-zhengti00-alpha",
+      "shader": "",
+      "mainTexture": {
+        "id": "-4625898334033983846",
+        "name": "battle000_029-zhengti00",
+        "path": "textures/-4625898334033983846_battle000_029-zhengti00.png",
+        "width": 1024,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-4625898334033983846",
+          "name": "battle000_029-zhengti00",
+          "path": "textures/-4625898334033983846_battle000_029-zhengti00.png",
+          "width": 1024,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "-4625898334033983846",
+          "name": "battle000_029-zhengti00",
+          "path": "textures/-4625898334033983846_battle000_029-zhengti00.png",
+          "width": 1024,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.6946,
+          0.7075,
+          0.564,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "17",
+      "name": "common_bush_l",
+      "shader": "",
+      "mainTexture": {
+        "id": "-8235725269179752044",
+        "name": "common-trees01",
+        "path": "textures/-8235725269179752044_common-trees01.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-8235725269179752044",
+          "name": "common-trees01",
+          "path": "textures/-8235725269179752044_common-trees01.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "-8235725269179752044",
+          "name": "common-trees01",
+          "path": "textures/-8235725269179752044_common-trees01.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "18",
+      "name": "hightfog-battle000_029",
+      "shader": "",
+      "mainTexture": {
+        "id": "3496401774289826135",
+        "name": "battle000_014-fog",
+        "path": "textures/3496401774289826135_battle000_014-fog.png",
+        "width": 64,
+        "height": 64
+      },
+      "textures": {
+        "_MainTex": {
+          "id": "3496401774289826135",
+          "name": "battle000_014-fog",
+          "path": "textures/3496401774289826135_battle000_014-fog.png",
+          "width": 64,
+          "height": 64
+        }
+      },
+      "colors": {
+        "_MainColor": [
+          0.0588,
+          0.2233,
+          0.2745,
+          0.4706
+        ],
+        "_Softnearfar": [
+          -0.36,
+          6.11,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "19",
+      "name": "battle000_029-zhengti00-alpha-l",
+      "shader": "",
+      "mainTexture": {
+        "id": "-4625898334033983846",
+        "name": "battle000_029-zhengti00",
+        "path": "textures/-4625898334033983846_battle000_029-zhengti00.png",
+        "width": 1024,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-4625898334033983846",
+          "name": "battle000_029-zhengti00",
+          "path": "textures/-4625898334033983846_battle000_029-zhengti00.png",
+          "width": 1024,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "-4625898334033983846",
+          "name": "battle000_029-zhengti00",
+          "path": "textures/-4625898334033983846_battle000_029-zhengti00.png",
+          "width": 1024,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7778,
+          0.783,
+          0.7202,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "name": "Starry_Sky_small_battle000_029",
+      "shader": "",
+      "mainTexture": null,
+      "textures": {
+        "_NoiseTex": {
+          "id": "-1940477636603382846",
+          "name": "starry_sky_cloud",
+          "path": "textures/-1940477636603382846_starry_sky_cloud.png",
+          "width": 512,
+          "height": 512
+        },
+        "_StarTex": {
+          "id": "4293320434522870649",
+          "name": "starry_sky_star",
+          "path": "textures/4293320434522870649_starry_sky_star.png",
+          "width": 1024,
+          "height": 1024
+        }
+      },
+      "colors": {
+        "_CloudColor": [
+          0.0,
+          0.2897,
+          0.8491,
+          1.0
+        ],
+        "_StarColor": [
+          0.1066,
+          0.2189,
+          0.5255,
+          1.0
+        ],
+        "_cloudColor1": [
+          0.1294,
+          0.214,
+          0.2471,
+          1.0
+        ],
+        "_cloudColor2": [
+          0.1203,
+          0.5,
+          0.438,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "name": "battle000_029-zhengti01",
+      "shader": "",
+      "mainTexture": {
+        "id": "22",
+        "name": "battle000_029-zhengti01",
+        "path": "textures/22_battle000_029-zhengti01.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "22",
+          "name": "battle000_029-zhengti01",
+          "path": "textures/22_battle000_029-zhengti01.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "22",
+          "name": "battle000_029-zhengti01",
+          "path": "textures/22_battle000_029-zhengti01.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.6,
+          0.7075,
+          0.3771,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "name": "battle000_029-zhengti01-alpha",
+      "shader": "",
+      "mainTexture": {
+        "id": "22",
+        "name": "battle000_029-zhengti01",
+        "path": "textures/22_battle000_029-zhengti01.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "22",
+          "name": "battle000_029-zhengti01",
+          "path": "textures/22_battle000_029-zhengti01.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "22",
+          "name": "battle000_029-zhengti01",
+          "path": "textures/22_battle000_029-zhengti01.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.6,
+          0.7075,
+          0.3771,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "name": "hightfog-battle000_006-bg",
+      "shader": "",
+      "mainTexture": null,
+      "textures": {},
+      "colors": {
+        "_MainColor": [
+          0.1142,
+          0.0784,
+          0.2353,
+          0.9804
+        ],
+        "_Softnearfar": [
+          1.0,
+          6.03,
+          0.0,
+          7.23
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "name": "glow-battle000_029",
+      "shader": "",
+      "mainTexture": {
+        "id": "5511145152204299993",
+        "name": "fx_fire_loop",
+        "path": "textures/5511145152204299993_fx_fire_loop.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "5511145152204299993",
+          "name": "fx_fire_loop",
+          "path": "textures/5511145152204299993_fx_fire_loop.png",
+          "width": 1024,
+          "height": 1024
+        },
+        "_MainTex": {
+          "id": "5511145152204299993",
+          "name": "fx_fire_loop",
+          "path": "textures/5511145152204299993_fx_fire_loop.png",
+          "width": 1024,
+          "height": 1024
+        },
+        "_UVAnimMaskMap": {
+          "id": "3586098436121431014",
+          "name": "fx_noise_001",
+          "path": "textures/3586098436121431014_fx_noise_001.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.6887,
+          0.5447,
+          0.1462,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_ColorAdd": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.8868,
+          0.1046,
+          0.1046,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "name": "hightfog-battle000_010",
+      "shader": "",
+      "mainTexture": null,
+      "textures": {},
+      "colors": {
+        "_MainColor": [
+          0.1237,
+          0.1098,
+          0.2745,
+          1.0
+        ],
+        "_Softnearfar": [
+          0.0,
+          3.79,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ]
+}
