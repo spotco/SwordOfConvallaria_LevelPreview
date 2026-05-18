@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_interior-spcl-da00101",
+  "source": {
+    "collidersCsv": "level_probe/reports/stage_interior-spcl-da00101_colliders.csv",
+    "sceneObjectsCsv": "level_probe/reports/stage_interior-spcl-da00101_scene_objects.csv"
+  },
+  "stats": {
+    "colliderCount": 3,
+    "drawableCount": 3,
+    "typeCounts": {
+      "BoxCollider": 3
+    }
+  },
+  "colliders": [
+    {
+      "id": "206",
+      "type": "BoxCollider",
+      "gameObjectId": "9",
+      "gameObjectName": "Cube (17)",
+      "layer": "0",
+      "enabled": "False",
+      "isTrigger": "False",
+      "position": {
+        "x": 0.046669,
+        "y": 0.936156,
+        "z": -0.510153
+      },
+      "positionSource": "scene_object_transform",
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "size": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "207",
+      "type": "BoxCollider",
+      "gameObjectId": "28",
+      "gameObjectName": "Cube (16)",
+      "layer": "0",
+      "enabled": "False",
+      "isTrigger": "False",
+      "position": {
+        "x": 0.140007,
+        "y": 3.507188,
+        "z": 0.685388
+      },
+      "positionSource": "scene_object_transform",
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "size": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "208",
+      "type": "BoxCollider",
+      "gameObjectId": "47",
+      "gameObjectName": "Cube (15)",
+      "layer": "0",
+      "enabled": "False",
+      "isTrigger": "False",
+      "position": {
+        "x": -2.068995,
+        "y": 3.782959,
+        "z": 1.172812
+      },
+      "positionSource": "scene_object_transform",
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "size": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    }
+  ]
+}
