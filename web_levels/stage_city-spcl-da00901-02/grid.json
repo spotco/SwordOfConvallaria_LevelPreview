@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_city-spcl-da00901-02",
+  "source": {
+    "gridCsv": "level_probe/reports/stage_city-spcl-da00901-02_grid_blocks.csv",
+    "metadataJson": "level_probe/reports/stage_city-spcl-da00901-02_map_metadata.json"
+  },
+  "metadata": {
+    "bundle": "battle/map/stage_city-spcl-da00901-02.unity3d",
+    "resolvedBundle": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sword of Convallaria\\assets\\battle\\map\\stage_city-spcl-da00901-02.unity3d",
+    "blockCount": 5,
+    "blockTypeCounts": {
+      "10": 3,
+      "11": 1,
+      "0": 1
+    },
+    "mapProperty": {
+      "useBound": 1,
+      "useBattle": 0,
+      "boundMin": "int3_storage(x=-2, y=0, z=-8)",
+      "boundMax": "int3_storage(x=21, y=0, z=19)",
+      "boundMinCamera": "Vector3f(2.0, 2.0, -5.0)",
+      "boundMaxCamera": "Vector3f(16.0, 4.599999904632568, 15.0)",
+      "orthographicSize": 2.700000047683716,
+      "path": "MapTool/Map"
+    },
+    "defaultCamera": {
+      "source": "MapProperty.camera",
+      "cameraId": "675",
+      "gameObjectId": "310",
+      "transformId": "577",
+      "position": {
+        "x": -4.532555,
+        "y": 6.874995,
+        "z": -19.752159
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "forward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "right": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "up": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "orthographic": true,
+      "orthographicSize": 5.420000076293945,
+      "fieldOfView": 20.0
+    },
+    "exportFrame": {
+      "type": "camera_aligned_world",
+      "pointFormula": "export = (dot(world,right), dot(world,up), dot(world,forward))",
+      "basis": {
+        "right": {
+          "x": -0.707107,
+          "y": -0.0,
+          "z": 0.707107
+        },
+        "up": {
+          "x": 0.353553,
+          "y": 0.866025,
+          "z": 0.353553
+        },
+        "forward": {
+          "x": 0.612372,
+          "y": -0.5,
+          "z": 0.612372
+        }
+      }
+    }
+  },
+  "stats": {
+    "tileCount": 5,
+    "walkabilityCounts": {
+      "unknown": 5
+    },
+    "extent": {
+      "min": {
+        "x": -81.74013,
+        "y": 0.707107,
+        "z": 1.224745
+      },
+      "max": {
+        "x": -2.828427,
+        "y": 54.779221,
+        "z": 95.614396
+      },
+      "center": {
+        "x": -42.2842785,
+        "y": 27.743164,
+        "z": 48.4195705
+      }
+    }
+  },
+  "tiles": [
+    {
+      "id": "68",
+      "monoId": "1254",
+      "name": "boat29_21",
+      "path": "MapTool/Map/props_root/GameObject-scene_city-os-niri00501/boat01/boat29_21",
+      "walkability": "unknown",
+      "position": {
+        "x": -81.74013,
+        "y": 54.779221,
+        "z": 95.614396
+      },
+      "localPosition": {
+        "x": -3.287339,
+        "y": 15.489187,
+        "z": 27.562059
+      },
+      "blockType": 10,
+      "isGamepadCursorMovable": "1",
+      "layer": "0",
+      "collider": {
+        "type": "MeshCollider",
+        "isTrigger": "False",
+        "center": null,
+        "size": null
+      }
+    },
+    {
+      "id": "226",
+      "monoId": "1262",
+      "name": "qiao01",
+      "path": "MapTool/Map/block_root/scene_city-os-niri00501/scene_city-os-niri00501/qiao01",
+      "walkability": "unknown",
+      "position": {
+        "x": -81.691339,
+        "y": 48.025961,
+        "z": 87.013647
+      },
+      "localPosition": {
+        "x": -6.363961,
+        "y": 10.362273,
+        "z": 21.778223
+      },
+      "blockType": 10,
+      "isGamepadCursorMovable": "1",
+      "layer": "0",
+      "collider": {
+        "type": "MeshCollider",
+        "isTrigger": "False",
+        "center": null,
+        "size": null
+      }
+    },
+    {
+      "id": "274",
+      "monoId": "1263",
+      "name": "dimian01",
+      "path": "MapTool/Map/block_root/scene_city-os-niri00501/scene_city-os-niri00501/dimian01",
+      "walkability": "unknown",
+      "position": {
+        "x": -75.327378,
+        "y": 37.663688,
+        "z": 65.235424
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "blockType": 11,
+      "isGamepadCursorMovable": "1",
+      "layer": "0",
+      "collider": {
+        "type": "MeshCollider",
+        "isTrigger": "False",
+        "center": null,
+        "size": null
+      }
+    },
+    {
+      "id": "247",
+      "monoId": "1280",
+      "name": "qiao01.00323_21",
+      "path": "MapTool/Map/block_root/scene_city-os-niri00501/scene_city-os-niri00501-qiao01/qiao01.00323_21",
+      "walkability": "unknown",
+      "position": {
+        "x": -76.034485,
+        "y": 51.747803,
+        "z": 93.029806
+      },
+      "localPosition": {
+        "x": -0.707177,
+        "y": 14.08415,
+        "z": 27.794443
+      },
+      "blockType": 10,
+      "isGamepadCursorMovable": "1",
+      "layer": "0",
+      "collider": {
+        "type": "MeshCollider",
+        "isTrigger": "False",
+        "center": null,
+        "size": null
+      }
+    },
+    {
+      "id": "238",
+      "monoId": "1292",
+      "name": "dimian",
+      "path": "MapTool/Map/block_root/capital-jiuguan/dimian",
+      "walkability": "unknown",
+      "position": {
+        "x": -2.828427,
+        "y": 0.707107,
+        "z": 1.224745
+      },
+      "localPosition": {
+        "x": -2.828427,
+        "y": 0.707107,
+        "z": 1.224745
+      },
+      "blockType": 0,
+      "isGamepadCursorMovable": "1",
+      "layer": "0",
+      "collider": {
+        "type": "MeshCollider",
+        "isTrigger": "False",
+        "center": null,
+        "size": null
+      }
+    }
+  ]
+}
