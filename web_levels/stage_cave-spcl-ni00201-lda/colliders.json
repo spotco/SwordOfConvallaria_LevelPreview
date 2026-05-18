@@ -1,0 +1,6966 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_cave-spcl-ni00201-lda",
+  "source": {
+    "collidersCsv": "level_probe/reports/stage_cave-spcl-ni00201-lda_colliders.csv",
+    "sceneObjectsCsv": "level_probe/reports/stage_cave-spcl-ni00201-lda_scene_objects.csv"
+  },
+  "stats": {
+    "colliderCount": 249,
+    "drawableCount": 246,
+    "typeCounts": {
+      "MeshCollider": 3,
+      "BoxCollider": 246
+    }
+  },
+  "colliders": [
+    {
+      "id": "2459",
+      "type": "MeshCollider",
+      "gameObjectId": "53",
+      "gameObjectName": "shu3",
+      "layer": "9",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": 4.911565,
+        "y": 8.547019,
+        "z": 12.868896
+      },
+      "positionSource": "scene_object_transform",
+      "center": null,
+      "size": null,
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "2460",
+      "type": "MeshCollider",
+      "gameObjectId": "61",
+      "gameObjectName": "shu2-new",
+      "layer": "9",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": 16.122743,
+        "y": 5.167078,
+        "z": 6.838005
+      },
+      "positionSource": "scene_object_transform",
+      "center": null,
+      "size": null,
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "2461",
+      "type": "MeshCollider",
+      "gameObjectId": "114",
+      "gameObjectName": "shu1-new",
+      "layer": "9",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": -5.08834,
+        "y": 3.69894,
+        "z": 4.728439
+      },
+      "positionSource": "scene_object_transform",
+      "center": null,
+      "size": null,
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "2462",
+      "type": "BoxCollider",
+      "gameObjectId": "740",
+      "gameObjectName": "empty 0_-1",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -0.707107,
+        "y": -0.348196,
+        "z": -0.615434
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 0_-1",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2463",
+      "type": "BoxCollider",
+      "gameObjectId": "739",
+      "gameObjectName": "empty 0_10",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.071068,
+        "y": 3.48196,
+        "z": 6.154344
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 0_10",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2464",
+      "type": "BoxCollider",
+      "gameObjectId": "738",
+      "gameObjectName": "empty 5_16",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.778176,
+        "y": 7.312116,
+        "z": 12.924123
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 5_16",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2465",
+      "type": "BoxCollider",
+      "gameObjectId": "745",
+      "gameObjectName": "empty 6_3",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -2.12132,
+        "y": 3.481906,
+        "z": 5.341941
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 6_3",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2466",
+      "type": "BoxCollider",
+      "gameObjectId": "744",
+      "gameObjectName": "empty 5_11",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.242641,
+        "y": 5.571136,
+        "z": 9.846951
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 5_11",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2467",
+      "type": "BoxCollider",
+      "gameObjectId": "742",
+      "gameObjectName": "empty 8_12",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.828428,
+        "y": 8.008347,
+        "z": 11.71778
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 8_12",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2468",
+      "type": "BoxCollider",
+      "gameObjectId": "743",
+      "gameObjectName": "empty 0_4",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.828427,
+        "y": 1.392784,
+        "z": 2.461737
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 0_4",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2469",
+      "type": "BoxCollider",
+      "gameObjectId": "741",
+      "gameObjectName": "empty 3_6",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.121321,
+        "y": 3.133764,
+        "z": 5.53891
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 3_6",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2470",
+      "type": "BoxCollider",
+      "gameObjectId": "747",
+      "gameObjectName": "empty 5_6",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 0.707107,
+        "y": 3.830156,
+        "z": 6.769779
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 5_6",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2471",
+      "type": "BoxCollider",
+      "gameObjectId": "748",
+      "gameObjectName": "empty 1_12",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.778175,
+        "y": 4.526548,
+        "z": 8.000647
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 1_12",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2472",
+      "type": "BoxCollider",
+      "gameObjectId": "746",
+      "gameObjectName": "empty -1_18",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 13.43503,
+        "y": 6.615617,
+        "z": 10.068445
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -1_18",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2473",
+      "type": "BoxCollider",
+      "gameObjectId": "751",
+      "gameObjectName": "empty 4_12",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 5.656855,
+        "y": 5.571136,
+        "z": 9.846951
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 4_12",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2474",
+      "type": "BoxCollider",
+      "gameObjectId": "750",
+      "gameObjectName": "empty 7_12",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 3.535535,
+        "y": 7.312008,
+        "z": 11.299315
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 7_12",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2475",
+      "type": "BoxCollider",
+      "gameObjectId": "749",
+      "gameObjectName": "empty 3_1",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -1.414213,
+        "y": 1.392784,
+        "z": 2.461738
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 3_1",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2476",
+      "type": "BoxCollider",
+      "gameObjectId": "752",
+      "gameObjectName": "empty 4_17",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 9.192389,
+        "y": 7.312116,
+        "z": 12.924122
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 4_17",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2477",
+      "type": "BoxCollider",
+      "gameObjectId": "753",
+      "gameObjectName": "empty 4_5",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 0.707107,
+        "y": 3.133764,
+        "z": 5.53891
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 4_5",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2478",
+      "type": "BoxCollider",
+      "gameObjectId": "758",
+      "gameObjectName": "empty -3_15",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 12.727923,
+        "y": 4.178352,
+        "z": 7.385212
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -3_15",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2479",
+      "type": "BoxCollider",
+      "gameObjectId": "757",
+      "gameObjectName": "empty 8_11",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.121321,
+        "y": 7.660151,
+        "z": 11.102346
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 8_11",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2480",
+      "type": "BoxCollider",
+      "gameObjectId": "754",
+      "gameObjectName": "empty 5_9",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.828428,
+        "y": 4.874744,
+        "z": 8.616082
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 5_9",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2481",
+      "type": "BoxCollider",
+      "gameObjectId": "756",
+      "gameObjectName": "empty 7_11",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.828428,
+        "y": 6.61567,
+        "z": 10.88085
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 7_11",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2482",
+      "type": "BoxCollider",
+      "gameObjectId": "755",
+      "gameObjectName": "empty 3_12",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 6.363962,
+        "y": 5.22294,
+        "z": 9.231516
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 3_12",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2483",
+      "type": "BoxCollider",
+      "gameObjectId": "721",
+      "gameObjectName": "empty 4_10",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.242641,
+        "y": 4.874744,
+        "z": 8.616082
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 4_10",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2484",
+      "type": "BoxCollider",
+      "gameObjectId": "724",
+      "gameObjectName": "empty 1_19",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 12.727923,
+        "y": 7.312062,
+        "z": 12.111718
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 1_19",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2485",
+      "type": "BoxCollider",
+      "gameObjectId": "723",
+      "gameObjectName": "empty 0_16",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 11.313709,
+        "y": 5.571136,
+        "z": 9.84695
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 0_16",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2486",
+      "type": "BoxCollider",
+      "gameObjectId": "722",
+      "gameObjectName": "empty 4_14",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.071069,
+        "y": 6.267528,
+        "z": 11.077819
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 4_14",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2487",
+      "type": "BoxCollider",
+      "gameObjectId": "726",
+      "gameObjectName": "empty -1_7",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 5.656855,
+        "y": 2.089176,
+        "z": 3.692606
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -1_7",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2488",
+      "type": "BoxCollider",
+      "gameObjectId": "727",
+      "gameObjectName": "empty -3_14",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 12.020816,
+        "y": 3.830156,
+        "z": 6.769778
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -3_14",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2489",
+      "type": "BoxCollider",
+      "gameObjectId": "725",
+      "gameObjectName": "empty 6_9",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.121321,
+        "y": 5.22294,
+        "z": 9.231516
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 6_9",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2490",
+      "type": "BoxCollider",
+      "gameObjectId": "729",
+      "gameObjectName": "empty 0_11",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.778175,
+        "y": 3.830156,
+        "z": 6.769778
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 0_11",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2491",
+      "type": "BoxCollider",
+      "gameObjectId": "728",
+      "gameObjectName": "empty -1_0",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 0.707107,
+        "y": 0.348089,
+        "z": -1.009373
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -1_0",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2492",
+      "type": "BoxCollider",
+      "gameObjectId": "730",
+      "gameObjectName": "empty 3_0",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -2.12132,
+        "y": 1.740872,
+        "z": 1.452365
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 3_0",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2493",
+      "type": "BoxCollider",
+      "gameObjectId": "732",
+      "gameObjectName": "empty 2_10",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 5.656855,
+        "y": 4.178352,
+        "z": 7.385213
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 2_10",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2494",
+      "type": "BoxCollider",
+      "gameObjectId": "731",
+      "gameObjectName": "empty -3_12",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 10.606602,
+        "y": 3.133764,
+        "z": 5.538909
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -3_12",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2495",
+      "type": "BoxCollider",
+      "gameObjectId": "736",
+      "gameObjectName": "empty 3_7",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.828428,
+        "y": 3.48196,
+        "z": 6.154344
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 3_7",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2496",
+      "type": "BoxCollider",
+      "gameObjectId": "735",
+      "gameObjectName": "empty 7_15",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 5.656855,
+        "y": 8.704739,
+        "z": 12.948649
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 7_15",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2497",
+      "type": "BoxCollider",
+      "gameObjectId": "733",
+      "gameObjectName": "empty 1_9",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 5.656855,
+        "y": 3.48196,
+        "z": 6.154344
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 1_9",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2498",
+      "type": "BoxCollider",
+      "gameObjectId": "734",
+      "gameObjectName": "empty 6_2",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -2.828427,
+        "y": 3.481852,
+        "z": 4.529537
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 6_2",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2499",
+      "type": "BoxCollider",
+      "gameObjectId": "737",
+      "gameObjectName": "empty 3_15",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 8.485282,
+        "y": 6.267528,
+        "z": 11.077819
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 3_15",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2500",
+      "type": "BoxCollider",
+      "gameObjectId": "708",
+      "gameObjectName": "empty 0_3",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.12132,
+        "y": 1.044588,
+        "z": 1.846303
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 0_3",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2501",
+      "type": "BoxCollider",
+      "gameObjectId": "709",
+      "gameObjectName": "empty -4_6",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.071068,
+        "y": 0.696392,
+        "z": 1.230868
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -4_6",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2502",
+      "type": "BoxCollider",
+      "gameObjectId": "710",
+      "gameObjectName": "empty 3_18",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 10.606603,
+        "y": 8.704685,
+        "z": 12.136245
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 3_18",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2503",
+      "type": "BoxCollider",
+      "gameObjectId": "713",
+      "gameObjectName": "empty 2_12",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.071069,
+        "y": 4.874744,
+        "z": 8.616082
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 2_12",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2504",
+      "type": "BoxCollider",
+      "gameObjectId": "712",
+      "gameObjectName": "empty -2_8",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.071068,
+        "y": 2.089176,
+        "z": 3.692606
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -2_8",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2505",
+      "type": "BoxCollider",
+      "gameObjectId": "711",
+      "gameObjectName": "empty -1_2",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.12132,
+        "y": 0.348196,
+        "z": 0.615434
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -1_2",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2506",
+      "type": "BoxCollider",
+      "gameObjectId": "714",
+      "gameObjectName": "empty -2_2",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.828427,
+        "y": 0.0,
+        "z": -0.0
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -2_2",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2507",
+      "type": "BoxCollider",
+      "gameObjectId": "715",
+      "gameObjectName": "empty -6_4",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.071068,
+        "y": -0.000107,
+        "z": -1.624808
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -6_4",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2508",
+      "type": "BoxCollider",
+      "gameObjectId": "716",
+      "gameObjectName": "empty 0_13",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 9.192389,
+        "y": 4.526548,
+        "z": 8.000647
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 0_13",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2509",
+      "type": "BoxCollider",
+      "gameObjectId": "717",
+      "gameObjectName": "empty -3_4",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.949747,
+        "y": 1.044481,
+        "z": 0.221495
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -3_4",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2510",
+      "type": "BoxCollider",
+      "gameObjectId": "718",
+      "gameObjectName": "empty 2_4",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 1.414214,
+        "y": 2.089176,
+        "z": 3.692607
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 2_4",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2511",
+      "type": "BoxCollider",
+      "gameObjectId": "720",
+      "gameObjectName": "empty 1_17",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 11.313709,
+        "y": 6.267528,
+        "z": 11.077819
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 1_17",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2512",
+      "type": "BoxCollider",
+      "gameObjectId": "719",
+      "gameObjectName": "empty 1_2",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 0.707107,
+        "y": 1.740873,
+        "z": 1.452364
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 1_2",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2513",
+      "type": "BoxCollider",
+      "gameObjectId": "698",
+      "gameObjectName": "empty -2_13",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 10.606602,
+        "y": 4.178298,
+        "z": 6.572808
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -2_13",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2514",
+      "type": "BoxCollider",
+      "gameObjectId": "699",
+      "gameObjectName": "empty -2_18",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 14.142136,
+        "y": 6.267421,
+        "z": 9.453011
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -2_18",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2515",
+      "type": "BoxCollider",
+      "gameObjectId": "700",
+      "gameObjectName": "empty 2_7",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 3.535534,
+        "y": 3.133764,
+        "z": 5.53891
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 2_7",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2516",
+      "type": "BoxCollider",
+      "gameObjectId": "705",
+      "gameObjectName": "empty 4_6",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 1.414214,
+        "y": 3.48196,
+        "z": 6.154344
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 4_6",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2517",
+      "type": "BoxCollider",
+      "gameObjectId": "704",
+      "gameObjectName": "empty -3_6",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 6.363961,
+        "y": 1.044588,
+        "z": 1.846303
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -3_6",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2518",
+      "type": "BoxCollider",
+      "gameObjectId": "703",
+      "gameObjectName": "empty -2_0",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 1.414213,
+        "y": -0.000107,
+        "z": -1.624808
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -2_0",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2519",
+      "type": "BoxCollider",
+      "gameObjectId": "701",
+      "gameObjectName": "empty 2_8",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.242641,
+        "y": 3.48196,
+        "z": 6.154344
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 2_8",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2520",
+      "type": "BoxCollider",
+      "gameObjectId": "702",
+      "gameObjectName": "empty 5_1",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -2.828427,
+        "y": 2.437318,
+        "z": 3.495638
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 5_1",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2521",
+      "type": "BoxCollider",
+      "gameObjectId": "707",
+      "gameObjectName": "empty -4_10",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 9.899495,
+        "y": 2.437318,
+        "z": 3.495636
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -4_10",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2522",
+      "type": "BoxCollider",
+      "gameObjectId": "706",
+      "gameObjectName": "empty 0_9",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 6.363961,
+        "y": 3.133764,
+        "z": 5.538909
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 0_9",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2523",
+      "type": "BoxCollider",
+      "gameObjectId": "685",
+      "gameObjectName": "empty -2_12",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 9.899495,
+        "y": 3.48196,
+        "z": 6.154343
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -2_12",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2524",
+      "type": "BoxCollider",
+      "gameObjectId": "684",
+      "gameObjectName": "empty 2_14",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 8.485282,
+        "y": 5.571136,
+        "z": 9.84695
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 2_14",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2525",
+      "type": "BoxCollider",
+      "gameObjectId": "683",
+      "gameObjectName": "empty 4_13",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 6.363962,
+        "y": 5.919332,
+        "z": 10.462385
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 4_13",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2526",
+      "type": "BoxCollider",
+      "gameObjectId": "686",
+      "gameObjectName": "empty -5_3",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 5.656854,
+        "y": -0.34825,
+        "z": -1.427839
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -5_3",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2527",
+      "type": "BoxCollider",
+      "gameObjectId": "687",
+      "gameObjectName": "empty 7_10",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.121321,
+        "y": 6.267474,
+        "z": 10.265416
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 7_10",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2528",
+      "type": "BoxCollider",
+      "gameObjectId": "688",
+      "gameObjectName": "empty -1_4",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 3.535534,
+        "y": 1.044588,
+        "z": 1.846303
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -1_4",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2529",
+      "type": "BoxCollider",
+      "gameObjectId": "689",
+      "gameObjectName": "empty 2_13",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.778175,
+        "y": 5.22294,
+        "z": 9.231516
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 2_13",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2530",
+      "type": "BoxCollider",
+      "gameObjectId": "690",
+      "gameObjectName": "empty -4_3",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.949747,
+        "y": -0.348196,
+        "z": -0.615435
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -4_3",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2531",
+      "type": "BoxCollider",
+      "gameObjectId": "691",
+      "gameObjectName": "empty 7_14",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.949748,
+        "y": 8.0084,
+        "z": 12.530184
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 7_14",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2532",
+      "type": "BoxCollider",
+      "gameObjectId": "693",
+      "gameObjectName": "empty -4_14",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 12.727923,
+        "y": 3.830103,
+        "z": 5.957374
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -4_14",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2533",
+      "type": "BoxCollider",
+      "gameObjectId": "692",
+      "gameObjectName": "empty 1_3",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 1.414214,
+        "y": 1.392784,
+        "z": 2.461738
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 1_3",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2534",
+      "type": "BoxCollider",
+      "gameObjectId": "694",
+      "gameObjectName": "empty 4_3",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -0.707106,
+        "y": 2.437372,
+        "z": 4.308041
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 4_3",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2535",
+      "type": "BoxCollider",
+      "gameObjectId": "697",
+      "gameObjectName": "empty 4_0",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -2.828427,
+        "y": 2.089068,
+        "z": 2.067799
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 4_0",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2536",
+      "type": "BoxCollider",
+      "gameObjectId": "696",
+      "gameObjectName": "empty 3_9",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.242641,
+        "y": 4.178352,
+        "z": 7.385213
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 3_9",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2537",
+      "type": "BoxCollider",
+      "gameObjectId": "695",
+      "gameObjectName": "empty -1_1",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 1.414214,
+        "y": 0.0,
+        "z": -0.0
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -1_1",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2538",
+      "type": "BoxCollider",
+      "gameObjectId": "668",
+      "gameObjectName": "empty 2_1",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -0.707107,
+        "y": 1.044588,
+        "z": 1.846303
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 2_1",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2539",
+      "type": "BoxCollider",
+      "gameObjectId": "669",
+      "gameObjectName": "empty -3_7",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.071068,
+        "y": 1.392784,
+        "z": 2.461737
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -3_7",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2540",
+      "type": "BoxCollider",
+      "gameObjectId": "672",
+      "gameObjectName": "empty 8_13",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 3.535535,
+        "y": 8.356543,
+        "z": 12.333215
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 8_13",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2541",
+      "type": "BoxCollider",
+      "gameObjectId": "671",
+      "gameObjectName": "empty 8_8",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 1e-06,
+        "y": 6.26742,
+        "z": 9.453012
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 8_8",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2542",
+      "type": "BoxCollider",
+      "gameObjectId": "670",
+      "gameObjectName": "empty -1_11",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 8.485282,
+        "y": 3.48196,
+        "z": 6.154344
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -1_11",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2543",
+      "type": "BoxCollider",
+      "gameObjectId": "674",
+      "gameObjectName": "empty 3_11",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 5.656855,
+        "y": 4.874744,
+        "z": 8.616082
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 3_11",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2544",
+      "type": "BoxCollider",
+      "gameObjectId": "673",
+      "gameObjectName": "empty 3_5",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 1.414214,
+        "y": 2.785568,
+        "z": 4.923475
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 3_5",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2545",
+      "type": "BoxCollider",
+      "gameObjectId": "677",
+      "gameObjectName": "empty -2_6",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 5.656854,
+        "y": 1.392784,
+        "z": 2.461737
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -2_6",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2546",
+      "type": "BoxCollider",
+      "gameObjectId": "676",
+      "gameObjectName": "empty 0_6",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.242641,
+        "y": 2.089176,
+        "z": 3.692606
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 0_6",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2547",
+      "type": "BoxCollider",
+      "gameObjectId": "675",
+      "gameObjectName": "empty 3_2",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -0.707107,
+        "y": 1.74098,
+        "z": 3.077172
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 3_2",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2548",
+      "type": "BoxCollider",
+      "gameObjectId": "678",
+      "gameObjectName": "empty -5_5",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.071068,
+        "y": 0.0,
+        "z": -1e-06
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -5_5",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2549",
+      "type": "BoxCollider",
+      "gameObjectId": "680",
+      "gameObjectName": "empty 2_15",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 9.192389,
+        "y": 5.919332,
+        "z": 10.462385
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 2_15",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2550",
+      "type": "BoxCollider",
+      "gameObjectId": "679",
+      "gameObjectName": "empty 7_9",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 1.417043,
+        "y": 5.920671,
+        "z": 9.652443
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 7_9",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2551",
+      "type": "BoxCollider",
+      "gameObjectId": "682",
+      "gameObjectName": "empty 0_7",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.949748,
+        "y": 2.437372,
+        "z": 4.308041
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 0_7",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2552",
+      "type": "BoxCollider",
+      "gameObjectId": "681",
+      "gameObjectName": "empty 1_8",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.949748,
+        "y": 3.133764,
+        "z": 5.53891
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 1_8",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2553",
+      "type": "BoxCollider",
+      "gameObjectId": "657",
+      "gameObjectName": "empty -2_15",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 12.020816,
+        "y": 4.526548,
+        "z": 8.000647
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -2_15",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2554",
+      "type": "BoxCollider",
+      "gameObjectId": "656",
+      "gameObjectName": "empty 1_15",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 9.899496,
+        "y": 5.571136,
+        "z": 9.84695
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 1_15",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2555",
+      "type": "BoxCollider",
+      "gameObjectId": "660",
+      "gameObjectName": "empty -3_13",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 11.313709,
+        "y": 3.48196,
+        "z": 6.154343
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -3_13",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2556",
+      "type": "BoxCollider",
+      "gameObjectId": "659",
+      "gameObjectName": "empty 0_18",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 12.727923,
+        "y": 6.61567,
+        "z": 10.880849
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 0_18",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2557",
+      "type": "BoxCollider",
+      "gameObjectId": "658",
+      "gameObjectName": "empty 4_7",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.121321,
+        "y": 3.830156,
+        "z": 6.769779
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 4_7",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2558",
+      "type": "BoxCollider",
+      "gameObjectId": "661",
+      "gameObjectName": "empty 8_6",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -1.414213,
+        "y": 5.571028,
+        "z": 8.222144
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 8_6",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2559",
+      "type": "BoxCollider",
+      "gameObjectId": "664",
+      "gameObjectName": "empty 3_13",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.071069,
+        "y": 5.571136,
+        "z": 9.84695
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 3_13",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2560",
+      "type": "BoxCollider",
+      "gameObjectId": "662",
+      "gameObjectName": "empty 2_18",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 11.313709,
+        "y": 7.660205,
+        "z": 11.914749
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 2_18",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2561",
+      "type": "BoxCollider",
+      "gameObjectId": "663",
+      "gameObjectName": "empty 5_12",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.949748,
+        "y": 5.919332,
+        "z": 10.462385
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 5_12",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2562",
+      "type": "BoxCollider",
+      "gameObjectId": "666",
+      "gameObjectName": "empty -1_9",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.071068,
+        "y": 2.785568,
+        "z": 4.923475
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -1_9",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2563",
+      "type": "BoxCollider",
+      "gameObjectId": "665",
+      "gameObjectName": "empty 6_11",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 3.535535,
+        "y": 5.919332,
+        "z": 10.462385
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 6_11",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2564",
+      "type": "BoxCollider",
+      "gameObjectId": "667",
+      "gameObjectName": "empty -4_7",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.778175,
+        "y": 1.044588,
+        "z": 1.846303
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -4_7",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2565",
+      "type": "BoxCollider",
+      "gameObjectId": "643",
+      "gameObjectName": "empty 5_14",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 6.363962,
+        "y": 6.615724,
+        "z": 11.693254
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 5_14",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2566",
+      "type": "BoxCollider",
+      "gameObjectId": "642",
+      "gameObjectName": "empty 3_14",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.778175,
+        "y": 5.919332,
+        "z": 10.462385
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 3_14",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2567",
+      "type": "BoxCollider",
+      "gameObjectId": "641",
+      "gameObjectName": "empty -4_5",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 6.363961,
+        "y": 0.348196,
+        "z": 0.615434
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -4_5",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2568",
+      "type": "BoxCollider",
+      "gameObjectId": "646",
+      "gameObjectName": "empty -2_1",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.12132,
+        "y": -0.348196,
+        "z": -0.615435
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -2_1",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2569",
+      "type": "BoxCollider",
+      "gameObjectId": "645",
+      "gameObjectName": "empty 6_13",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.949748,
+        "y": 6.615724,
+        "z": 11.693254
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 6_13",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2570",
+      "type": "BoxCollider",
+      "gameObjectId": "644",
+      "gameObjectName": "empty 1_1",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 0.0,
+        "y": 0.696392,
+        "z": 1.230869
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 1_1",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2571",
+      "type": "BoxCollider",
+      "gameObjectId": "647",
+      "gameObjectName": "empty 1_6",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 3.535534,
+        "y": 2.437372,
+        "z": 4.308041
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 1_6",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2572",
+      "type": "BoxCollider",
+      "gameObjectId": "650",
+      "gameObjectName": "empty -2_7",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 6.363961,
+        "y": 1.74098,
+        "z": 3.077172
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -2_7",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2573",
+      "type": "BoxCollider",
+      "gameObjectId": "649",
+      "gameObjectName": "empty -1_6",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.949748,
+        "y": 1.74098,
+        "z": 3.077172
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -1_6",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2574",
+      "type": "BoxCollider",
+      "gameObjectId": "648",
+      "gameObjectName": "empty 6_5",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -0.707106,
+        "y": 3.830156,
+        "z": 6.769779
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 6_5",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2575",
+      "type": "BoxCollider",
+      "gameObjectId": "651",
+      "gameObjectName": "empty -5_8",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 9.192388,
+        "y": 1.044588,
+        "z": 1.846302
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -5_8",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2576",
+      "type": "BoxCollider",
+      "gameObjectId": "655",
+      "gameObjectName": "empty 0_12",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 8.485282,
+        "y": 4.178352,
+        "z": 7.385212
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 0_12",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2577",
+      "type": "BoxCollider",
+      "gameObjectId": "654",
+      "gameObjectName": "empty -6_6",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 8.485281,
+        "y": 0.348143,
+        "z": -0.19697
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -6_6",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2578",
+      "type": "BoxCollider",
+      "gameObjectId": "653",
+      "gameObjectName": "empty 5_7",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 1.414214,
+        "y": 4.178352,
+        "z": 7.385213
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 5_7",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2579",
+      "type": "BoxCollider",
+      "gameObjectId": "652",
+      "gameObjectName": "empty 1_5",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.828427,
+        "y": 2.089176,
+        "z": 3.692606
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 1_5",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2580",
+      "type": "BoxCollider",
+      "gameObjectId": "626",
+      "gameObjectName": "empty 5_10",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 3.535535,
+        "y": 5.22294,
+        "z": 9.231516
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 5_10",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2581",
+      "type": "BoxCollider",
+      "gameObjectId": "628",
+      "gameObjectName": "empty 7_3",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -2.828427,
+        "y": 4.178244,
+        "z": 5.760406
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 7_3",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2582",
+      "type": "BoxCollider",
+      "gameObjectId": "627",
+      "gameObjectName": "empty 8_5",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -2.12132,
+        "y": 5.222832,
+        "z": 7.606709
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 8_5",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2583",
+      "type": "BoxCollider",
+      "gameObjectId": "630",
+      "gameObjectName": "empty 5_5",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 1e-06,
+        "y": 3.48196,
+        "z": 6.154344
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 5_5",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2584",
+      "type": "BoxCollider",
+      "gameObjectId": "629",
+      "gameObjectName": "empty -3_9",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 8.485282,
+        "y": 2.089176,
+        "z": 3.692606
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -3_9",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2585",
+      "type": "BoxCollider",
+      "gameObjectId": "632",
+      "gameObjectName": "empty 1_-1",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -1.414214,
+        "y": -0.0,
+        "z": 0.0
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 1_-1",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2586",
+      "type": "BoxCollider",
+      "gameObjectId": "631",
+      "gameObjectName": "empty 1_4",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.121321,
+        "y": 1.74098,
+        "z": 3.077172
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 1_4",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2587",
+      "type": "BoxCollider",
+      "gameObjectId": "633",
+      "gameObjectName": "empty 7_5",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -1.414213,
+        "y": 4.526494,
+        "z": 7.188244
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 7_5",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2588",
+      "type": "BoxCollider",
+      "gameObjectId": "636",
+      "gameObjectName": "empty 6_14",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 5.656855,
+        "y": 6.96392,
+        "z": 12.308688
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 6_14",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2589",
+      "type": "BoxCollider",
+      "gameObjectId": "635",
+      "gameObjectName": "empty -3_3",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.242641,
+        "y": 0.0,
+        "z": -0.0
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -3_3",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2590",
+      "type": "BoxCollider",
+      "gameObjectId": "634",
+      "gameObjectName": "empty -1_10",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.778175,
+        "y": 3.133764,
+        "z": 5.538909
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -1_10",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2591",
+      "type": "BoxCollider",
+      "gameObjectId": "639",
+      "gameObjectName": "empty -2_10",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 8.485282,
+        "y": 2.785568,
+        "z": 4.923475
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -2_10",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2592",
+      "type": "BoxCollider",
+      "gameObjectId": "638",
+      "gameObjectName": "empty -1_8",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 6.363961,
+        "y": 2.437372,
+        "z": 4.30804
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -1_8",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2593",
+      "type": "BoxCollider",
+      "gameObjectId": "637",
+      "gameObjectName": "empty -5_7",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 8.485281,
+        "y": 0.696392,
+        "z": 1.230868
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -5_7",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2594",
+      "type": "BoxCollider",
+      "gameObjectId": "640",
+      "gameObjectName": "empty 2_0",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -1.414213,
+        "y": 0.696392,
+        "z": 1.230869
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 2_0",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2595",
+      "type": "BoxCollider",
+      "gameObjectId": "607",
+      "gameObjectName": "empty -5_10",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 10.606602,
+        "y": 2.089123,
+        "z": 2.880202
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -5_10",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2596",
+      "type": "BoxCollider",
+      "gameObjectId": "609",
+      "gameObjectName": "empty 0_14",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 9.899496,
+        "y": 4.874744,
+        "z": 8.616081
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 0_14",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2597",
+      "type": "BoxCollider",
+      "gameObjectId": "608",
+      "gameObjectName": "empty 1_13",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 8.485282,
+        "y": 4.874744,
+        "z": 8.616081
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 1_13",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2598",
+      "type": "BoxCollider",
+      "gameObjectId": "614",
+      "gameObjectName": "empty 2_9",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.949748,
+        "y": 3.830156,
+        "z": 6.769778
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 2_9",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2599",
+      "type": "BoxCollider",
+      "gameObjectId": "613",
+      "gameObjectName": "empty 6_12",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.242642,
+        "y": 6.61567,
+        "z": 10.88085
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 6_12",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2600",
+      "type": "BoxCollider",
+      "gameObjectId": "612",
+      "gameObjectName": "empty 6_8",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 1.414214,
+        "y": 4.874744,
+        "z": 8.616082
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 6_8",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2601",
+      "type": "BoxCollider",
+      "gameObjectId": "610",
+      "gameObjectName": "empty -5_11",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 11.313709,
+        "y": 2.437319,
+        "z": 3.495636
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -5_11",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2602",
+      "type": "BoxCollider",
+      "gameObjectId": "611",
+      "gameObjectName": "empty 0_19",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 13.43503,
+        "y": 6.963866,
+        "z": 11.496284
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 0_19",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2603",
+      "type": "BoxCollider",
+      "gameObjectId": "616",
+      "gameObjectName": "empty 6_6",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 1e-06,
+        "y": 4.178352,
+        "z": 7.385213
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 6_6",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2604",
+      "type": "BoxCollider",
+      "gameObjectId": "615",
+      "gameObjectName": "empty 6_4",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -1.414213,
+        "y": 3.830102,
+        "z": 5.957375
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 6_4",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2605",
+      "type": "BoxCollider",
+      "gameObjectId": "621",
+      "gameObjectName": "empty 2_5",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.121321,
+        "y": 2.437372,
+        "z": 4.308041
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 2_5",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2606",
+      "type": "BoxCollider",
+      "gameObjectId": "620",
+      "gameObjectName": "empty -3_11",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 9.899495,
+        "y": 2.785568,
+        "z": 4.923475
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -3_11",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2607",
+      "type": "BoxCollider",
+      "gameObjectId": "619",
+      "gameObjectName": "empty 5_0",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -3.535534,
+        "y": 2.785407,
+        "z": 2.486264
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 5_0",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2608",
+      "type": "BoxCollider",
+      "gameObjectId": "618",
+      "gameObjectName": "empty 4_18",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 9.899496,
+        "y": 9.401023,
+        "z": 12.55471
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 4_18",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2609",
+      "type": "BoxCollider",
+      "gameObjectId": "617",
+      "gameObjectName": "empty -6_8",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 9.899495,
+        "y": 1.392677,
+        "z": 0.836929
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -6_8",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2610",
+      "type": "BoxCollider",
+      "gameObjectId": "624",
+      "gameObjectName": "empty -5_4",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 6.363961,
+        "y": -0.348196,
+        "z": -0.615435
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -5_4",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2611",
+      "type": "BoxCollider",
+      "gameObjectId": "623",
+      "gameObjectName": "empty 4_4",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 0.0,
+        "y": 2.785568,
+        "z": 4.923476
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 4_4",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2612",
+      "type": "BoxCollider",
+      "gameObjectId": "622",
+      "gameObjectName": "empty 0_0",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 0_0",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2613",
+      "type": "BoxCollider",
+      "gameObjectId": "625",
+      "gameObjectName": "empty 7_8",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 0.707108,
+        "y": 5.22294,
+        "z": 9.231517
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 7_8",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2614",
+      "type": "BoxCollider",
+      "gameObjectId": "589",
+      "gameObjectName": "empty -6_9",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 10.606602,
+        "y": 1.740873,
+        "z": 1.452364
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -6_9",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2615",
+      "type": "BoxCollider",
+      "gameObjectId": "591",
+      "gameObjectName": "empty 5_8",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.121321,
+        "y": 4.526548,
+        "z": 8.000648
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 5_8",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2616",
+      "type": "BoxCollider",
+      "gameObjectId": "590",
+      "gameObjectName": "empty 2_11",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 6.363962,
+        "y": 4.526548,
+        "z": 8.000647
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 2_11",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2617",
+      "type": "BoxCollider",
+      "gameObjectId": "594",
+      "gameObjectName": "empty -1_5",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.242641,
+        "y": 1.392784,
+        "z": 2.461737
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -1_5",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2618",
+      "type": "BoxCollider",
+      "gameObjectId": "592",
+      "gameObjectName": "empty -3_1",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.828427,
+        "y": -0.696392,
+        "z": -1.230869
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -3_1",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2619",
+      "type": "BoxCollider",
+      "gameObjectId": "593",
+      "gameObjectName": "empty 5_17",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 8.485282,
+        "y": 9.052881,
+        "z": 12.751679
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 5_17",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2620",
+      "type": "BoxCollider",
+      "gameObjectId": "596",
+      "gameObjectName": "empty 0_1",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 0.707107,
+        "y": 0.348196,
+        "z": 0.615434
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 0_1",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2621",
+      "type": "BoxCollider",
+      "gameObjectId": "595",
+      "gameObjectName": "empty -2_4",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.242641,
+        "y": 0.696392,
+        "z": 1.230868
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -2_4",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2622",
+      "type": "BoxCollider",
+      "gameObjectId": "599",
+      "gameObjectName": "empty -4_16",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 14.142136,
+        "y": 4.526495,
+        "z": 7.188243
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -4_16",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2623",
+      "type": "BoxCollider",
+      "gameObjectId": "598",
+      "gameObjectName": "empty -5_12",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 12.020816,
+        "y": 3.133657,
+        "z": 3.914101
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -5_12",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2624",
+      "type": "BoxCollider",
+      "gameObjectId": "597",
+      "gameObjectName": "empty 3_17",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 9.899496,
+        "y": 7.312062,
+        "z": 12.111718
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 3_17",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2625",
+      "type": "BoxCollider",
+      "gameObjectId": "602",
+      "gameObjectName": "empty -6_5",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.778174,
+        "y": 0.348089,
+        "z": -1.009374
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -6_5",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2626",
+      "type": "BoxCollider",
+      "gameObjectId": "601",
+      "gameObjectName": "empty 4_11",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.949748,
+        "y": 5.22294,
+        "z": 9.231516
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 4_11",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2627",
+      "type": "BoxCollider",
+      "gameObjectId": "600",
+      "gameObjectName": "empty -6_7",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 9.192388,
+        "y": 1.044481,
+        "z": 0.221495
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -6_7",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2628",
+      "type": "BoxCollider",
+      "gameObjectId": "604",
+      "gameObjectName": "empty -4_2",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.242641,
+        "y": -0.696392,
+        "z": -1.230869
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -4_2",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2629",
+      "type": "BoxCollider",
+      "gameObjectId": "603",
+      "gameObjectName": "empty 7_7",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 1e-06,
+        "y": 4.874744,
+        "z": 8.616082
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 7_7",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2630",
+      "type": "BoxCollider",
+      "gameObjectId": "606",
+      "gameObjectName": "empty 2_6",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.828428,
+        "y": 2.785568,
+        "z": 4.923475
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 2_6",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2631",
+      "type": "BoxCollider",
+      "gameObjectId": "605",
+      "gameObjectName": "empty 7_4",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -2.12132,
+        "y": 4.52644,
+        "z": 6.37584
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 7_4",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2632",
+      "type": "BoxCollider",
+      "gameObjectId": "576",
+      "gameObjectName": "empty 6_16",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.071069,
+        "y": 8.356597,
+        "z": 13.145618
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 6_16",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2633",
+      "type": "BoxCollider",
+      "gameObjectId": "575",
+      "gameObjectName": "empty 5_2",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -2.12132,
+        "y": 2.437372,
+        "z": 4.308041
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 5_2",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2634",
+      "type": "BoxCollider",
+      "gameObjectId": "577",
+      "gameObjectName": "empty 3_4",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 0.707107,
+        "y": 2.437372,
+        "z": 4.308041
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 3_4",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2635",
+      "type": "BoxCollider",
+      "gameObjectId": "579",
+      "gameObjectName": "empty 1_10",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 6.363962,
+        "y": 3.830156,
+        "z": 6.769778
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 1_10",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2636",
+      "type": "BoxCollider",
+      "gameObjectId": "578",
+      "gameObjectName": "empty -4_15",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 13.435029,
+        "y": 4.178299,
+        "z": 6.572808
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -4_15",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2637",
+      "type": "BoxCollider",
+      "gameObjectId": "582",
+      "gameObjectName": "empty 3_10",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.949748,
+        "y": 4.526548,
+        "z": 8.000647
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 3_10",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2638",
+      "type": "BoxCollider",
+      "gameObjectId": "583",
+      "gameObjectName": "empty -5_13",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 12.727922,
+        "y": 3.481853,
+        "z": 4.529536
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -5_13",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2639",
+      "type": "BoxCollider",
+      "gameObjectId": "581",
+      "gameObjectName": "empty 1_0",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -0.707107,
+        "y": 0.348196,
+        "z": 0.615435
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 1_0",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2640",
+      "type": "BoxCollider",
+      "gameObjectId": "580",
+      "gameObjectName": "empty -3_10",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 9.192389,
+        "y": 2.437372,
+        "z": 4.30804
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -3_10",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2641",
+      "type": "BoxCollider",
+      "gameObjectId": "587",
+      "gameObjectName": "empty 3_3",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 0.0,
+        "y": 2.089176,
+        "z": 3.692607
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 3_3",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2642",
+      "type": "BoxCollider",
+      "gameObjectId": "586",
+      "gameObjectName": "empty -3_16",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 13.435029,
+        "y": 4.526548,
+        "z": 8.000646
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -3_16",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2643",
+      "type": "BoxCollider",
+      "gameObjectId": "585",
+      "gameObjectName": "empty -4_11",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 10.606602,
+        "y": 3.133657,
+        "z": 3.914101
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -4_11",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2644",
+      "type": "BoxCollider",
+      "gameObjectId": "584",
+      "gameObjectName": "empty -3_8",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.778175,
+        "y": 1.74098,
+        "z": 3.077171
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -3_8",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2645",
+      "type": "BoxCollider",
+      "gameObjectId": "588",
+      "gameObjectName": "empty 5_13",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 5.656855,
+        "y": 6.267528,
+        "z": 11.077819
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 5_13",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2646",
+      "type": "BoxCollider",
+      "gameObjectId": "560",
+      "gameObjectName": "empty -1_15",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 11.313709,
+        "y": 4.874744,
+        "z": 8.616081
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -1_15",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2647",
+      "type": "BoxCollider",
+      "gameObjectId": "561",
+      "gameObjectName": "empty -2_5",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.949748,
+        "y": 1.044588,
+        "z": 1.846303
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -2_5",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2648",
+      "type": "BoxCollider",
+      "gameObjectId": "562",
+      "gameObjectName": "empty -2_14",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 11.313709,
+        "y": 4.178352,
+        "z": 7.385212
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -2_14",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2649",
+      "type": "BoxCollider",
+      "gameObjectId": "563",
+      "gameObjectName": "empty 6_15",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 6.363962,
+        "y": 7.660258,
+        "z": 12.727153
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 6_15",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2650",
+      "type": "BoxCollider",
+      "gameObjectId": "566",
+      "gameObjectName": "empty -4_12",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 11.313709,
+        "y": 2.785568,
+        "z": 4.923474
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -4_12",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2651",
+      "type": "BoxCollider",
+      "gameObjectId": "565",
+      "gameObjectName": "empty 6_10",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.828428,
+        "y": 5.571136,
+        "z": 9.846951
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 6_10",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2652",
+      "type": "BoxCollider",
+      "gameObjectId": "564",
+      "gameObjectName": "empty -4_8",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 8.485282,
+        "y": 1.392784,
+        "z": 2.461737
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -4_8",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2653",
+      "type": "BoxCollider",
+      "gameObjectId": "569",
+      "gameObjectName": "empty 2_3",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 0.707107,
+        "y": 1.74098,
+        "z": 3.077172
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 2_3",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2654",
+      "type": "BoxCollider",
+      "gameObjectId": "568",
+      "gameObjectName": "empty 6_1",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -3.535534,
+        "y": 3.133656,
+        "z": 3.914103
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 6_1",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2655",
+      "type": "BoxCollider",
+      "gameObjectId": "567",
+      "gameObjectName": "empty 5_3",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -1.414213,
+        "y": 2.785568,
+        "z": 4.923476
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 5_3",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2656",
+      "type": "BoxCollider",
+      "gameObjectId": "570",
+      "gameObjectName": "empty -4_1",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 3.535534,
+        "y": -0.348303,
+        "z": -2.240242
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -4_1",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2657",
+      "type": "BoxCollider",
+      "gameObjectId": "571",
+      "gameObjectName": "empty 5_4",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -0.707106,
+        "y": 3.830048,
+        "z": 5.144971
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 5_4",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2658",
+      "type": "BoxCollider",
+      "gameObjectId": "573",
+      "gameObjectName": "empty -2_11",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 9.192389,
+        "y": 3.133764,
+        "z": 5.538909
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -2_11",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2659",
+      "type": "BoxCollider",
+      "gameObjectId": "574",
+      "gameObjectName": "empty 1_18",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 12.020816,
+        "y": 6.963866,
+        "z": 11.496284
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 1_18",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2660",
+      "type": "BoxCollider",
+      "gameObjectId": "572",
+      "gameObjectName": "empty 1_16",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 10.606603,
+        "y": 5.919332,
+        "z": 10.462384
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 1_16",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2661",
+      "type": "BoxCollider",
+      "gameObjectId": "541",
+      "gameObjectName": "empty 7_13",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.242642,
+        "y": 7.660204,
+        "z": 11.91475
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 7_13",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2662",
+      "type": "BoxCollider",
+      "gameObjectId": "544",
+      "gameObjectName": "empty 4_15",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.778176,
+        "y": 6.615724,
+        "z": 11.693254
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 4_15",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2663",
+      "type": "BoxCollider",
+      "gameObjectId": "543",
+      "gameObjectName": "empty -1_3",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.828427,
+        "y": 0.696392,
+        "z": 1.230869
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -1_3",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2664",
+      "type": "BoxCollider",
+      "gameObjectId": "542",
+      "gameObjectName": "empty 4_8",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.828428,
+        "y": 4.178352,
+        "z": 7.385213
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 4_8",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2665",
+      "type": "BoxCollider",
+      "gameObjectId": "546",
+      "gameObjectName": "empty 3_8",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 3.535534,
+        "y": 3.830156,
+        "z": 6.769779
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 3_8",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2666",
+      "type": "BoxCollider",
+      "gameObjectId": "547",
+      "gameObjectName": "empty 8_10",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 1.414214,
+        "y": 7.660097,
+        "z": 10.289942
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 8_10",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2667",
+      "type": "BoxCollider",
+      "gameObjectId": "545",
+      "gameObjectName": "empty 1_7",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.242641,
+        "y": 2.785568,
+        "z": 4.923475
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 1_7",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2668",
+      "type": "BoxCollider",
+      "gameObjectId": "548",
+      "gameObjectName": "empty -3_5",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 5.656854,
+        "y": 0.696392,
+        "z": 1.230868
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -3_5",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2669",
+      "type": "BoxCollider",
+      "gameObjectId": "553",
+      "gameObjectName": "empty 0_15",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 10.606602,
+        "y": 5.22294,
+        "z": 9.231516
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 0_15",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2670",
+      "type": "BoxCollider",
+      "gameObjectId": "552",
+      "gameObjectName": "empty -3_17",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 14.142136,
+        "y": 5.222887,
+        "z": 8.419111
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -3_17",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2671",
+      "type": "BoxCollider",
+      "gameObjectId": "551",
+      "gameObjectName": "empty -1_12",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 9.192389,
+        "y": 3.830156,
+        "z": 6.769778
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -1_12",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2672",
+      "type": "BoxCollider",
+      "gameObjectId": "550",
+      "gameObjectName": "empty 0_8",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 5.656855,
+        "y": 2.785568,
+        "z": 4.923475
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 0_8",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2673",
+      "type": "BoxCollider",
+      "gameObjectId": "549",
+      "gameObjectName": "empty -1_16",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 12.020816,
+        "y": 5.22294,
+        "z": 9.231515
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -1_16",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2674",
+      "type": "BoxCollider",
+      "gameObjectId": "555",
+      "gameObjectName": "empty -5_2",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 4.949747,
+        "y": -0.348303,
+        "z": -2.240243
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -5_2",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2675",
+      "type": "BoxCollider",
+      "gameObjectId": "554",
+      "gameObjectName": "empty 1_11",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.071068,
+        "y": 4.178352,
+        "z": 7.385213
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 1_11",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2676",
+      "type": "BoxCollider",
+      "gameObjectId": "557",
+      "gameObjectName": "empty 2_-1",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -2.12132,
+        "y": 0.348196,
+        "z": 0.615435
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 2_-1",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2677",
+      "type": "BoxCollider",
+      "gameObjectId": "556",
+      "gameObjectName": "empty 1_14",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 9.192389,
+        "y": 5.571082,
+        "z": 9.034546
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 1_14",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2678",
+      "type": "BoxCollider",
+      "gameObjectId": "559",
+      "gameObjectName": "empty 0_2",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 1.414214,
+        "y": 0.696392,
+        "z": 1.230869
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 0_2",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2679",
+      "type": "BoxCollider",
+      "gameObjectId": "558",
+      "gameObjectName": "empty 4_1",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -2.12132,
+        "y": 1.74098,
+        "z": 3.077172
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 4_1",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2680",
+      "type": "BoxCollider",
+      "gameObjectId": "528",
+      "gameObjectName": "empty -4_13",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 12.020816,
+        "y": 3.133764,
+        "z": 5.538909
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -4_13",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2681",
+      "type": "BoxCollider",
+      "gameObjectId": "530",
+      "gameObjectName": "empty 4_2",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -1.414213,
+        "y": 2.089176,
+        "z": 3.692607
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 4_2",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2682",
+      "type": "BoxCollider",
+      "gameObjectId": "529",
+      "gameObjectName": "empty 6_7",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 0.707107,
+        "y": 4.526548,
+        "z": 8.000648
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 6_7",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2683",
+      "type": "BoxCollider",
+      "gameObjectId": "531",
+      "gameObjectName": "empty 0_5",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 3.535534,
+        "y": 1.74098,
+        "z": 3.077172
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 0_5",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2684",
+      "type": "BoxCollider",
+      "gameObjectId": "532",
+      "gameObjectName": "empty 5_15",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.071069,
+        "y": 6.96392,
+        "z": 12.308688
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 5_15",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2685",
+      "type": "BoxCollider",
+      "gameObjectId": "535",
+      "gameObjectName": "empty -2_16",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 12.727923,
+        "y": 4.874744,
+        "z": 8.616081
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -2_16",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2686",
+      "type": "BoxCollider",
+      "gameObjectId": "534",
+      "gameObjectName": "empty -3_0",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 2.12132,
+        "y": -0.348303,
+        "z": -2.240242
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -3_0",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2687",
+      "type": "BoxCollider",
+      "gameObjectId": "533",
+      "gameObjectName": "empty -4_9",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 9.192388,
+        "y": 1.74098,
+        "z": 3.077171
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -4_9",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2688",
+      "type": "BoxCollider",
+      "gameObjectId": "537",
+      "gameObjectName": "empty 8_7",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -0.707106,
+        "y": 5.919224,
+        "z": 8.837578
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 8_7",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2689",
+      "type": "BoxCollider",
+      "gameObjectId": "536",
+      "gameObjectName": "empty 2_16",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 9.899496,
+        "y": 6.267528,
+        "z": 11.077819
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 2_16",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2690",
+      "type": "BoxCollider",
+      "gameObjectId": "540",
+      "gameObjectName": "empty -2_3",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 3.535534,
+        "y": 0.348196,
+        "z": 0.615434
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -2_3",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2691",
+      "type": "BoxCollider",
+      "gameObjectId": "539",
+      "gameObjectName": "empty 4_16",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 8.485282,
+        "y": 6.96392,
+        "z": 12.308688
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 4_16",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2692",
+      "type": "BoxCollider",
+      "gameObjectId": "538",
+      "gameObjectName": "empty -1_17",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 12.727923,
+        "y": 5.571136,
+        "z": 9.84695
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -1_17",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2693",
+      "type": "BoxCollider",
+      "gameObjectId": "516",
+      "gameObjectName": "empty -1_13",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 9.899496,
+        "y": 4.178352,
+        "z": 7.385212
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -1_13",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2694",
+      "type": "BoxCollider",
+      "gameObjectId": "515",
+      "gameObjectName": "empty -5_6",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.778175,
+        "y": 0.348196,
+        "z": 0.615434
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -5_6",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2695",
+      "type": "BoxCollider",
+      "gameObjectId": "514",
+      "gameObjectName": "empty 7_6",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -0.707106,
+        "y": 4.526548,
+        "z": 8.000648
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 7_6",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2696",
+      "type": "BoxCollider",
+      "gameObjectId": "513",
+      "gameObjectName": "empty -5_14",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 13.435029,
+        "y": 3.830049,
+        "z": 5.14497
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -5_14",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2697",
+      "type": "BoxCollider",
+      "gameObjectId": "517",
+      "gameObjectName": "empty -2_17",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 13.43503,
+        "y": 5.571082,
+        "z": 9.034546
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -2_17",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2698",
+      "type": "BoxCollider",
+      "gameObjectId": "521",
+      "gameObjectName": "empty -1_14",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 10.606602,
+        "y": 4.526548,
+        "z": 8.000647
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -1_14",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2699",
+      "type": "BoxCollider",
+      "gameObjectId": "520",
+      "gameObjectName": "empty -5_9",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 9.899495,
+        "y": 1.392784,
+        "z": 2.461737
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -5_9",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2700",
+      "type": "BoxCollider",
+      "gameObjectId": "519",
+      "gameObjectName": "empty 0_17",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 12.020816,
+        "y": 5.919332,
+        "z": 10.462384
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 0_17",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2701",
+      "type": "BoxCollider",
+      "gameObjectId": "518",
+      "gameObjectName": "empty -4_4",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 5.656854,
+        "y": 0.0,
+        "z": -1e-06
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -4_4",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2702",
+      "type": "BoxCollider",
+      "gameObjectId": "522",
+      "gameObjectName": "empty -3_2",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 3.535534,
+        "y": -0.348196,
+        "z": -0.615435
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -3_2",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2703",
+      "type": "BoxCollider",
+      "gameObjectId": "525",
+      "gameObjectName": "empty -2_9",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 7.778175,
+        "y": 2.785514,
+        "z": 4.111071
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty -2_9",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2704",
+      "type": "BoxCollider",
+      "gameObjectId": "524",
+      "gameObjectName": "empty 2_17",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 10.606603,
+        "y": 6.615724,
+        "z": 11.693253
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 2_17",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2705",
+      "type": "BoxCollider",
+      "gameObjectId": "523",
+      "gameObjectName": "empty 4_9",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 3.535535,
+        "y": 4.87469,
+        "z": 7.803678
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 4_9",
+      "walkability": "enter",
+      "blockType": 1
+    },
+    {
+      "id": "2706",
+      "type": "BoxCollider",
+      "gameObjectId": "526",
+      "gameObjectName": "empty 2_2",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 0.0,
+        "y": 1.740926,
+        "z": 2.264768
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty 2_2",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "2707",
+      "type": "BoxCollider",
+      "gameObjectId": "527",
+      "gameObjectName": "empty 3_16",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 9.192389,
+        "y": 6.615724,
+        "z": 11.693254
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 3_16",
+      "walkability": "enter",
+      "blockType": 1
+    }
+  ]
+}
