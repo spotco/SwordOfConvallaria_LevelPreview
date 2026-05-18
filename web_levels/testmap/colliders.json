@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "mapName": "testmap",
+  "source": {
+    "collidersCsv": "level_probe/reports/testmap_colliders.csv",
+    "sceneObjectsCsv": "level_probe/reports/testmap_scene_objects.csv"
+  },
+  "stats": {
+    "colliderCount": 2,
+    "drawableCount": 0,
+    "typeCounts": {
+      "MeshCollider": 2
+    }
+  },
+  "colliders": [
+    {
+      "id": "46",
+      "type": "MeshCollider",
+      "gameObjectId": "6",
+      "gameObjectName": "Plane2",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": 21.213203,
+        "y": 18.119056,
+        "z": 14.033855
+      },
+      "positionSource": "scene_object_transform",
+      "center": null,
+      "size": null,
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "47",
+      "type": "MeshCollider",
+      "gameObjectId": "7",
+      "gameObjectName": "Plane1",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": -21.213203,
+        "y": 18.119055,
+        "z": 14.033856
+      },
+      "positionSource": "scene_object_transform",
+      "center": null,
+      "size": null,
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    }
+  ]
+}

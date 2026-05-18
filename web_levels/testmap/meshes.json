@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "mapName": "testmap",
+  "source": {
+    "bundle": "battle/map/testmap.unity3d",
+    "resolvedBundle": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sword of Convallaria\\assets\\battle\\map\\testmap.unity3d",
+    "dependencyBundles": [
+      "shaders.unity3d",
+      "share/tex/share_tex19.unity3d",
+      "share/tex/share_tex20.unity3d",
+      "share/tex/share_tex31.unity3d",
+      "share/tex/share_tex32.unity3d",
+      "share/tex/share_tex39.unity3d",
+      "share/tex/share_tex6.unity3d"
+    ]
+  },
+  "exportFrame": {
+    "type": "camera_aligned_world",
+    "pointFormula": "export = (dot(world,right), dot(world,up), dot(world,forward))",
+    "basis": {
+      "right": {
+        "x": -0.707107,
+        "y": -0.0,
+        "z": 0.707107
+      },
+      "up": {
+        "x": 0.353553,
+        "y": 0.866025,
+        "z": 0.353553
+      },
+      "forward": {
+        "x": 0.612372,
+        "y": -0.5,
+        "z": 0.612372
+      }
+    }
+  },
+  "stats": {
+    "meshFilterCount": 2,
+    "meshInstanceCount": 0,
+    "skippedCount": 2,
+    "skippedReasons": {
+      "FileNotFoundError": 2
+    },
+    "vertexCount": 0,
+    "triangleCount": 0
+  },
+  "instances": [],
+  "skipped": [
+    {
+      "gameObjectId": "6",
+      "path": "map_tool/Map/bg_plane/Plane2",
+      "meshId": "10209",
+      "reason": "FileNotFoundError",
+      "detail": "File unity default resources not found in C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sword of Convallaria\\assets\\share\\tex"
+    },
+    {
+      "gameObjectId": "7",
+      "path": "map_tool/Map/bg_plane/Plane1",
+      "meshId": "10209",
+      "reason": "FileNotFoundError",
+      "detail": "File unity default resources not found in C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sword of Convallaria\\assets\\share\\tex"
+    }
+  ]
+}

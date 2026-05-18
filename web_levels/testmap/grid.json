@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "mapName": "testmap",
+  "source": {
+    "gridCsv": "level_probe/reports/testmap_grid_blocks.csv",
+    "metadataJson": "level_probe/reports/testmap_map_metadata.json"
+  },
+  "metadata": {
+    "bundle": "battle/map/testmap.unity3d",
+    "resolvedBundle": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sword of Convallaria\\assets\\battle\\map\\testmap.unity3d",
+    "blockCount": 0,
+    "blockTypeCounts": {},
+    "mapProperty": {
+      "useBound": 0,
+      "useBattle": 0,
+      "boundMin": "int3_storage(x=0, y=0, z=0)",
+      "boundMax": "int3_storage(x=0, y=0, z=0)",
+      "boundMinCamera": "Vector3f(0.0, 0.0, 0.0)",
+      "boundMaxCamera": "Vector3f(0.0, 0.0, 0.0)",
+      "orthographicSize": 3.7200000286102295,
+      "path": "map_tool/Map"
+    },
+    "mapTool": {
+      "width": 20,
+      "height": 20,
+      "path": "map_tool"
+    },
+    "defaultCamera": {
+      "source": "MapProperty.camera",
+      "cameraId": "41",
+      "gameObjectId": "2",
+      "transformId": "33",
+      "position": {
+        "x": -0.0,
+        "y": 6.769284,
+        "z": -2.275256
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "forward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "right": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "up": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "orthographic": true,
+      "orthographicSize": 2.4000000953674316,
+      "fieldOfView": 20.0
+    },
+    "exportFrame": {
+      "type": "camera_aligned_world",
+      "pointFormula": "export = (dot(world,right), dot(world,up), dot(world,forward))",
+      "basis": {
+        "right": {
+          "x": -0.707107,
+          "y": -0.0,
+          "z": 0.707107
+        },
+        "up": {
+          "x": 0.353553,
+          "y": 0.866025,
+          "z": 0.353553
+        },
+        "forward": {
+          "x": 0.612372,
+          "y": -0.5,
+          "z": 0.612372
+        }
+      }
+    }
+  },
+  "stats": {
+    "tileCount": 0,
+    "walkabilityCounts": {},
+    "extent": {
+      "min": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "max": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  },
+  "tiles": []
+}
