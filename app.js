@@ -1082,8 +1082,8 @@ function initializeColliders(data) {
 function initializeMeshes(data) {
   state.meshes = data;
   buildMeshes(data);
+  applyMeshMaterials();
   updateSummary();
-  requestDraw();
   setStatus(`Loaded ${state.data.stats.tileCount} tiles and ${data.stats.meshInstanceCount} mesh instances. Click a mesh for material slots.`);
 }
 
