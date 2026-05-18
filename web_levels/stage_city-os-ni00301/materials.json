@@ -1,0 +1,1140 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_city-os-ni00301",
+  "stats": {
+    "materialCount": 16,
+    "textureCount": 13,
+    "skippedTextureCount": 0
+  },
+  "materials": [
+    {
+      "id": "10",
+      "name": "BG-plane-new-ni-l",
+      "shader": "",
+      "mainTexture": {
+        "id": "-7159140645082979329",
+        "name": "BG-plane-new-da01",
+        "path": "textures/-7159140645082979329_BG-plane-new-da01.png",
+        "width": 128,
+        "height": 128
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-7159140645082979329",
+          "name": "BG-plane-new-da01",
+          "path": "textures/-7159140645082979329_BG-plane-new-da01.png",
+          "width": 128,
+          "height": 128
+        },
+        "_MainTex": {
+          "id": "-7159140645082979329",
+          "name": "BG-plane-new-da01",
+          "path": "textures/-7159140645082979329_BG-plane-new-da01.png",
+          "width": 128,
+          "height": 128
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.125,
+          0.2578,
+          0.5,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "12",
+      "name": "Water_new_ni",
+      "shader": "",
+      "mainTexture": {
+        "id": "5230869332616082169",
+        "name": "Water-s05",
+        "path": "textures/5230869332616082169_Water-s05.png",
+        "width": 64,
+        "height": 64
+      },
+      "textures": {
+        "_BumpMap": {
+          "id": "6042608118371494359",
+          "name": "Water_2_n",
+          "path": "textures/6042608118371494359_Water_2_n.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "5230869332616082169",
+          "name": "Water-s05",
+          "path": "textures/5230869332616082169_Water-s05.png",
+          "width": 64,
+          "height": 64
+        }
+      },
+      "colors": {
+        "_CausticColor": [
+          0.2235,
+          0.3199,
+          0.5849,
+          0.4627
+        ],
+        "_CausticTiling": [
+          300.0,
+          300.0,
+          0.0,
+          0.0
+        ],
+        "_Color": [
+          0.5377,
+          0.5377,
+          0.5377,
+          0.9373
+        ],
+        "_DepthColor": [
+          0.0493,
+          0.0349,
+          0.1509,
+          1.0
+        ],
+        "_Foam": [
+          1.0,
+          20.0,
+          0.2,
+          1.0
+        ],
+        "_FoamColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_RefractionTint": [
+          0.4039,
+          0.651,
+          0.6383,
+          1.0
+        ],
+        "_ShoreColor": [
+          0.7843,
+          0.7843,
+          0.7843,
+          0.0588
+        ],
+        "_ShoreTexUVScale": [
+          2.0,
+          2.0,
+          0.1,
+          0.14
+        ],
+        "_WaveData0": [
+          0.05,
+          0.5,
+          1.0,
+          1.0
+        ],
+        "_WaveData1": [
+          0.1,
+          0.5,
+          1.0,
+          1.0
+        ],
+        "_WaveData2": [
+          0.1,
+          0.3,
+          0.1,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "13",
+      "name": "common_sprite02_d",
+      "shader": "",
+      "mainTexture": {
+        "id": "-5279190316778669538",
+        "name": "common-sprite02",
+        "path": "textures/-5279190316778669538_common-sprite02.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-5279190316778669538",
+          "name": "common-sprite02",
+          "path": "textures/-5279190316778669538_common-sprite02.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "-5279190316778669538",
+          "name": "common-sprite02",
+          "path": "textures/-5279190316778669538_common-sprite02.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.52,
+          0.52,
+          0.52,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "15",
+      "name": "common_sprite01",
+      "shader": "",
+      "mainTexture": {
+        "id": "-4962345306552355043",
+        "name": "common-sprite01",
+        "path": "textures/-4962345306552355043_common-sprite01.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-4962345306552355043",
+          "name": "common-sprite01",
+          "path": "textures/-4962345306552355043_common-sprite01.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "-4962345306552355043",
+          "name": "common-sprite01",
+          "path": "textures/-4962345306552355043_common-sprite01.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.65,
+          0.65,
+          0.65,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "16",
+      "name": "WaterSide_ni",
+      "shader": "",
+      "mainTexture": {
+        "id": "-7627806760780256558",
+        "name": "Water-s07",
+        "path": "textures/-7627806760780256558_Water-s07.png",
+        "width": 64,
+        "height": 64
+      },
+      "textures": {
+        "_BumpMap": {
+          "id": "-298032290499269297",
+          "name": "water-normal_n",
+          "path": "textures/-298032290499269297_water-normal_n.png",
+          "width": 512,
+          "height": 512
+        },
+        "_CausticTex": {
+          "id": "-3908047798009618641",
+          "name": "water_caustics2",
+          "path": "textures/-3908047798009618641_water_caustics2.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "-7627806760780256558",
+          "name": "Water-s07",
+          "path": "textures/-7627806760780256558_Water-s07.png",
+          "width": 64,
+          "height": 64
+        }
+      },
+      "colors": {
+        "_CausticColor": [
+          0.4489,
+          0.6309,
+          0.7264,
+          0.749
+        ],
+        "_CausticTiling": [
+          35.0,
+          35.0,
+          0.0,
+          0.0
+        ],
+        "_Color": [
+          0.6118,
+          0.6784,
+          0.7176,
+          0.902
+        ],
+        "_DepthColor": [
+          0.3471,
+          0.4294,
+          0.4627,
+          0.8706
+        ],
+        "_RefractionTiling": [
+          0.3,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_RefractionTint": [
+          0.2524,
+          0.3611,
+          0.3882,
+          1.0
+        ],
+        "_WaveData0": [
+          0.05,
+          0.5,
+          1.0,
+          1.0
+        ],
+        "_WaveData1": [
+          0.1,
+          0.5,
+          1.0,
+          1.0
+        ],
+        "_WaveData2": [
+          0.1,
+          0.3,
+          0.1,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "17",
+      "name": "glow-night",
+      "shader": "",
+      "mainTexture": null,
+      "textures": {},
+      "colors": {
+        "_BaseColor": [
+          0.8302,
+          0.652,
+          0.4112,
+          1.0
+        ],
+        "_BaseColorAddSubDiff": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_CameraFadeParams": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_EmissionColor": [
+          2.433,
+          0.0369,
+          0.0024,
+          1.0
+        ],
+        "_SoftParticleFadeParams": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "18",
+      "name": "shadowonly",
+      "shader": "",
+      "mainTexture": null,
+      "textures": {},
+      "colors": {
+        "_BaseColor": [
+          0.5189,
+          0.5189,
+          0.5189,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "19",
+      "name": "buildingsecondF_01",
+      "shader": "",
+      "mainTexture": {
+        "id": "7415224887768207374",
+        "name": "buildingsecondF_01",
+        "path": "textures/7415224887768207374_buildingsecondF_01.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "7415224887768207374",
+          "name": "buildingsecondF_01",
+          "path": "textures/7415224887768207374_buildingsecondF_01.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "7415224887768207374",
+          "name": "buildingsecondF_01",
+          "path": "textures/7415224887768207374_buildingsecondF_01.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.5,
+          0.5,
+          0.5,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "20",
+      "name": "stage_city-os-da00301-zhengti",
+      "shader": "",
+      "mainTexture": {
+        "id": "-7868926622023954358",
+        "name": "stage_city-os-da00301-zhengti",
+        "path": "textures/-7868926622023954358_stage_city-os-da00301-zhengti.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-7868926622023954358",
+          "name": "stage_city-os-da00301-zhengti",
+          "path": "textures/-7868926622023954358_stage_city-os-da00301-zhengti.png",
+          "width": 1024,
+          "height": 1024
+        },
+        "_MainTex": {
+          "id": "-7868926622023954358",
+          "name": "stage_city-os-da00301-zhengti",
+          "path": "textures/-7868926622023954358_stage_city-os-da00301-zhengti.png",
+          "width": 1024,
+          "height": 1024
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7059,
+          0.7059,
+          0.7059,
+          0.4706
+        ],
+        "_Color": [
+          0.3868,
+          0.3868,
+          0.3868,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "21",
+      "name": "stage_common-shuidi-d00",
+      "shader": "",
+      "mainTexture": {
+        "id": "3518925610476142596",
+        "name": "stage_common-shuidi",
+        "path": "textures/3518925610476142596_stage_common-shuidi.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "3518925610476142596",
+          "name": "stage_common-shuidi",
+          "path": "textures/3518925610476142596_stage_common-shuidi.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "3518925610476142596",
+          "name": "stage_common-shuidi",
+          "path": "textures/3518925610476142596_stage_common-shuidi.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.5098,
+          0.5093,
+          0.5059,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "22",
+      "name": "stage_city-os-da00301-zhengti-night",
+      "shader": "",
+      "mainTexture": {
+        "id": "-7868926622023954358",
+        "name": "stage_city-os-da00301-zhengti",
+        "path": "textures/-7868926622023954358_stage_city-os-da00301-zhengti.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-7868926622023954358",
+          "name": "stage_city-os-da00301-zhengti",
+          "path": "textures/-7868926622023954358_stage_city-os-da00301-zhengti.png",
+          "width": 1024,
+          "height": 1024
+        },
+        "_MainTex": {
+          "id": "-7868926622023954358",
+          "name": "stage_city-os-da00301-zhengti",
+          "path": "textures/-7868926622023954358_stage_city-os-da00301-zhengti.png",
+          "width": 1024,
+          "height": 1024
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.2736,
+          0.3919,
+          0.4057,
+          0.4706
+        ],
+        "_Color": [
+          0.3868,
+          0.3868,
+          0.3868,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "name": "building_roof_01-alpha",
+      "shader": "",
+      "mainTexture": {
+        "id": "1348352266833119512",
+        "name": "building_roof_01",
+        "path": "textures/1348352266833119512_building_roof_01.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "1348352266833119512",
+          "name": "building_roof_01",
+          "path": "textures/1348352266833119512_building_roof_01.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "1348352266833119512",
+          "name": "building_roof_01",
+          "path": "textures/1348352266833119512_building_roof_01.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.55,
+          0.55,
+          0.55,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "name": "building_jianzhu05",
+      "shader": "",
+      "mainTexture": {
+        "id": "449254197271229246",
+        "name": "battle000_001-jianzhu05",
+        "path": "textures/449254197271229246_battle000_001-jianzhu05.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "449254197271229246",
+          "name": "battle000_001-jianzhu05",
+          "path": "textures/449254197271229246_battle000_001-jianzhu05.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "449254197271229246",
+          "name": "battle000_001-jianzhu05",
+          "path": "textures/449254197271229246_battle000_001-jianzhu05.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.5,
+          0.5,
+          0.5,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "name": "common_sprite02",
+      "shader": "",
+      "mainTexture": {
+        "id": "-5279190316778669538",
+        "name": "common-sprite02",
+        "path": "textures/-5279190316778669538_common-sprite02.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-5279190316778669538",
+          "name": "common-sprite02",
+          "path": "textures/-5279190316778669538_common-sprite02.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "-5279190316778669538",
+          "name": "common-sprite02",
+          "path": "textures/-5279190316778669538_common-sprite02.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.65,
+          0.65,
+          0.65,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_ColorAdd": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "name": "stage_city-os-da00301-zhengti-qiao",
+      "shader": "",
+      "mainTexture": {
+        "id": "-7868926622023954358",
+        "name": "stage_city-os-da00301-zhengti",
+        "path": "textures/-7868926622023954358_stage_city-os-da00301-zhengti.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-7868926622023954358",
+          "name": "stage_city-os-da00301-zhengti",
+          "path": "textures/-7868926622023954358_stage_city-os-da00301-zhengti.png",
+          "width": 1024,
+          "height": 1024
+        },
+        "_MainTex": {
+          "id": "-7868926622023954358",
+          "name": "stage_city-os-da00301-zhengti",
+          "path": "textures/-7868926622023954358_stage_city-os-da00301-zhengti.png",
+          "width": 1024,
+          "height": 1024
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7059,
+          0.7059,
+          0.7059,
+          0.4706
+        ],
+        "_Color": [
+          0.3868,
+          0.3868,
+          0.3868,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "name": "common_sprite01_l",
+      "shader": "",
+      "mainTexture": {
+        "id": "-4962345306552355043",
+        "name": "common-sprite01",
+        "path": "textures/-4962345306552355043_common-sprite01.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-4962345306552355043",
+          "name": "common-sprite01",
+          "path": "textures/-4962345306552355043_common-sprite01.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "-4962345306552355043",
+          "name": "common-sprite01",
+          "path": "textures/-4962345306552355043_common-sprite01.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7358,
+          0.7358,
+          0.7358,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    }
+  ]
+}
