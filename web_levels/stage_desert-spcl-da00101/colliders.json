@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_desert-spcl-da00101",
+  "source": {
+    "collidersCsv": "level_probe/reports/stage_desert-spcl-da00101_colliders.csv",
+    "sceneObjectsCsv": "level_probe/reports/stage_desert-spcl-da00101_scene_objects.csv"
+  },
+  "stats": {
+    "colliderCount": 2,
+    "drawableCount": 0,
+    "typeCounts": {
+      "MeshCollider": 2
+    }
+  },
+  "colliders": [
+    {
+      "id": "913",
+      "type": "MeshCollider",
+      "gameObjectId": "232",
+      "gameObjectName": "qiao",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": 0.0,
+        "y": 0.348196,
+        "z": 0.615434
+      },
+      "positionSource": "grid_tile",
+      "center": null,
+      "size": null,
+      "tilePath": "MapTool/Map/block_root/stage_desert-spcl-00101/qiao",
+      "walkability": "unknown",
+      "blockType": 0
+    },
+    {
+      "id": "914",
+      "type": "MeshCollider",
+      "gameObjectId": "228",
+      "gameObjectName": "dimian",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": 0.0,
+        "y": 0.348196,
+        "z": 0.615434
+      },
+      "positionSource": "grid_tile",
+      "center": null,
+      "size": null,
+      "tilePath": "MapTool/Map/block_root/stage_desert-spcl-00101/dimian",
+      "walkability": "unknown",
+      "blockType": 0
+    }
+  ]
+}
