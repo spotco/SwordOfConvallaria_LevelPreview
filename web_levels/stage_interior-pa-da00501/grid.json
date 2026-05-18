@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_interior-pa-da00501",
+  "source": {
+    "gridCsv": "level_probe/reports/stage_interior-pa-da00501_grid_blocks.csv",
+    "metadataJson": "level_probe/reports/stage_interior-pa-da00501_map_metadata.json"
+  },
+  "metadata": {
+    "bundle": "battle/map/stage_interior-pa-da00501.unity3d",
+    "resolvedBundle": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sword of Convallaria\\assets\\battle\\map\\stage_interior-pa-da00501.unity3d",
+    "blockCount": 3,
+    "blockTypeCounts": {
+      "28": 2,
+      "11": 1
+    },
+    "mapProperty": {
+      "useBound": 1,
+      "useBattle": 1,
+      "boundMin": "int3_storage(x=-5, y=0, z=-6)",
+      "boundMax": "int3_storage(x=15, y=0, z=15)",
+      "boundMinCamera": "Vector3f(-1.1799999475479126, 0.0, -1.340000033378601)",
+      "boundMaxCamera": "Vector3f(14.270000457763672, 0.0, 14.100000381469727)",
+      "orthographicSize": 3.7200000286102295,
+      "path": "MapTool/Map"
+    },
+    "mapTool": {
+      "width": 20,
+      "height": 20,
+      "path": "MapTool"
+    },
+    "defaultCamera": {
+      "source": "MapProperty.camera",
+      "cameraId": "323",
+      "gameObjectId": "139",
+      "transformId": "266",
+      "position": {
+        "x": -0.353554,
+        "y": 3.648278,
+        "z": -5.898785
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "forward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "right": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "up": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "orthographic": true,
+      "orthographicSize": 5.110000133514404,
+      "fieldOfView": 23.799999237060547
+    },
+    "exportFrame": {
+      "type": "camera_aligned_world",
+      "pointFormula": "export = (dot(world,right), dot(world,up), dot(world,forward))",
+      "basis": {
+        "right": {
+          "x": -0.707107,
+          "y": -0.0,
+          "z": 0.707107
+        },
+        "up": {
+          "x": 0.348196,
+          "y": 0.870356,
+          "z": 0.348196
+        },
+        "forward": {
+          "x": 0.615435,
+          "y": -0.492423,
+          "z": 0.615434
+        }
+      }
+    }
+  },
+  "stats": {
+    "tileCount": 3,
+    "walkabilityCounts": {
+      "enter": 1,
+      "noenter": 2
+    },
+    "extent": {
+      "min": {
+        "x": -0.707107,
+        "y": -1.740765,
+        "z": 0.0
+      },
+      "max": {
+        "x": 0.707107,
+        "y": 0.0,
+        "z": 0.172443
+      },
+      "center": {
+        "x": 0.0,
+        "y": -0.8703825,
+        "z": 0.0862215
+      }
+    }
+  },
+  "tiles": [
+    {
+      "id": "151",
+      "monoId": "617",
+      "name": "empty 1_0",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty 1_0",
+      "walkability": "enter",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "blockType": 11,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "152",
+      "monoId": "618",
+      "name": "empty -1_1 (1)",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -1_1 (1)",
+      "walkability": "noenter",
+      "position": {
+        "x": -0.707107,
+        "y": -1.740765,
+        "z": 0.172443
+      },
+      "localPosition": {
+        "x": -0.707107,
+        "y": -1.740765,
+        "z": 0.172443
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "150",
+      "monoId": "619",
+      "name": "empty -1_1",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -1_1",
+      "walkability": "noenter",
+      "position": {
+        "x": 0.707107,
+        "y": -1.740765,
+        "z": 0.172443
+      },
+      "localPosition": {
+        "x": 0.707107,
+        "y": -1.740765,
+        "z": 0.172443
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    }
+  ]
+}

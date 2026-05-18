@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_interior-pa-da00501",
+  "source": {
+    "collidersCsv": "level_probe/reports/stage_interior-pa-da00501_colliders.csv",
+    "sceneObjectsCsv": "level_probe/reports/stage_interior-pa-da00501_scene_objects.csv"
+  },
+  "stats": {
+    "colliderCount": 3,
+    "drawableCount": 3,
+    "typeCounts": {
+      "BoxCollider": 3
+    }
+  },
+  "colliders": [
+    {
+      "id": "541",
+      "type": "BoxCollider",
+      "gameObjectId": "152",
+      "gameObjectName": "empty -1_1 (1)",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -0.707107,
+        "y": -1.740765,
+        "z": 0.172443
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -1_1 (1)",
+      "walkability": "noenter",
+      "blockType": 28
+    },
+    {
+      "id": "542",
+      "type": "BoxCollider",
+      "gameObjectId": "151",
+      "gameObjectName": "empty 1_0",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/enter/empty 1_0",
+      "walkability": "enter",
+      "blockType": 11
+    },
+    {
+      "id": "543",
+      "type": "BoxCollider",
+      "gameObjectId": "150",
+      "gameObjectName": "empty -1_1",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 0.707107,
+        "y": -1.740765,
+        "z": 0.172443
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -1_1",
+      "walkability": "noenter",
+      "blockType": 28
+    }
+  ]
+}
