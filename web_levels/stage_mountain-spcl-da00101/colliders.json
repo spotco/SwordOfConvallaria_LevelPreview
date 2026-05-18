@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_mountain-spcl-da00101",
+  "source": {
+    "collidersCsv": "level_probe/reports/stage_mountain-spcl-da00101_colliders.csv",
+    "sceneObjectsCsv": "level_probe/reports/stage_mountain-spcl-da00101_scene_objects.csv"
+  },
+  "stats": {
+    "colliderCount": 1,
+    "drawableCount": 0,
+    "typeCounts": {
+      "MeshCollider": 1
+    }
+  },
+  "colliders": [
+    {
+      "id": "424",
+      "type": "MeshCollider",
+      "gameObjectId": "6",
+      "gameObjectName": "Plane",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": 5.475835,
+        "y": 0.41488,
+        "z": 0.808436
+      },
+      "positionSource": "scene_object_transform",
+      "center": null,
+      "size": null,
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    }
+  ]
+}
