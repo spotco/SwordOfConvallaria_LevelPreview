@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_plain-spcl-da00301",
+  "source": {
+    "collidersCsv": "level_probe/reports/stage_plain-spcl-da00301_colliders.csv",
+    "sceneObjectsCsv": "level_probe/reports/stage_plain-spcl-da00301_scene_objects.csv"
+  },
+  "stats": {
+    "colliderCount": 7,
+    "drawableCount": 6,
+    "typeCounts": {
+      "MeshCollider": 1,
+      "BoxCollider": 6
+    }
+  },
+  "colliders": [
+    {
+      "id": "1112",
+      "type": "MeshCollider",
+      "gameObjectId": "85",
+      "gameObjectName": "Plane",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": 7.127637,
+        "y": 4.495498,
+        "z": -3.239197
+      },
+      "positionSource": "scene_object_transform",
+      "center": null,
+      "size": null,
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "1113",
+      "type": "BoxCollider",
+      "gameObjectId": "175",
+      "gameObjectName": "stageprops_wbody",
+      "layer": "9",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": -0.219203,
+        "y": -1.68307,
+        "z": -3.165395
+      },
+      "positionSource": "scene_object_transform",
+      "center": {
+        "x": -0.0,
+        "y": 0.441474,
+        "z": -0.234736
+      },
+      "size": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "1114",
+      "type": "BoxCollider",
+      "gameObjectId": "219",
+      "gameObjectName": "stageprops_wsign",
+      "layer": "9",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": 2.014547,
+        "y": -0.168971,
+        "z": -0.317788
+      },
+      "positionSource": "scene_object_transform",
+      "center": {
+        "x": -0.0,
+        "y": 0.882948,
+        "z": -0.469472
+      },
+      "size": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "1115",
+      "type": "BoxCollider",
+      "gameObjectId": "342",
+      "gameObjectName": "stageprops_wgrass2",
+      "layer": "27",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": 4.751758,
+        "y": 0.033197,
+        "z": 0.062434
+      },
+      "positionSource": "scene_object_transform",
+      "center": {
+        "x": -0.0,
+        "y": 0.264884,
+        "z": -0.140841
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.6000000238418579,
+        "z": 1.0
+      },
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "1116",
+      "type": "BoxCollider",
+      "gameObjectId": "356",
+      "gameObjectName": "stageprops_wgrass1",
+      "layer": "27",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": -4.985103,
+        "y": 0.328647,
+        "z": 0.618095
+      },
+      "positionSource": "scene_object_transform",
+      "center": {
+        "x": -0.0,
+        "y": 0.264884,
+        "z": -0.140841
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.6000000238418579,
+        "z": 1.0
+      },
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "1117",
+      "type": "BoxCollider",
+      "gameObjectId": "359",
+      "gameObjectName": "stageprops_wzorn",
+      "layer": "9",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": 3.401184,
+        "y": -1.629956,
+        "z": -3.065501
+      },
+      "positionSource": "scene_object_transform",
+      "center": {
+        "x": -0.0,
+        "y": 0.618063,
+        "z": -0.32863
+      },
+      "size": {
+        "x": 1.0,
+        "y": 1.399999976158142,
+        "z": 1.0
+      },
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "1118",
+      "type": "BoxCollider",
+      "gameObjectId": "252",
+      "gameObjectName": "stageprops_portal5",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": -1.190768,
+        "y": -0.941457,
+        "z": -1.770623
+      },
+      "positionSource": "scene_object_transform",
+      "center": {
+        "x": -0.0,
+        "y": 0.882948,
+        "z": -0.469472
+      },
+      "size": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    }
+  ]
+}
