@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_interior-spcl-ni00501",
+  "source": {
+    "collidersCsv": "level_probe/reports/stage_interior-spcl-ni00501_colliders.csv",
+    "sceneObjectsCsv": "level_probe/reports/stage_interior-spcl-ni00501_scene_objects.csv"
+  },
+  "stats": {
+    "colliderCount": 2,
+    "drawableCount": 0,
+    "typeCounts": {
+      "MeshCollider": 1,
+      "CapsuleCollider": 1
+    }
+  },
+  "colliders": [
+    {
+      "id": "164",
+      "type": "MeshCollider",
+      "gameObjectId": "40",
+      "gameObjectName": "dimian",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "positionSource": "grid_tile",
+      "center": null,
+      "size": null,
+      "tilePath": "MapTool/Map/block_root/stage_interior-spcl-00501/dimian",
+      "walkability": "unknown",
+      "blockType": 11
+    },
+    {
+      "id": "174",
+      "type": "CapsuleCollider",
+      "gameObjectId": "25",
+      "gameObjectName": "Cylinder",
+      "layer": "0",
+      "enabled": "False",
+      "isTrigger": "False",
+      "position": {
+        "x": 0.022981,
+        "y": -0.453766,
+        "z": 0.240435
+      },
+      "positionSource": "scene_object_transform",
+      "center": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0
+      },
+      "size": null,
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    }
+  ]
+}
