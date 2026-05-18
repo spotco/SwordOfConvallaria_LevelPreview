@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_city-spcl-da00601",
+  "source": {
+    "gridCsv": "level_probe/reports/stage_city-spcl-da00601_grid_blocks.csv",
+    "metadataJson": "level_probe/reports/stage_city-spcl-da00601_map_metadata.json"
+  },
+  "metadata": {
+    "bundle": "battle/map/stage_city-spcl-da00601.unity3d",
+    "resolvedBundle": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sword of Convallaria\\assets\\battle\\map\\stage_city-spcl-da00601.unity3d",
+    "blockCount": 1,
+    "blockTypeCounts": {
+      "11": 1
+    },
+    "mapProperty": {
+      "useBound": 1,
+      "useBattle": 0,
+      "boundMin": "int3_storage(x=-8, y=0, z=-13)",
+      "boundMax": "int3_storage(x=27, y=0, z=19)",
+      "boundMinCamera": "Vector3f(-3.9600000381469727, 0.0, -10.970000267028809)",
+      "boundMaxCamera": "Vector3f(23.530000686645508, 0.0, 16.299999237060547)",
+      "orthographicSize": 3.7200000286102295,
+      "path": "MapTool/Map"
+    },
+    "defaultCamera": {
+      "source": "MapProperty.camera",
+      "cameraId": "357",
+      "gameObjectId": "161",
+      "transformId": "299",
+      "position": {
+        "x": -4.596195,
+        "y": 5.221356,
+        "z": -20.771285
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "forward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "right": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "up": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "orthographic": true,
+      "orthographicSize": 7.0,
+      "fieldOfView": 6.0
+    },
+    "exportFrame": {
+      "type": "camera_aligned_world",
+      "pointFormula": "export = (dot(world,right), dot(world,up), dot(world,forward))",
+      "basis": {
+        "right": {
+          "x": -0.707107,
+          "y": -0.0,
+          "z": 0.707107
+        },
+        "up": {
+          "x": 0.348196,
+          "y": 0.870356,
+          "z": 0.348196
+        },
+        "forward": {
+          "x": 0.615435,
+          "y": -0.492423,
+          "z": 0.615434
+        }
+      }
+    }
+  },
+  "stats": {
+    "tileCount": 1,
+    "walkabilityCounts": {
+      "unknown": 1
+    },
+    "extent": {
+      "min": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "max": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  },
+  "tiles": [
+    {
+      "id": "141",
+      "monoId": "654",
+      "name": "dimian01",
+      "path": "MapTool/Map/block_root/stage_city-os-da00401/dimian01",
+      "walkability": "unknown",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "blockType": 11,
+      "isGamepadCursorMovable": "1",
+      "layer": "0",
+      "collider": {
+        "type": "MeshCollider",
+        "isTrigger": "False",
+        "center": null,
+        "size": null
+      }
+    }
+  ]
+}
