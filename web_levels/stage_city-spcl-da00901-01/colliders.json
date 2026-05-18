@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_city-spcl-da00901-01",
+  "source": {
+    "collidersCsv": "level_probe/reports/stage_city-spcl-da00901-01_colliders.csv",
+    "sceneObjectsCsv": "level_probe/reports/stage_city-spcl-da00901-01_scene_objects.csv"
+  },
+  "stats": {
+    "colliderCount": 3,
+    "drawableCount": 2,
+    "typeCounts": {
+      "MeshCollider": 1,
+      "BoxCollider": 2
+    }
+  },
+  "colliders": [
+    {
+      "id": "1192",
+      "type": "MeshCollider",
+      "gameObjectId": "37",
+      "gameObjectName": "dimian_01",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": -101.469815,
+        "y": 55.328125,
+        "z": 94.542927
+      },
+      "positionSource": "grid_tile",
+      "center": null,
+      "size": null,
+      "tilePath": "MapTool/Map/block_root/capital-test-000_di/dimian_01",
+      "walkability": "unknown",
+      "blockType": 0
+    },
+    {
+      "id": "1193",
+      "type": "BoxCollider",
+      "gameObjectId": "193",
+      "gameObjectName": "post Volume-capital_lyc-mh-00101",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": 4.808327,
+        "y": 8.152061,
+        "z": 11.311497
+      },
+      "positionSource": "scene_object_transform",
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "size": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "1194",
+      "type": "BoxCollider",
+      "gameObjectId": "235",
+      "gameObjectName": "post Volume-city-spcl-da00101",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": -102.389054,
+        "y": 60.93857,
+        "z": 104.611368
+      },
+      "positionSource": "scene_object_transform",
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "size": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    }
+  ]
+}
