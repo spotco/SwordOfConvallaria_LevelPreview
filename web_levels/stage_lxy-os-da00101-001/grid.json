@@ -1,0 +1,2868 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_lxy-os-da00101-001",
+  "source": {
+    "gridCsv": "level_probe/reports/stage_lxy-os-da00101-001_grid_blocks.csv",
+    "metadataJson": "level_probe/reports/stage_lxy-os-da00101-001_map_metadata.json"
+  },
+  "metadata": {
+    "bundle": "battle/map/stage_lxy-os-da00101-001.unity3d",
+    "resolvedBundle": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sword of Convallaria\\assets\\battle\\map\\stage_lxy-os-da00101-001.unity3d",
+    "blockCount": 81,
+    "blockTypeCounts": {
+      "20": 53,
+      "28": 28
+    },
+    "mapProperty": {
+      "useBound": 1,
+      "useBattle": 1,
+      "boundMin": "int3_storage(x=-12, y=0, z=-5)",
+      "boundMax": "int3_storage(x=-2, y=0, z=4)",
+      "boundMinCamera": "Vector3f(-8.5, 0.0, -1.7899999618530273)",
+      "boundMaxCamera": "Vector3f(-3.640000104904175, 0.0, 2.259999990463257)",
+      "orthographicSize": 3.7200000286102295,
+      "path": "MapTool/Map"
+    },
+    "mapTool": {
+      "width": 20,
+      "height": 20,
+      "path": "MapTool"
+    },
+    "defaultCamera": {
+      "source": "MapProperty.camera",
+      "cameraId": "2155",
+      "gameObjectId": "915",
+      "transformId": "1928",
+      "position": {
+        "x": 5.048739,
+        "y": -1.938423,
+        "z": -40.548672
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "forward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "right": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "up": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "orthographic": true,
+      "orthographicSize": 6.840000152587891,
+      "fieldOfView": 40.0
+    },
+    "exportFrame": {
+      "type": "camera_aligned_world",
+      "pointFormula": "export = (dot(world,right), dot(world,up), dot(world,forward))",
+      "basis": {
+        "right": {
+          "x": -0.707107,
+          "y": -0.0,
+          "z": 0.707107
+        },
+        "up": {
+          "x": 0.348196,
+          "y": 0.870356,
+          "z": 0.348196
+        },
+        "forward": {
+          "x": 0.615435,
+          "y": -0.492423,
+          "z": 0.615434
+        }
+      }
+    }
+  },
+  "stats": {
+    "tileCount": 81,
+    "walkabilityCounts": {
+      "enter": 53,
+      "noenter": 28
+    },
+    "extent": {
+      "min": {
+        "x": -1e-06,
+        "y": -3.830317,
+        "z": -9.206991
+      },
+      "max": {
+        "x": 9.899495,
+        "y": 1.044427,
+        "z": -0.590909
+      },
+      "center": {
+        "x": 4.949747,
+        "y": -1.392945,
+        "z": -4.89895
+      }
+    }
+  },
+  "tiles": [
+    {
+      "id": "985",
+      "monoId": "4142",
+      "name": "empty -5_0",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -5_0",
+      "walkability": "enter",
+      "position": {
+        "x": 3.535534,
+        "y": -0.696553,
+        "z": -3.668081
+      },
+      "localPosition": {
+        "x": 3.535534,
+        "y": -0.696553,
+        "z": -3.668081
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "986",
+      "monoId": "4143",
+      "name": "empty -8_-5",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -8_-5",
+      "walkability": "noenter",
+      "position": {
+        "x": 2.12132,
+        "y": -3.482121,
+        "z": -8.591556
+      },
+      "localPosition": {
+        "x": 2.12132,
+        "y": -3.482121,
+        "z": -8.591556
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "995",
+      "monoId": "4144",
+      "name": "empty -6_0",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -6_0",
+      "walkability": "enter",
+      "position": {
+        "x": 4.24264,
+        "y": -1.044749,
+        "z": -4.283515
+      },
+      "localPosition": {
+        "x": 4.24264,
+        "y": -1.044749,
+        "z": -4.283515
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "988",
+      "monoId": "4145",
+      "name": "empty -5_-1",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -5_-1",
+      "walkability": "enter",
+      "position": {
+        "x": 2.828427,
+        "y": -1.044749,
+        "z": -4.283515
+      },
+      "localPosition": {
+        "x": 2.828427,
+        "y": -1.044749,
+        "z": -4.283515
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "989",
+      "monoId": "4146",
+      "name": "empty -11_0",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -11_0",
+      "walkability": "noenter",
+      "position": {
+        "x": 7.778174,
+        "y": -2.785729,
+        "z": -7.360688
+      },
+      "localPosition": {
+        "x": 7.778174,
+        "y": -2.785729,
+        "z": -7.360688
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "990",
+      "monoId": "4147",
+      "name": "empty -9_-2",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -9_-2",
+      "walkability": "enter",
+      "position": {
+        "x": 4.949747,
+        "y": -2.785729,
+        "z": -7.360688
+      },
+      "localPosition": {
+        "x": 4.949747,
+        "y": -2.785729,
+        "z": -7.360688
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "987",
+      "monoId": "4148",
+      "name": "empty -7_-4",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -7_-4",
+      "walkability": "enter",
+      "position": {
+        "x": 2.12132,
+        "y": -2.785729,
+        "z": -7.360687
+      },
+      "localPosition": {
+        "x": 2.12132,
+        "y": -2.785729,
+        "z": -7.360687
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "993",
+      "monoId": "4149",
+      "name": "empty -8_4",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -8_4",
+      "walkability": "noenter",
+      "position": {
+        "x": 8.485281,
+        "y": -0.348357,
+        "z": -3.052647
+      },
+      "localPosition": {
+        "x": 8.485281,
+        "y": -0.348357,
+        "z": -3.052647
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "994",
+      "monoId": "4150",
+      "name": "empty -9_-3",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -9_-3",
+      "walkability": "enter",
+      "position": {
+        "x": 4.24264,
+        "y": -3.133925,
+        "z": -7.976122
+      },
+      "localPosition": {
+        "x": 4.24264,
+        "y": -3.133925,
+        "z": -7.976122
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "991",
+      "monoId": "4151",
+      "name": "empty -8_-3",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -8_-3",
+      "walkability": "enter",
+      "position": {
+        "x": 3.535533,
+        "y": -2.785729,
+        "z": -7.360687
+      },
+      "localPosition": {
+        "x": 3.535533,
+        "y": -2.785729,
+        "z": -7.360687
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "992",
+      "monoId": "4152",
+      "name": "empty -10_-2",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -10_-2",
+      "walkability": "enter",
+      "position": {
+        "x": 5.656854,
+        "y": -3.133925,
+        "z": -7.976122
+      },
+      "localPosition": {
+        "x": 5.656854,
+        "y": -3.133925,
+        "z": -7.976122
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "1000",
+      "monoId": "4153",
+      "name": "empty -4_4",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -4_4",
+      "walkability": "noenter",
+      "position": {
+        "x": 5.656854,
+        "y": 1.044427,
+        "z": -0.590909
+      },
+      "localPosition": {
+        "x": 5.656854,
+        "y": 1.044427,
+        "z": -0.590909
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "999",
+      "monoId": "4154",
+      "name": "empty -5_-2",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -5_-2",
+      "walkability": "enter",
+      "position": {
+        "x": 2.12132,
+        "y": -1.392945,
+        "z": -4.898949
+      },
+      "localPosition": {
+        "x": 2.12132,
+        "y": -1.392945,
+        "z": -4.898949
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "1001",
+      "monoId": "4155",
+      "name": "empty -6_-1",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -6_-1",
+      "walkability": "enter",
+      "position": {
+        "x": 3.535533,
+        "y": -1.392945,
+        "z": -4.89895
+      },
+      "localPosition": {
+        "x": 3.535533,
+        "y": -1.392945,
+        "z": -4.89895
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "1002",
+      "monoId": "4156",
+      "name": "empty -7_1",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -7_1",
+      "walkability": "enter",
+      "position": {
+        "x": 5.656854,
+        "y": -1.044749,
+        "z": -4.283515
+      },
+      "localPosition": {
+        "x": 5.656854,
+        "y": -1.044749,
+        "z": -4.283515
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "998",
+      "monoId": "4157",
+      "name": "empty -5_-5",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -5_-5",
+      "walkability": "noenter",
+      "position": {
+        "x": -1e-06,
+        "y": -2.437533,
+        "z": -6.745253
+      },
+      "localPosition": {
+        "x": -1e-06,
+        "y": -2.437533,
+        "z": -6.745253
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "996",
+      "monoId": "4158",
+      "name": "empty -10_-4",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -10_-4",
+      "walkability": "noenter",
+      "position": {
+        "x": 4.24264,
+        "y": -3.830317,
+        "z": -9.206991
+      },
+      "localPosition": {
+        "x": 4.24264,
+        "y": -3.830317,
+        "z": -9.206991
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "997",
+      "monoId": "4159",
+      "name": "empty -11_-3",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -11_-3",
+      "walkability": "noenter",
+      "position": {
+        "x": 5.656853,
+        "y": -3.830317,
+        "z": -9.206991
+      },
+      "localPosition": {
+        "x": 5.656853,
+        "y": -3.830317,
+        "z": -9.206991
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "1004",
+      "monoId": "4160",
+      "name": "empty -8_3",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -8_3",
+      "walkability": "enter",
+      "position": {
+        "x": 7.778174,
+        "y": -0.696553,
+        "z": -3.668081
+      },
+      "localPosition": {
+        "x": 7.778174,
+        "y": -0.696553,
+        "z": -3.668081
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "1003",
+      "monoId": "4161",
+      "name": "empty -6_-3",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -6_-3",
+      "walkability": "enter",
+      "position": {
+        "x": 2.12132,
+        "y": -2.089337,
+        "z": -6.129818
+      },
+      "localPosition": {
+        "x": 2.12132,
+        "y": -2.089337,
+        "z": -6.129818
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "969",
+      "monoId": "4162",
+      "name": "empty -10_1",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -10_1",
+      "walkability": "enter",
+      "position": {
+        "x": 7.778174,
+        "y": -2.089337,
+        "z": -6.129819
+      },
+      "localPosition": {
+        "x": 7.778174,
+        "y": -2.089337,
+        "z": -6.129819
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "964",
+      "monoId": "4163",
+      "name": "empty -4_-4",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -4_-4",
+      "walkability": "noenter",
+      "position": {
+        "x": -0.0,
+        "y": -1.741141,
+        "z": -5.514384
+      },
+      "localPosition": {
+        "x": -0.0,
+        "y": -1.741141,
+        "z": -5.514384
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "965",
+      "monoId": "4164",
+      "name": "empty -6_-2",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -6_-2",
+      "walkability": "enter",
+      "position": {
+        "x": 2.828427,
+        "y": -1.741141,
+        "z": -5.514384
+      },
+      "localPosition": {
+        "x": 2.828427,
+        "y": -1.741141,
+        "z": -5.514384
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "968",
+      "monoId": "4165",
+      "name": "empty -6_-5",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -6_-5",
+      "walkability": "noenter",
+      "position": {
+        "x": 0.707106,
+        "y": -2.785729,
+        "z": -7.360687
+      },
+      "localPosition": {
+        "x": 0.707106,
+        "y": -2.785729,
+        "z": -7.360687
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "967",
+      "monoId": "4166",
+      "name": "empty -3_-2",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -3_-2",
+      "walkability": "noenter",
+      "position": {
+        "x": 0.707106,
+        "y": -0.696553,
+        "z": -3.66808
+      },
+      "localPosition": {
+        "x": 0.707106,
+        "y": -0.696553,
+        "z": -3.66808
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "966",
+      "monoId": "4167",
+      "name": "empty -3_1",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -3_1",
+      "walkability": "noenter",
+      "position": {
+        "x": 2.828427,
+        "y": 0.348035,
+        "z": -1.821777
+      },
+      "localPosition": {
+        "x": 2.828427,
+        "y": 0.348035,
+        "z": -1.821777
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "974",
+      "monoId": "4168",
+      "name": "empty -3_-1",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -3_-1",
+      "walkability": "noenter",
+      "position": {
+        "x": 1.414213,
+        "y": -0.348357,
+        "z": -3.052646
+      },
+      "localPosition": {
+        "x": 1.414213,
+        "y": -0.348357,
+        "z": -3.052646
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "975",
+      "monoId": "4169",
+      "name": "empty -7_-3",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -7_-3",
+      "walkability": "enter",
+      "position": {
+        "x": 2.828427,
+        "y": -2.437533,
+        "z": -6.745253
+      },
+      "localPosition": {
+        "x": 2.828427,
+        "y": -2.437533,
+        "z": -6.745253
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "971",
+      "monoId": "4170",
+      "name": "empty -7_-5",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -7_-5",
+      "walkability": "noenter",
+      "position": {
+        "x": 1.414213,
+        "y": -3.133925,
+        "z": -7.976122
+      },
+      "localPosition": {
+        "x": 1.414213,
+        "y": -3.133925,
+        "z": -7.976122
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "972",
+      "monoId": "4171",
+      "name": "empty -6_4",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -6_4",
+      "walkability": "noenter",
+      "position": {
+        "x": 7.071068,
+        "y": 0.348035,
+        "z": -1.821778
+      },
+      "localPosition": {
+        "x": 7.071068,
+        "y": 0.348035,
+        "z": -1.821778
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "970",
+      "monoId": "4172",
+      "name": "empty -7_0",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -7_0",
+      "walkability": "enter",
+      "position": {
+        "x": 4.949747,
+        "y": -1.392945,
+        "z": -4.89895
+      },
+      "localPosition": {
+        "x": 4.949747,
+        "y": -1.392945,
+        "z": -4.89895
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "973",
+      "monoId": "4173",
+      "name": "empty -11_-2",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -11_-2",
+      "walkability": "noenter",
+      "position": {
+        "x": 6.36396,
+        "y": -3.482121,
+        "z": -8.591557
+      },
+      "localPosition": {
+        "x": 6.36396,
+        "y": -3.482121,
+        "z": -8.591557
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "981",
+      "monoId": "4174",
+      "name": "empty -10_-1",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -10_-1",
+      "walkability": "enter",
+      "position": {
+        "x": 6.36396,
+        "y": -2.785729,
+        "z": -7.360688
+      },
+      "localPosition": {
+        "x": 6.36396,
+        "y": -2.785729,
+        "z": -7.360688
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "980",
+      "monoId": "4175",
+      "name": "empty -4_1",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -4_1",
+      "walkability": "enter",
+      "position": {
+        "x": 3.535534,
+        "y": -0.000161,
+        "z": -2.437212
+      },
+      "localPosition": {
+        "x": 3.535534,
+        "y": -0.000161,
+        "z": -2.437212
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "976",
+      "monoId": "4176",
+      "name": "empty -11_2",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -11_2",
+      "walkability": "noenter",
+      "position": {
+        "x": 9.192388,
+        "y": -2.089337,
+        "z": -6.129819
+      },
+      "localPosition": {
+        "x": 9.192388,
+        "y": -2.089337,
+        "z": -6.129819
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "979",
+      "monoId": "4177",
+      "name": "empty -11_3",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -11_3",
+      "walkability": "noenter",
+      "position": {
+        "x": 9.899494,
+        "y": -1.741141,
+        "z": -5.514385
+      },
+      "localPosition": {
+        "x": 9.899494,
+        "y": -1.741141,
+        "z": -5.514385
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "977",
+      "monoId": "4178",
+      "name": "empty -10_2",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -10_2",
+      "walkability": "enter",
+      "position": {
+        "x": 8.485281,
+        "y": -1.741141,
+        "z": -5.514385
+      },
+      "localPosition": {
+        "x": 8.485281,
+        "y": -1.741141,
+        "z": -5.514385
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "978",
+      "monoId": "4179",
+      "name": "empty -5_3",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -5_3",
+      "walkability": "enter",
+      "position": {
+        "x": 5.656854,
+        "y": 0.348035,
+        "z": -1.821778
+      },
+      "localPosition": {
+        "x": 5.656854,
+        "y": 0.348035,
+        "z": -1.821778
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "983",
+      "monoId": "4180",
+      "name": "empty -8_2",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -8_2",
+      "walkability": "enter",
+      "position": {
+        "x": 7.071067,
+        "y": -1.044749,
+        "z": -4.283516
+      },
+      "localPosition": {
+        "x": 7.071067,
+        "y": -1.044749,
+        "z": -4.283516
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "984",
+      "monoId": "4181",
+      "name": "empty -11_-1",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -11_-1",
+      "walkability": "noenter",
+      "position": {
+        "x": 7.071067,
+        "y": -3.133925,
+        "z": -7.976122
+      },
+      "localPosition": {
+        "x": 7.071067,
+        "y": -3.133925,
+        "z": -7.976122
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "982",
+      "monoId": "4182",
+      "name": "empty -3_2",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -3_2",
+      "walkability": "noenter",
+      "position": {
+        "x": 3.535534,
+        "y": 0.696231,
+        "z": -1.206343
+      },
+      "localPosition": {
+        "x": 3.535534,
+        "y": 0.696231,
+        "z": -1.206343
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "950",
+      "monoId": "4183",
+      "name": "empty -8_-2",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -8_-2",
+      "walkability": "enter",
+      "position": {
+        "x": 4.24264,
+        "y": -2.437533,
+        "z": -6.745253
+      },
+      "localPosition": {
+        "x": 4.24264,
+        "y": -2.437533,
+        "z": -6.745253
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "949",
+      "monoId": "4184",
+      "name": "empty -8_-4",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -8_-4",
+      "walkability": "enter",
+      "position": {
+        "x": 2.828426,
+        "y": -3.133925,
+        "z": -7.976122
+      },
+      "localPosition": {
+        "x": 2.828426,
+        "y": -3.133925,
+        "z": -7.976122
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "953",
+      "monoId": "4185",
+      "name": "empty -9_0",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -9_0",
+      "walkability": "enter",
+      "position": {
+        "x": 6.36396,
+        "y": -2.089337,
+        "z": -6.129819
+      },
+      "localPosition": {
+        "x": 6.36396,
+        "y": -2.089337,
+        "z": -6.129819
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "951",
+      "monoId": "4186",
+      "name": "empty -8_0",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -8_0",
+      "walkability": "enter",
+      "position": {
+        "x": 5.656854,
+        "y": -1.741141,
+        "z": -5.514384
+      },
+      "localPosition": {
+        "x": 5.656854,
+        "y": -1.741141,
+        "z": -5.514384
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "952",
+      "monoId": "4187",
+      "name": "empty -3_-3",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -3_-3",
+      "walkability": "noenter",
+      "position": {
+        "x": -0.0,
+        "y": -1.044749,
+        "z": -4.283515
+      },
+      "localPosition": {
+        "x": -0.0,
+        "y": -1.044749,
+        "z": -4.283515
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "945",
+      "monoId": "4188",
+      "name": "empty -7_-1",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -7_-1",
+      "walkability": "enter",
+      "position": {
+        "x": 4.24264,
+        "y": -1.741141,
+        "z": -5.514384
+      },
+      "localPosition": {
+        "x": 4.24264,
+        "y": -1.741141,
+        "z": -5.514384
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "948",
+      "monoId": "4189",
+      "name": "empty -11_1",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -11_1",
+      "walkability": "noenter",
+      "position": {
+        "x": 8.485281,
+        "y": -2.437533,
+        "z": -6.745253
+      },
+      "localPosition": {
+        "x": 8.485281,
+        "y": -2.437533,
+        "z": -6.745253
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "947",
+      "monoId": "4190",
+      "name": "empty -7_4",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -7_4",
+      "walkability": "noenter",
+      "position": {
+        "x": 7.778174,
+        "y": -0.000161,
+        "z": -2.437212
+      },
+      "localPosition": {
+        "x": 7.778174,
+        "y": -0.000161,
+        "z": -2.437212
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "946",
+      "monoId": "4191",
+      "name": "empty -10_-3",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -10_-3",
+      "walkability": "enter",
+      "position": {
+        "x": 4.949747,
+        "y": -3.482121,
+        "z": -8.591556
+      },
+      "localPosition": {
+        "x": 4.949747,
+        "y": -3.482121,
+        "z": -8.591556
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "955",
+      "monoId": "4192",
+      "name": "empty -4_3",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -4_3",
+      "walkability": "enter",
+      "position": {
+        "x": 4.949747,
+        "y": 0.696231,
+        "z": -1.206343
+      },
+      "localPosition": {
+        "x": 4.949747,
+        "y": 0.696231,
+        "z": -1.206343
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "954",
+      "monoId": "4193",
+      "name": "empty -8_-1",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -8_-1",
+      "walkability": "enter",
+      "position": {
+        "x": 4.949747,
+        "y": -2.089337,
+        "z": -6.129819
+      },
+      "localPosition": {
+        "x": 4.949747,
+        "y": -2.089337,
+        "z": -6.129819
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "960",
+      "monoId": "4194",
+      "name": "empty -7_2",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -7_2",
+      "walkability": "enter",
+      "position": {
+        "x": 6.363961,
+        "y": -0.696553,
+        "z": -3.668081
+      },
+      "localPosition": {
+        "x": 6.363961,
+        "y": -0.696553,
+        "z": -3.668081
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "959",
+      "monoId": "4195",
+      "name": "empty -3_0",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -3_0",
+      "walkability": "noenter",
+      "position": {
+        "x": 2.12132,
+        "y": -0.000161,
+        "z": -2.437212
+      },
+      "localPosition": {
+        "x": 2.12132,
+        "y": -0.000161,
+        "z": -2.437212
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "958",
+      "monoId": "4196",
+      "name": "empty -10_3",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -10_3",
+      "walkability": "enter",
+      "position": {
+        "x": 9.192388,
+        "y": -1.392945,
+        "z": -4.89895
+      },
+      "localPosition": {
+        "x": 9.192388,
+        "y": -1.392945,
+        "z": -4.89895
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "956",
+      "monoId": "4197",
+      "name": "empty -5_-3",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -5_-3",
+      "walkability": "enter",
+      "position": {
+        "x": 1.414213,
+        "y": -1.741141,
+        "z": -5.514384
+      },
+      "localPosition": {
+        "x": 1.414213,
+        "y": -1.741141,
+        "z": -5.514384
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "957",
+      "monoId": "4198",
+      "name": "empty -5_-4",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -5_-4",
+      "walkability": "enter",
+      "position": {
+        "x": 0.707106,
+        "y": -2.089337,
+        "z": -6.129818
+      },
+      "localPosition": {
+        "x": 0.707106,
+        "y": -2.089337,
+        "z": -6.129818
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "962",
+      "monoId": "4199",
+      "name": "empty -9_-4",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -9_-4",
+      "walkability": "noenter",
+      "position": {
+        "x": 3.535533,
+        "y": -3.482121,
+        "z": -8.591556
+      },
+      "localPosition": {
+        "x": 3.535533,
+        "y": -3.482121,
+        "z": -8.591556
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "961",
+      "monoId": "4200",
+      "name": "empty -6_2",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -6_2",
+      "walkability": "enter",
+      "position": {
+        "x": 5.656854,
+        "y": -0.348357,
+        "z": -3.052647
+      },
+      "localPosition": {
+        "x": 5.656854,
+        "y": -0.348357,
+        "z": -3.052647
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "963",
+      "monoId": "4201",
+      "name": "empty -5_2",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -5_2",
+      "walkability": "enter",
+      "position": {
+        "x": 4.949747,
+        "y": -0.000161,
+        "z": -2.437212
+      },
+      "localPosition": {
+        "x": 4.949747,
+        "y": -0.000161,
+        "z": -2.437212
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "924",
+      "monoId": "4202",
+      "name": "empty -5_4",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -5_4",
+      "walkability": "noenter",
+      "position": {
+        "x": 6.363961,
+        "y": 0.696231,
+        "z": -1.206343
+      },
+      "localPosition": {
+        "x": 6.363961,
+        "y": 0.696231,
+        "z": -1.206343
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "925",
+      "monoId": "4203",
+      "name": "empty -3_3",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -3_3",
+      "walkability": "noenter",
+      "position": {
+        "x": 4.242641,
+        "y": 1.044427,
+        "z": -0.590909
+      },
+      "localPosition": {
+        "x": 4.242641,
+        "y": 1.044427,
+        "z": -0.590909
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "931",
+      "monoId": "4204",
+      "name": "empty -4_2",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -4_2",
+      "walkability": "enter",
+      "position": {
+        "x": 4.242641,
+        "y": 0.348035,
+        "z": -1.821777
+      },
+      "localPosition": {
+        "x": 4.242641,
+        "y": 0.348035,
+        "z": -1.821777
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "930",
+      "monoId": "4205",
+      "name": "empty -10_4",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -10_4",
+      "walkability": "noenter",
+      "position": {
+        "x": 9.899495,
+        "y": -1.044749,
+        "z": -4.283516
+      },
+      "localPosition": {
+        "x": 9.899495,
+        "y": -1.044749,
+        "z": -4.283516
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "928",
+      "monoId": "4206",
+      "name": "empty -4_-1",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -4_-1",
+      "walkability": "enter",
+      "position": {
+        "x": 2.12132,
+        "y": -0.696553,
+        "z": -3.668081
+      },
+      "localPosition": {
+        "x": 2.12132,
+        "y": -0.696553,
+        "z": -3.668081
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "926",
+      "monoId": "4207",
+      "name": "empty -9_3",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -9_3",
+      "walkability": "enter",
+      "position": {
+        "x": 8.485281,
+        "y": -1.044749,
+        "z": -4.283516
+      },
+      "localPosition": {
+        "x": 8.485281,
+        "y": -1.044749,
+        "z": -4.283516
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "927",
+      "monoId": "4208",
+      "name": "empty -9_4",
+      "path": "MapTool/Map/block_root/emptyblock/noenter/empty -9_4",
+      "walkability": "noenter",
+      "position": {
+        "x": 9.192388,
+        "y": -0.696553,
+        "z": -3.668081
+      },
+      "localPosition": {
+        "x": 9.192388,
+        "y": -0.696553,
+        "z": -3.668081
+      },
+      "blockType": 28,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "929",
+      "monoId": "4209",
+      "name": "empty -10_0",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -10_0",
+      "walkability": "enter",
+      "position": {
+        "x": 7.071067,
+        "y": -2.437533,
+        "z": -6.745253
+      },
+      "localPosition": {
+        "x": 7.071067,
+        "y": -2.437533,
+        "z": -6.745253
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "938",
+      "monoId": "4210",
+      "name": "empty -5_1",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -5_1",
+      "walkability": "enter",
+      "position": {
+        "x": 4.24264,
+        "y": -0.348357,
+        "z": -3.052646
+      },
+      "localPosition": {
+        "x": 4.24264,
+        "y": -0.348357,
+        "z": -3.052646
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "936",
+      "monoId": "4211",
+      "name": "empty -6_1",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -6_1",
+      "walkability": "enter",
+      "position": {
+        "x": 4.949747,
+        "y": -0.696553,
+        "z": -3.668081
+      },
+      "localPosition": {
+        "x": 4.949747,
+        "y": -0.696553,
+        "z": -3.668081
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "937",
+      "monoId": "4212",
+      "name": "empty -7_-2",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -7_-2",
+      "walkability": "enter",
+      "position": {
+        "x": 3.535533,
+        "y": -2.089337,
+        "z": -6.129819
+      },
+      "localPosition": {
+        "x": 3.535533,
+        "y": -2.089337,
+        "z": -6.129819
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "940",
+      "monoId": "4213",
+      "name": "empty -4_-2",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -4_-2",
+      "walkability": "enter",
+      "position": {
+        "x": 1.414213,
+        "y": -1.044749,
+        "z": -4.283515
+      },
+      "localPosition": {
+        "x": 1.414213,
+        "y": -1.044749,
+        "z": -4.283515
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "939",
+      "monoId": "4214",
+      "name": "empty -8_1",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -8_1",
+      "walkability": "enter",
+      "position": {
+        "x": 6.363961,
+        "y": -1.392945,
+        "z": -4.89895
+      },
+      "localPosition": {
+        "x": 6.363961,
+        "y": -1.392945,
+        "z": -4.89895
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "933",
+      "monoId": "4215",
+      "name": "empty -9_-1",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -9_-1",
+      "walkability": "enter",
+      "position": {
+        "x": 5.656854,
+        "y": -2.437533,
+        "z": -6.745253
+      },
+      "localPosition": {
+        "x": 5.656854,
+        "y": -2.437533,
+        "z": -6.745253
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "932",
+      "monoId": "4216",
+      "name": "empty -6_-4",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -6_-4",
+      "walkability": "enter",
+      "position": {
+        "x": 1.414213,
+        "y": -2.437533,
+        "z": -6.745253
+      },
+      "localPosition": {
+        "x": 1.414213,
+        "y": -2.437533,
+        "z": -6.745253
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "935",
+      "monoId": "4217",
+      "name": "empty -7_3",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -7_3",
+      "walkability": "enter",
+      "position": {
+        "x": 7.071068,
+        "y": -0.348357,
+        "z": -3.052647
+      },
+      "localPosition": {
+        "x": 7.071068,
+        "y": -0.348357,
+        "z": -3.052647
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "934",
+      "monoId": "4218",
+      "name": "empty -6_3",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -6_3",
+      "walkability": "enter",
+      "position": {
+        "x": 6.363961,
+        "y": -0.000161,
+        "z": -2.437212
+      },
+      "localPosition": {
+        "x": 6.363961,
+        "y": -0.000161,
+        "z": -2.437212
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "944",
+      "monoId": "4219",
+      "name": "empty -4_0",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -4_0",
+      "walkability": "enter",
+      "position": {
+        "x": 2.828427,
+        "y": -0.348357,
+        "z": -3.052646
+      },
+      "localPosition": {
+        "x": 2.828427,
+        "y": -0.348357,
+        "z": -3.052646
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "941",
+      "monoId": "4220",
+      "name": "empty -4_-3",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -4_-3",
+      "walkability": "enter",
+      "position": {
+        "x": 0.707106,
+        "y": -1.392945,
+        "z": -4.898949
+      },
+      "localPosition": {
+        "x": 0.707106,
+        "y": -1.392945,
+        "z": -4.898949
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "943",
+      "monoId": "4221",
+      "name": "empty -9_2",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -9_2",
+      "walkability": "enter",
+      "position": {
+        "x": 7.778174,
+        "y": -1.392945,
+        "z": -4.89895
+      },
+      "localPosition": {
+        "x": 7.778174,
+        "y": -1.392945,
+        "z": -4.89895
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "942",
+      "monoId": "4222",
+      "name": "empty -9_1",
+      "path": "MapTool/Map/block_root/emptyblock/enter/empty -9_1",
+      "walkability": "enter",
+      "position": {
+        "x": 7.071067,
+        "y": -1.741141,
+        "z": -5.514384
+      },
+      "localPosition": {
+        "x": 7.071067,
+        "y": -1.741141,
+        "z": -5.514384
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -0.043518,
+          "z": 0.024621
+        },
+        "size": {
+          "x": 1.0,
+          "y": 0.1,
+          "z": 1.0
+        }
+      }
+    }
+  ]
+}
