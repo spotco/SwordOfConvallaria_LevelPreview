@@ -1,0 +1,712 @@
+{
+  "schemaVersion": 1,
+  "mapName": "battle000_026",
+  "stats": {
+    "materialCount": 12,
+    "textureCount": 6,
+    "skippedTextureCount": 0
+  },
+  "materials": [
+    {
+      "id": "10",
+      "name": "hightfog-battle000_010",
+      "shader": "",
+      "mainTexture": null,
+      "textures": {},
+      "colors": {
+        "_MainColor": [
+          0.1237,
+          0.1098,
+          0.2745,
+          1.0
+        ],
+        "_Softnearfar": [
+          0.0,
+          3.79,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "15",
+      "name": "common_sprite01_l",
+      "shader": "",
+      "mainTexture": {
+        "id": "-4962345306552355043",
+        "name": "common-sprite01",
+        "path": "textures/-4962345306552355043_common-sprite01.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-4962345306552355043",
+          "name": "common-sprite01",
+          "path": "textures/-4962345306552355043_common-sprite01.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "-4962345306552355043",
+          "name": "common-sprite01",
+          "path": "textures/-4962345306552355043_common-sprite01.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7358,
+          0.7358,
+          0.7358,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "16",
+      "name": "Starry_Sky_small_battle000_026",
+      "shader": "",
+      "mainTexture": null,
+      "textures": {
+        "_NoiseTex": {
+          "id": "-1940477636603382846",
+          "name": "starry_sky_cloud",
+          "path": "textures/-1940477636603382846_starry_sky_cloud.png",
+          "width": 512,
+          "height": 512
+        },
+        "_StarTex": {
+          "id": "4293320434522870649",
+          "name": "starry_sky_star",
+          "path": "textures/4293320434522870649_starry_sky_star.png",
+          "width": 1024,
+          "height": 1024
+        }
+      },
+      "colors": {
+        "_CloudColor": [
+          0.0,
+          0.2897,
+          0.8491,
+          1.0
+        ],
+        "_StarColor": [
+          0.0,
+          0.4709,
+          1.0,
+          1.0
+        ],
+        "_cloudColor1": [
+          0.5137,
+          1.0,
+          0.727,
+          1.0
+        ],
+        "_cloudColor2": [
+          0.4606,
+          0.7172,
+          0.8491,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "18",
+      "name": "battle000_026-zhengti00",
+      "shader": "",
+      "mainTexture": {
+        "id": "35",
+        "name": "battle000_026-zhengti00",
+        "path": "textures/35_battle000_026-zhengti00.png",
+        "width": 1024,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "35",
+          "name": "battle000_026-zhengti00",
+          "path": "textures/35_battle000_026-zhengti00.png",
+          "width": 1024,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "35",
+          "name": "battle000_026-zhengti00",
+          "path": "textures/35_battle000_026-zhengti00.png",
+          "width": 1024,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.6435,
+          0.6698,
+          0.5908,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "22",
+      "name": "hightfog-battle000_026",
+      "shader": "",
+      "mainTexture": {
+        "id": "3496401774289826135",
+        "name": "battle000_014-fog",
+        "path": "textures/3496401774289826135_battle000_014-fog.png",
+        "width": 64,
+        "height": 64
+      },
+      "textures": {
+        "_MainTex": {
+          "id": "3496401774289826135",
+          "name": "battle000_014-fog",
+          "path": "textures/3496401774289826135_battle000_014-fog.png",
+          "width": 64,
+          "height": 64
+        }
+      },
+      "colors": {
+        "_MainColor": [
+          0.2028,
+          0.7687,
+          1.0,
+          0.4706
+        ],
+        "_Softnearfar": [
+          -0.36,
+          6.11,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "23",
+      "name": "common_sprite01",
+      "shader": "",
+      "mainTexture": {
+        "id": "-4962345306552355043",
+        "name": "common-sprite01",
+        "path": "textures/-4962345306552355043_common-sprite01.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-4962345306552355043",
+          "name": "common-sprite01",
+          "path": "textures/-4962345306552355043_common-sprite01.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "-4962345306552355043",
+          "name": "common-sprite01",
+          "path": "textures/-4962345306552355043_common-sprite01.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.65,
+          0.65,
+          0.65,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "25",
+      "name": "common_bush_yellow",
+      "shader": "",
+      "mainTexture": {
+        "id": "-8235725269179752044",
+        "name": "common-trees01",
+        "path": "textures/-8235725269179752044_common-trees01.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-8235725269179752044",
+          "name": "common-trees01",
+          "path": "textures/-8235725269179752044_common-trees01.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "-8235725269179752044",
+          "name": "common-trees01",
+          "path": "textures/-8235725269179752044_common-trees01.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.9059,
+          0.6588,
+          0.4353,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "26",
+      "name": "common_bush_l",
+      "shader": "",
+      "mainTexture": {
+        "id": "-8235725269179752044",
+        "name": "common-trees01",
+        "path": "textures/-8235725269179752044_common-trees01.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-8235725269179752044",
+          "name": "common-trees01",
+          "path": "textures/-8235725269179752044_common-trees01.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "-8235725269179752044",
+          "name": "common-trees01",
+          "path": "textures/-8235725269179752044_common-trees01.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "28",
+      "name": "capital-xunlianchang_trees02-1",
+      "shader": "",
+      "mainTexture": {
+        "id": "-8235725269179752044",
+        "name": "common-trees01",
+        "path": "textures/-8235725269179752044_common-trees01.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-8235725269179752044",
+          "name": "common-trees01",
+          "path": "textures/-8235725269179752044_common-trees01.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "-8235725269179752044",
+          "name": "common-trees01",
+          "path": "textures/-8235725269179752044_common-trees01.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7229,
+          0.7651,
+          0.8962,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "name": "capital-xunlianchang_trees02-2",
+      "shader": "",
+      "mainTexture": {
+        "id": "-8235725269179752044",
+        "name": "common-trees01",
+        "path": "textures/-8235725269179752044_common-trees01.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-8235725269179752044",
+          "name": "common-trees01",
+          "path": "textures/-8235725269179752044_common-trees01.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "-8235725269179752044",
+          "name": "common-trees01",
+          "path": "textures/-8235725269179752044_common-trees01.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.5874,
+          0.6523,
+          0.7547,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "30",
+      "name": "common_bush01",
+      "shader": "",
+      "mainTexture": {
+        "id": "-8235725269179752044",
+        "name": "common-trees01",
+        "path": "textures/-8235725269179752044_common-trees01.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-8235725269179752044",
+          "name": "common-trees01",
+          "path": "textures/-8235725269179752044_common-trees01.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "-8235725269179752044",
+          "name": "common-trees01",
+          "path": "textures/-8235725269179752044_common-trees01.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.65,
+          0.65,
+          0.65,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "name": "hightfog-battle000_006-bg",
+      "shader": "",
+      "mainTexture": null,
+      "textures": {},
+      "colors": {
+        "_MainColor": [
+          0.1142,
+          0.0784,
+          0.2353,
+          0.9804
+        ],
+        "_Softnearfar": [
+          1.0,
+          6.03,
+          0.0,
+          7.23
+        ]
+      }
+    }
+  ]
+}
