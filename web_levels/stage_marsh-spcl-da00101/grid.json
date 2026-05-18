@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_marsh-spcl-da00101",
+  "source": {
+    "gridCsv": "level_probe/reports/stage_marsh-spcl-da00101_grid_blocks.csv",
+    "metadataJson": "level_probe/reports/stage_marsh-spcl-da00101_map_metadata.json"
+  },
+  "metadata": {
+    "bundle": "battle/map/stage_marsh-spcl-da00101.unity3d",
+    "resolvedBundle": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sword of Convallaria\\assets\\battle\\map\\stage_marsh-spcl-da00101.unity3d",
+    "blockCount": 0,
+    "blockTypeCounts": {},
+    "mapProperty": {
+      "useBound": 1,
+      "useBattle": 1,
+      "boundMin": "int3_storage(x=-5, y=0, z=-5)",
+      "boundMax": "int3_storage(x=12, y=0, z=10)",
+      "boundMinCamera": "Vector3f(-3.630000114440918, 0.0, -3.990000009536743)",
+      "boundMaxCamera": "Vector3f(11.020000457763672, 0.0, 9.100000381469727)",
+      "orthographicSize": 3.7200000286102295,
+      "path": "MapTool/Map"
+    },
+    "mapTool": {
+      "width": 20,
+      "height": 20,
+      "path": "MapTool"
+    },
+    "defaultCamera": {
+      "source": "MapProperty.camera",
+      "cameraId": "556",
+      "gameObjectId": "238",
+      "transformId": "458",
+      "position": {
+        "x": -0.608113,
+        "y": 3.851837,
+        "z": -7.590076
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "forward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "right": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "up": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "orthographic": true,
+      "orthographicSize": 3.700000047683716,
+      "fieldOfView": 23.799999237060547
+    },
+    "exportFrame": {
+      "type": "camera_aligned_world",
+      "pointFormula": "export = (dot(world,right), dot(world,up), dot(world,forward))",
+      "basis": {
+        "right": {
+          "x": -0.707107,
+          "y": -0.0,
+          "z": 0.707107
+        },
+        "up": {
+          "x": 0.348196,
+          "y": 0.870356,
+          "z": 0.348196
+        },
+        "forward": {
+          "x": 0.615435,
+          "y": -0.492423,
+          "z": 0.615434
+        }
+      }
+    }
+  },
+  "stats": {
+    "tileCount": 0,
+    "walkabilityCounts": {},
+    "extent": {
+      "min": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "max": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  },
+  "tiles": []
+}
