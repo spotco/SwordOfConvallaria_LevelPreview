@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_city-spcl-ni00101",
+  "source": {
+    "collidersCsv": "level_probe/reports/stage_city-spcl-ni00101_colliders.csv",
+    "sceneObjectsCsv": "level_probe/reports/stage_city-spcl-ni00101_scene_objects.csv"
+  },
+  "stats": {
+    "colliderCount": 8,
+    "drawableCount": 3,
+    "typeCounts": {
+      "MeshCollider": 5,
+      "BoxCollider": 3
+    }
+  },
+  "colliders": [
+    {
+      "id": "912",
+      "type": "MeshCollider",
+      "gameObjectId": "169",
+      "gameObjectName": "Cube0_0",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "positionSource": "grid_tile",
+      "center": null,
+      "size": null,
+      "tilePath": "MapTool/Map/block_root/scene_city-os-nisn00601/Cube0_0",
+      "walkability": "unknown",
+      "blockType": 9
+    },
+    {
+      "id": "913",
+      "type": "MeshCollider",
+      "gameObjectId": "181",
+      "gameObjectName": "men02",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": -5.546369,
+        "y": 1.447189,
+        "z": 2.5579
+      },
+      "positionSource": "scene_object_transform",
+      "center": null,
+      "size": null,
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "914",
+      "type": "MeshCollider",
+      "gameObjectId": "273",
+      "gameObjectName": "Cube.05",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": -4.264737,
+        "y": 2.100057,
+        "z": 3.711839
+      },
+      "positionSource": "scene_object_transform",
+      "center": null,
+      "size": null,
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "915",
+      "type": "MeshCollider",
+      "gameObjectId": "286",
+      "gameObjectName": "Cube.04",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": -4.264737,
+        "y": 2.100057,
+        "z": 3.711839
+      },
+      "positionSource": "scene_object_transform",
+      "center": null,
+      "size": null,
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "916",
+      "type": "MeshCollider",
+      "gameObjectId": "294",
+      "gameObjectName": "men01",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": -2.938912,
+        "y": 2.731162,
+        "z": 4.827314
+      },
+      "positionSource": "scene_object_transform",
+      "center": null,
+      "size": null,
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "917",
+      "type": "BoxCollider",
+      "gameObjectId": "290",
+      "gameObjectName": "water_refl",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": -3.408254,
+        "y": 3.110964,
+        "z": 5.610305
+      },
+      "positionSource": "scene_object_transform",
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "size": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "918",
+      "type": "BoxCollider",
+      "gameObjectId": "289",
+      "gameObjectName": "water_refl (1)",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": -2.545584,
+        "y": -0.439587,
+        "z": -0.612474
+      },
+      "positionSource": "scene_object_transform",
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "size": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "919",
+      "type": "BoxCollider",
+      "gameObjectId": "288",
+      "gameObjectName": "water_refl (2)",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": 1.117229,
+        "y": 0.802777,
+        "z": 1.583396
+      },
+      "positionSource": "scene_object_transform",
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "size": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    }
+  ]
+}
