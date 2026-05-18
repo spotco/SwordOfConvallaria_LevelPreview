@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_mountain-spcl-da00401-00",
+  "source": {
+    "gridCsv": "level_probe/reports/stage_mountain-spcl-da00401-00_grid_blocks.csv",
+    "metadataJson": "level_probe/reports/stage_mountain-spcl-da00401-00_map_metadata.json"
+  },
+  "metadata": {
+    "bundle": "battle/map/stage_mountain-spcl-da00401-00.unity3d",
+    "resolvedBundle": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sword of Convallaria\\assets\\battle\\map\\stage_mountain-spcl-da00401-00.unity3d",
+    "blockCount": 1,
+    "blockTypeCounts": {
+      "20": 1
+    },
+    "mapProperty": {
+      "useBound": 1,
+      "useBattle": 0,
+      "boundMin": "int3_storage(x=-2, y=0, z=-3)",
+      "boundMax": "int3_storage(x=25, y=0, z=20)",
+      "boundMinCamera": "Vector3f(-1.1799999475479126, 0.0, -2.549999952316284)",
+      "boundMaxCamera": "Vector3f(24.149999618530273, 0.0, 19.5)",
+      "orthographicSize": 3.7200000286102295,
+      "path": "MapTool/Map"
+    },
+    "defaultCamera": {
+      "source": "MapProperty.camera",
+      "cameraId": "408",
+      "gameObjectId": "168",
+      "transformId": "308",
+      "position": {
+        "x": 4.256782,
+        "y": 3.306804,
+        "z": -10.157729
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "forward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "right": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "up": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "orthographic": true,
+      "orthographicSize": 5.0,
+      "fieldOfView": 6.0
+    },
+    "exportFrame": {
+      "type": "camera_aligned_world",
+      "pointFormula": "export = (dot(world,right), dot(world,up), dot(world,forward))",
+      "basis": {
+        "right": {
+          "x": -0.707107,
+          "y": -0.0,
+          "z": 0.707107
+        },
+        "up": {
+          "x": 0.348196,
+          "y": 0.870356,
+          "z": 0.348196
+        },
+        "forward": {
+          "x": 0.615435,
+          "y": -0.492423,
+          "z": 0.615434
+        }
+      }
+    }
+  },
+  "stats": {
+    "tileCount": 1,
+    "walkabilityCounts": {
+      "unknown": 1
+    },
+    "extent": {
+      "min": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "max": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  },
+  "tiles": [
+    {
+      "id": "63",
+      "monoId": "763",
+      "name": "dixing01",
+      "path": "MapTool/Map/block_root/stage_mountain-spcl-00401-00/dixing01",
+      "walkability": "unknown",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "0",
+      "collider": {
+        "type": "MeshCollider",
+        "isTrigger": "False",
+        "center": null,
+        "size": null
+      }
+    }
+  ]
+}
