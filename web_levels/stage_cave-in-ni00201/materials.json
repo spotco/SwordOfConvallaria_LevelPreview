@@ -1,0 +1,3243 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_cave-in-ni00201",
+  "stats": {
+    "materialCount": 37,
+    "textureCount": 15,
+    "skippedTextureCount": 0
+  },
+  "materials": [
+    {
+      "id": "-7570766783883702616",
+      "name": "Lit",
+      "shader": "",
+      "mainTexture": null,
+      "textures": {},
+      "colors": {
+        "_BaseColor": [
+          0.3208,
+          0.2921,
+          0.2375,
+          0.0
+        ],
+        "_Color": [
+          0.5,
+          0.5,
+          0.5,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "name": "tiegui_effect_003",
+      "shader": "",
+      "mainTexture": {
+        "id": "5300684038345499350",
+        "name": "tiegui",
+        "path": "textures/5300684038345499350_tiegui.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_EmissionMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7059,
+          0.7059,
+          0.7059,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortOffset": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortX": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortY": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.1226,
+          0.1226,
+          0.1226,
+          0.0
+        ],
+        "_Flip": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_RendererColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SecondaryMapColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SpecColor": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "11",
+      "name": "stage08_zhongrushi",
+      "shader": "",
+      "mainTexture": {
+        "id": "50",
+        "name": "stage08_zhongrushi",
+        "path": "textures/50_stage08_zhongrushi.png",
+        "width": 1024,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "50",
+          "name": "stage08_zhongrushi",
+          "path": "textures/50_stage08_zhongrushi.png",
+          "width": 1024,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "50",
+          "name": "stage08_zhongrushi",
+          "path": "textures/50_stage08_zhongrushi.png",
+          "width": 1024,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.55,
+          0.55,
+          0.55,
+          1.0
+        ],
+        "_Color": [
+          0.3868,
+          0.3868,
+          0.3868,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "12",
+      "name": "common_sprite03_l",
+      "shader": "",
+      "mainTexture": {
+        "id": "1090962259003607970",
+        "name": "common-sprite03",
+        "path": "textures/1090962259003607970_common-sprite03.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "1090962259003607970",
+          "name": "common-sprite03",
+          "path": "textures/1090962259003607970_common-sprite03.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "1090962259003607970",
+          "name": "common-sprite03",
+          "path": "textures/1090962259003607970_common-sprite03.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.87,
+          0.87,
+          0.87,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "13",
+      "name": "tiegui_effect_002",
+      "shader": "",
+      "mainTexture": {
+        "id": "5300684038345499350",
+        "name": "tiegui",
+        "path": "textures/5300684038345499350_tiegui.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_EmissionMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7059,
+          0.7059,
+          0.7059,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0784,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_SpecColor": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "14",
+      "name": "tiegui_effect_005",
+      "shader": "",
+      "mainTexture": {
+        "id": "5300684038345499350",
+        "name": "tiegui",
+        "path": "textures/5300684038345499350_tiegui.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_EmissionMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7059,
+          0.7059,
+          0.7059,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortOffset": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortX": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortY": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.1226,
+          0.1226,
+          0.1226,
+          0.0
+        ],
+        "_Flip": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_RendererColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SecondaryMapColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SpecColor": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "15",
+      "name": "tiegui_effect_009",
+      "shader": "",
+      "mainTexture": {
+        "id": "5300684038345499350",
+        "name": "tiegui",
+        "path": "textures/5300684038345499350_tiegui.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_EmissionMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7059,
+          0.7059,
+          0.7059,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortOffset": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortX": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortY": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.1226,
+          0.1226,
+          0.1226,
+          0.0
+        ],
+        "_Flip": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_RendererColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SecondaryMapColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SpecColor": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "16",
+      "name": "stage-stone",
+      "shader": "",
+      "mainTexture": {
+        "id": "-503591225196284764",
+        "name": "stage-stone",
+        "path": "textures/-503591225196284764_stage-stone.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-503591225196284764",
+          "name": "stage-stone",
+          "path": "textures/-503591225196284764_stage-stone.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "-503591225196284764",
+          "name": "stage-stone",
+          "path": "textures/-503591225196284764_stage-stone.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.4151,
+          0.4151,
+          0.4151,
+          0.0
+        ],
+        "_Color": [
+          0.3868,
+          0.3868,
+          0.3868,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "17",
+      "name": "stage_cave-in-ni00201-muban",
+      "shader": "",
+      "mainTexture": {
+        "id": "-2823294961350573981",
+        "name": "stage_cave-in-ni00201-muban",
+        "path": "textures/-2823294961350573981_stage_cave-in-ni00201-muban.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-2823294961350573981",
+          "name": "stage_cave-in-ni00201-muban",
+          "path": "textures/-2823294961350573981_stage_cave-in-ni00201-muban.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "-2823294961350573981",
+          "name": "stage_cave-in-ni00201-muban",
+          "path": "textures/-2823294961350573981_stage_cave-in-ni00201-muban.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.6226,
+          0.6226,
+          0.6226,
+          0.4706
+        ],
+        "_Color": [
+          0.3868,
+          0.3868,
+          0.3868,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "18",
+      "name": "Woodenbarrel",
+      "shader": "",
+      "mainTexture": {
+        "id": "48",
+        "name": "Woodenbarrel1",
+        "path": "textures/48_Woodenbarrel1.png",
+        "width": 64,
+        "height": 64
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "48",
+          "name": "Woodenbarrel1",
+          "path": "textures/48_Woodenbarrel1.png",
+          "width": 64,
+          "height": 64
+        },
+        "_MainTex": {
+          "id": "48",
+          "name": "Woodenbarrel1",
+          "path": "textures/48_Woodenbarrel1.png",
+          "width": 64,
+          "height": 64
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.5882,
+          0.5882,
+          0.5882,
+          0.0
+        ],
+        "_Color": [
+          0.7843,
+          0.7843,
+          0.7843,
+          0.2157
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.3137,
+          0.3137,
+          0.3137,
+          0.19
+        ]
+      }
+    },
+    {
+      "id": "20",
+      "name": "stage-mutoudui",
+      "shader": "",
+      "mainTexture": {
+        "id": "47",
+        "name": "mutoudui",
+        "path": "textures/47_mutoudui.png",
+        "width": 128,
+        "height": 128
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "47",
+          "name": "mutoudui",
+          "path": "textures/47_mutoudui.png",
+          "width": 128,
+          "height": 128
+        },
+        "_MainTex": {
+          "id": "47",
+          "name": "mutoudui",
+          "path": "textures/47_mutoudui.png",
+          "width": 128,
+          "height": 128
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.4623,
+          0.4623,
+          0.4623,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "21",
+      "name": "tiegui_effect_013",
+      "shader": "",
+      "mainTexture": {
+        "id": "5300684038345499350",
+        "name": "tiegui",
+        "path": "textures/5300684038345499350_tiegui.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_EmissionMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7059,
+          0.7059,
+          0.7059,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortOffset": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortX": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortY": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.1226,
+          0.1226,
+          0.1226,
+          0.0
+        ],
+        "_Flip": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_RendererColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SecondaryMapColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SpecColor": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "22",
+      "name": "stage-kuangdongrukou",
+      "shader": "",
+      "mainTexture": {
+        "id": "45",
+        "name": "kuangdongrukou_01",
+        "path": "textures/45_kuangdongrukou_01.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "45",
+          "name": "kuangdongrukou_01",
+          "path": "textures/45_kuangdongrukou_01.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "45",
+          "name": "kuangdongrukou_01",
+          "path": "textures/45_kuangdongrukou_01.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7453,
+          0.7453,
+          0.7453,
+          0.0
+        ],
+        "_Color": [
+          0.3868,
+          0.3868,
+          0.3868,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "23",
+      "name": "tiegui_effect_010",
+      "shader": "",
+      "mainTexture": {
+        "id": "5300684038345499350",
+        "name": "tiegui",
+        "path": "textures/5300684038345499350_tiegui.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_EmissionMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7059,
+          0.7059,
+          0.7059,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortOffset": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortX": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortY": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.1226,
+          0.1226,
+          0.1226,
+          0.0
+        ],
+        "_Flip": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_RendererColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SecondaryMapColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SpecColor": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "24",
+      "name": "tiegui_effect_001",
+      "shader": "",
+      "mainTexture": {
+        "id": "5300684038345499350",
+        "name": "tiegui",
+        "path": "textures/5300684038345499350_tiegui.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_EmissionMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7059,
+          0.7059,
+          0.7059,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0784,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_SpecColor": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "25",
+      "name": "tiegui_effect_006",
+      "shader": "",
+      "mainTexture": {
+        "id": "5300684038345499350",
+        "name": "tiegui",
+        "path": "textures/5300684038345499350_tiegui.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_EmissionMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7059,
+          0.7059,
+          0.7059,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortOffset": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortX": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortY": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.1226,
+          0.1226,
+          0.1226,
+          0.0
+        ],
+        "_Flip": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_RendererColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SecondaryMapColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SpecColor": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "26",
+      "name": "tiegui_effect_014",
+      "shader": "",
+      "mainTexture": {
+        "id": "5300684038345499350",
+        "name": "tiegui",
+        "path": "textures/5300684038345499350_tiegui.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_EmissionMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7059,
+          0.7059,
+          0.7059,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortOffset": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortX": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortY": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.1226,
+          0.1226,
+          0.1226,
+          0.0
+        ],
+        "_Flip": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_RendererColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SecondaryMapColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SpecColor": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "27",
+      "name": "shadowonly",
+      "shader": "",
+      "mainTexture": null,
+      "textures": {},
+      "colors": {
+        "_BaseColor": [
+          0.5189,
+          0.5189,
+          0.5189,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "28",
+      "name": "tiegui_effect_004",
+      "shader": "",
+      "mainTexture": {
+        "id": "5300684038345499350",
+        "name": "tiegui",
+        "path": "textures/5300684038345499350_tiegui.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_EmissionMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7059,
+          0.7059,
+          0.7059,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortOffset": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortX": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortY": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.1226,
+          0.1226,
+          0.1226,
+          0.0
+        ],
+        "_Flip": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_RendererColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SecondaryMapColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SpecColor": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "29",
+      "name": "stage_cave-in-ni00201-qiangmian",
+      "shader": "",
+      "mainTexture": {
+        "id": "44",
+        "name": "stage_cave-in-ni00201-zhengti",
+        "path": "textures/44_stage_cave-in-ni00201-zhengti.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "44",
+          "name": "stage_cave-in-ni00201-zhengti",
+          "path": "textures/44_stage_cave-in-ni00201-zhengti.png",
+          "width": 1024,
+          "height": 1024
+        },
+        "_MainTex": {
+          "id": "44",
+          "name": "stage_cave-in-ni00201-zhengti",
+          "path": "textures/44_stage_cave-in-ni00201-zhengti.png",
+          "width": 1024,
+          "height": 1024
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.566,
+          0.566,
+          0.566,
+          0.4706
+        ],
+        "_Color": [
+          0.3868,
+          0.3868,
+          0.3868,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "name": "tiegui_effect_008",
+      "shader": "",
+      "mainTexture": {
+        "id": "5300684038345499350",
+        "name": "tiegui",
+        "path": "textures/5300684038345499350_tiegui.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_EmissionMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7059,
+          0.7059,
+          0.7059,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortOffset": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortX": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortY": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.1226,
+          0.1226,
+          0.1226,
+          0.0
+        ],
+        "_Flip": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_RendererColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SecondaryMapColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SpecColor": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "30",
+      "name": "stage_cave-in_props-d",
+      "shader": "",
+      "mainTexture": {
+        "id": "-4849739278625436936",
+        "name": "stage_cave-in_props",
+        "path": "textures/-4849739278625436936_stage_cave-in_props.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-4849739278625436936",
+          "name": "stage_cave-in_props",
+          "path": "textures/-4849739278625436936_stage_cave-in_props.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "-4849739278625436936",
+          "name": "stage_cave-in_props",
+          "path": "textures/-4849739278625436936_stage_cave-in_props.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.3491,
+          0.3491,
+          0.3491,
+          1.0
+        ],
+        "_Color": [
+          0.3868,
+          0.3868,
+          0.3868,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "31",
+      "name": "tiegui_effect_011",
+      "shader": "",
+      "mainTexture": {
+        "id": "5300684038345499350",
+        "name": "tiegui",
+        "path": "textures/5300684038345499350_tiegui.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_EmissionMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7059,
+          0.7059,
+          0.7059,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortOffset": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortX": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortY": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.1226,
+          0.1226,
+          0.1226,
+          0.0
+        ],
+        "_Flip": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_RendererColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SecondaryMapColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SpecColor": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "32",
+      "name": "stage_cave-in_props",
+      "shader": "",
+      "mainTexture": {
+        "id": "-4849739278625436936",
+        "name": "stage_cave-in_props",
+        "path": "textures/-4849739278625436936_stage_cave-in_props.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-4849739278625436936",
+          "name": "stage_cave-in_props",
+          "path": "textures/-4849739278625436936_stage_cave-in_props.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "-4849739278625436936",
+          "name": "stage_cave-in_props",
+          "path": "textures/-4849739278625436936_stage_cave-in_props.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.6887,
+          0.6887,
+          0.6887,
+          1.0
+        ],
+        "_Color": [
+          0.3868,
+          0.3868,
+          0.3868,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "35",
+      "name": "stage_city-pit-da00101-wujian01",
+      "shader": "",
+      "mainTexture": {
+        "id": "3317378038884489430",
+        "name": "stage_city-pit-da00101-props",
+        "path": "textures/3317378038884489430_stage_city-pit-da00101-props.png",
+        "width": 512,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "3317378038884489430",
+          "name": "stage_city-pit-da00101-props",
+          "path": "textures/3317378038884489430_stage_city-pit-da00101-props.png",
+          "width": 512,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "3317378038884489430",
+          "name": "stage_city-pit-da00101-props",
+          "path": "textures/3317378038884489430_stage_city-pit-da00101-props.png",
+          "width": 512,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.4007,
+          0.3373,
+          0.502,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "36",
+      "name": "stage_cave-in-ni00201-qiangmian-l",
+      "shader": "",
+      "mainTexture": {
+        "id": "44",
+        "name": "stage_cave-in-ni00201-zhengti",
+        "path": "textures/44_stage_cave-in-ni00201-zhengti.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "44",
+          "name": "stage_cave-in-ni00201-zhengti",
+          "path": "textures/44_stage_cave-in-ni00201-zhengti.png",
+          "width": 1024,
+          "height": 1024
+        },
+        "_MainTex": {
+          "id": "44",
+          "name": "stage_cave-in-ni00201-zhengti",
+          "path": "textures/44_stage_cave-in-ni00201-zhengti.png",
+          "width": 1024,
+          "height": 1024
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.9245,
+          0.9245,
+          0.9245,
+          0.4706
+        ],
+        "_Color": [
+          0.3868,
+          0.3868,
+          0.3868,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "37",
+      "name": "tiegui_effect_combine",
+      "shader": "",
+      "mainTexture": {
+        "id": "5300684038345499350",
+        "name": "tiegui",
+        "path": "textures/5300684038345499350_tiegui.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_EmissionMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7059,
+          0.7059,
+          0.7059,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_DistortOffset": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortX": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortY": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0784,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_Flip": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_RendererColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SecondaryMapColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SpecColor": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "38",
+      "name": "tiegui_effect_016",
+      "shader": "",
+      "mainTexture": {
+        "id": "5300684038345499350",
+        "name": "tiegui",
+        "path": "textures/5300684038345499350_tiegui.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_EmissionMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7059,
+          0.7059,
+          0.7059,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortOffset": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortX": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortY": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.1226,
+          0.1226,
+          0.1226,
+          0.0
+        ],
+        "_Flip": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_RendererColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SecondaryMapColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SpecColor": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "39",
+      "name": "stage_cave-in-ni00201-muban-d",
+      "shader": "",
+      "mainTexture": {
+        "id": "-2823294961350573981",
+        "name": "stage_cave-in-ni00201-muban",
+        "path": "textures/-2823294961350573981_stage_cave-in-ni00201-muban.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-2823294961350573981",
+          "name": "stage_cave-in-ni00201-muban",
+          "path": "textures/-2823294961350573981_stage_cave-in-ni00201-muban.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "-2823294961350573981",
+          "name": "stage_cave-in-ni00201-muban",
+          "path": "textures/-2823294961350573981_stage_cave-in-ni00201-muban.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.4623,
+          0.4623,
+          0.4623,
+          0.4706
+        ],
+        "_Color": [
+          0.3868,
+          0.3868,
+          0.3868,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "name": "stage-kuangche",
+      "shader": "",
+      "mainTexture": {
+        "id": "-6170087308123653227",
+        "name": "kuangche_a",
+        "path": "textures/-6170087308123653227_kuangche_a.png",
+        "width": 128,
+        "height": 128
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-6170087308123653227",
+          "name": "kuangche_a",
+          "path": "textures/-6170087308123653227_kuangche_a.png",
+          "width": 128,
+          "height": 128
+        },
+        "_MainTex": {
+          "id": "-6170087308123653227",
+          "name": "kuangche_a",
+          "path": "textures/-6170087308123653227_kuangche_a.png",
+          "width": 128,
+          "height": 128
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.5566,
+          0.5566,
+          0.5566,
+          0.0
+        ],
+        "_Color": [
+          0.3868,
+          0.3868,
+          0.3868,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "41",
+      "name": "Woodenbox02-small",
+      "shader": "",
+      "mainTexture": {
+        "id": "7262214337163037907",
+        "name": "Woodenbox02_0.8cm",
+        "path": "textures/7262214337163037907_Woodenbox02_0.8cm.png",
+        "width": 128,
+        "height": 128
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "7262214337163037907",
+          "name": "Woodenbox02_0.8cm",
+          "path": "textures/7262214337163037907_Woodenbox02_0.8cm.png",
+          "width": 128,
+          "height": 128
+        },
+        "_MainTex": {
+          "id": "7262214337163037907",
+          "name": "Woodenbox02_0.8cm",
+          "path": "textures/7262214337163037907_Woodenbox02_0.8cm.png",
+          "width": 128,
+          "height": 128
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.5472,
+          0.5472,
+          0.5472,
+          0.0
+        ],
+        "_Color": [
+          0.7843,
+          0.7843,
+          0.7843,
+          0.2157
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.3137,
+          0.3137,
+          0.3137,
+          0.19
+        ]
+      }
+    },
+    {
+      "id": "42",
+      "name": "tiegui_effect_012",
+      "shader": "",
+      "mainTexture": {
+        "id": "5300684038345499350",
+        "name": "tiegui",
+        "path": "textures/5300684038345499350_tiegui.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_EmissionMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7059,
+          0.7059,
+          0.7059,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortOffset": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortX": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortY": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.1226,
+          0.1226,
+          0.1226,
+          0.0
+        ],
+        "_Flip": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_RendererColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SecondaryMapColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SpecColor": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "name": "stone_stage07",
+      "shader": "",
+      "mainTexture": {
+        "id": "1037988099588724203",
+        "name": "stone_01",
+        "path": "textures/1037988099588724203_stone_01.png",
+        "width": 128,
+        "height": 128
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "1037988099588724203",
+          "name": "stone_01",
+          "path": "textures/1037988099588724203_stone_01.png",
+          "width": 128,
+          "height": 128
+        },
+        "_MainTex": {
+          "id": "1037988099588724203",
+          "name": "stone_01",
+          "path": "textures/1037988099588724203_stone_01.png",
+          "width": 128,
+          "height": 128
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.3766,
+          0.3715,
+          0.6509,
+          0.0
+        ],
+        "_Color": [
+          0.7843,
+          0.7843,
+          0.7843,
+          0.2157
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.3137,
+          0.3137,
+          0.3137,
+          0.19
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "name": "stage_cave-in-ni00201-dimian",
+      "shader": "",
+      "mainTexture": {
+        "id": "44",
+        "name": "stage_cave-in-ni00201-zhengti",
+        "path": "textures/44_stage_cave-in-ni00201-zhengti.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "44",
+          "name": "stage_cave-in-ni00201-zhengti",
+          "path": "textures/44_stage_cave-in-ni00201-zhengti.png",
+          "width": 1024,
+          "height": 1024
+        },
+        "_MainTex": {
+          "id": "44",
+          "name": "stage_cave-in-ni00201-zhengti",
+          "path": "textures/44_stage_cave-in-ni00201-zhengti.png",
+          "width": 1024,
+          "height": 1024
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.6509,
+          0.6387,
+          0.5926,
+          0.4706
+        ],
+        "_Color": [
+          0.3868,
+          0.3868,
+          0.3868,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "name": "stage-mujiazi",
+      "shader": "",
+      "mainTexture": {
+        "id": "51",
+        "name": "mujia_01",
+        "path": "textures/51_mujia_01.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "51",
+          "name": "mujia_01",
+          "path": "textures/51_mujia_01.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "51",
+          "name": "mujia_01",
+          "path": "textures/51_mujia_01.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.5566,
+          0.5566,
+          0.5566,
+          0.0
+        ],
+        "_Color": [
+          0.3868,
+          0.3868,
+          0.3868,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "name": "stage-stone-light",
+      "shader": "",
+      "mainTexture": {
+        "id": "-503591225196284764",
+        "name": "stage-stone",
+        "path": "textures/-503591225196284764_stage-stone.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-503591225196284764",
+          "name": "stage-stone",
+          "path": "textures/-503591225196284764_stage-stone.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "-503591225196284764",
+          "name": "stage-stone",
+          "path": "textures/-503591225196284764_stage-stone.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.6226,
+          0.6226,
+          0.6226,
+          0.0
+        ],
+        "_Color": [
+          0.3868,
+          0.3868,
+          0.3868,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "name": "tiegui_effect_015",
+      "shader": "",
+      "mainTexture": {
+        "id": "5300684038345499350",
+        "name": "tiegui",
+        "path": "textures/5300684038345499350_tiegui.png",
+        "width": 256,
+        "height": 256
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_EmissionMap": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        },
+        "_MainTex": {
+          "id": "5300684038345499350",
+          "name": "tiegui",
+          "path": "textures/5300684038345499350_tiegui.png",
+          "width": 256,
+          "height": 256
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.7059,
+          0.7059,
+          0.7059,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortOffset": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortX": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_DistortY": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.1226,
+          0.1226,
+          0.1226,
+          0.0
+        ],
+        "_Flip": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_RendererColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SecondaryMapColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_SpecColor": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    }
+  ]
+}
