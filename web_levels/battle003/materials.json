@@ -1,0 +1,527 @@
+{
+  "schemaVersion": 1,
+  "mapName": "battle003",
+  "stats": {
+    "materialCount": 10,
+    "textureCount": 5,
+    "skippedTextureCount": 0
+  },
+  "materials": [
+    {
+      "id": "11",
+      "name": "hightfog-battle003-00",
+      "shader": "",
+      "mainTexture": null,
+      "textures": {},
+      "colors": {
+        "_MainColor": [
+          0.2653,
+          0.2587,
+          0.3585,
+          1.0
+        ],
+        "_Softnearfar": [
+          1.0,
+          6.03,
+          0.0,
+          7.23
+        ]
+      }
+    },
+    {
+      "id": "12",
+      "name": "glow_10",
+      "shader": "",
+      "mainTexture": null,
+      "textures": {},
+      "colors": {
+        "_BaseColor": [
+          0.4887,
+          0.5963,
+          0.7453,
+          1.0
+        ],
+        "_BaseColorAddSubDiff": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_CameraFadeParams": [
+          0.0,
+          Infinity,
+          0.0,
+          0.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_EmissionColor": [
+          0.1442,
+          0.4548,
+          2.1185,
+          1.0
+        ],
+        "_SoftParticleFadeParams": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "13",
+      "name": "battle003-zhengti00",
+      "shader": "",
+      "mainTexture": {
+        "id": "6434218946463717060",
+        "name": "battle001-beijing",
+        "path": "textures/6434218946463717060_battle001-beijing.png",
+        "width": 512,
+        "height": 1024
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "6434218946463717060",
+          "name": "battle001-beijing",
+          "path": "textures/6434218946463717060_battle001-beijing.png",
+          "width": 512,
+          "height": 1024
+        },
+        "_MainTex": {
+          "id": "6434218946463717060",
+          "name": "battle001-beijing",
+          "path": "textures/6434218946463717060_battle001-beijing.png",
+          "width": 512,
+          "height": 1024
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.5022,
+          0.5683,
+          0.6226,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "15",
+      "name": "battle003-beijing",
+      "shader": "",
+      "mainTexture": null,
+      "textures": {},
+      "colors": {
+        "_BaseColor": [
+          0.2892,
+          0.289,
+          0.3208,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "17",
+      "name": "glow-battle_t",
+      "shader": "",
+      "mainTexture": {
+        "id": "5511145152204299993",
+        "name": "fx_fire_loop",
+        "path": "textures/5511145152204299993_fx_fire_loop.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "5511145152204299993",
+          "name": "fx_fire_loop",
+          "path": "textures/5511145152204299993_fx_fire_loop.png",
+          "width": 1024,
+          "height": 1024
+        },
+        "_MainTex": {
+          "id": "5511145152204299993",
+          "name": "fx_fire_loop",
+          "path": "textures/5511145152204299993_fx_fire_loop.png",
+          "width": 1024,
+          "height": 1024
+        },
+        "_UVAnimMaskMap": {
+          "id": "3586098436121431014",
+          "name": "fx_noise_001",
+          "path": "textures/3586098436121431014_fx_noise_001.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.3531,
+          0.3679,
+          0.1406,
+          1.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_ColorAdd": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          1.498,
+          0.4022,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "name": "glow_9",
+      "shader": "",
+      "mainTexture": null,
+      "textures": {},
+      "colors": {
+        "_BaseColor": [
+          0.8941,
+          0.7922,
+          0.7922,
+          1.0
+        ],
+        "_BaseColorAddSubDiff": [
+          -1.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "_CameraFadeParams": [
+          0.0,
+          Infinity,
+          0.0,
+          0.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_EmissionColor": [
+          4.5948,
+          0.329,
+          0.0,
+          1.0
+        ],
+        "_SoftParticleFadeParams": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "name": "battle003-zhengti",
+      "shader": "",
+      "mainTexture": {
+        "id": "20",
+        "name": "battle003-zhengti",
+        "path": "textures/20_battle003-zhengti.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "20",
+          "name": "battle003-zhengti",
+          "path": "textures/20_battle003-zhengti.png",
+          "width": 1024,
+          "height": 1024
+        },
+        "_MainTex": {
+          "id": "20",
+          "name": "battle003-zhengti",
+          "path": "textures/20_battle003-zhengti.png",
+          "width": 1024,
+          "height": 1024
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.6887,
+          0.6887,
+          0.6887,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "name": "hightfog-battle003",
+      "shader": "",
+      "mainTexture": null,
+      "textures": {},
+      "colors": {
+        "_MainColor": [
+          0.224,
+          0.3636,
+          0.5,
+          1.0
+        ],
+        "_Softnearfar": [
+          0.0,
+          5.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "name": "glow_1",
+      "shader": "",
+      "mainTexture": null,
+      "textures": {},
+      "colors": {
+        "_BaseColor": [
+          1.0,
+          0.6501,
+          0.2594,
+          1.0
+        ],
+        "_BaseColorAddSubDiff": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_CameraFadeParams": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_EmissionColor": [
+          1.4016,
+          0.1345,
+          0.0255,
+          1.0
+        ],
+        "_SoftParticleFadeParams": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "name": "Runes03",
+      "shader": "",
+      "mainTexture": {
+        "id": "5447304501749591872",
+        "name": "Runes",
+        "path": "textures/5447304501749591872_Runes.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "5447304501749591872",
+          "name": "Runes",
+          "path": "textures/5447304501749591872_Runes.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.3074,
+          0.374,
+          0.4623,
+          1.0
+        ],
+        "_BaseColorAddSubDiff": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_CameraFadeParams": [
+          0.0,
+          Infinity,
+          0.0,
+          0.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_EmissionColor": [
+          0.366,
+          0.8984,
+          2.1185,
+          1.0
+        ],
+        "_SoftParticleFadeParams": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ]
+}
