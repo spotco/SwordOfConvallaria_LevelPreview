@@ -1,0 +1,596 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_plain-spcl-da00501",
+  "stats": {
+    "materialCount": 10,
+    "textureCount": 6,
+    "skippedTextureCount": 1
+  },
+  "materials": [
+    {
+      "id": "-7570766783883702616",
+      "name": "Lit",
+      "shader": "",
+      "mainTexture": null,
+      "textures": {},
+      "colors": {
+        "_BaseColor": [
+          0.3208,
+          0.2921,
+          0.2375,
+          0.0
+        ],
+        "_Color": [
+          0.5,
+          0.5,
+          0.5,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "name": "stage_plain-spcl-00501_fog-l",
+      "shader": "",
+      "mainTexture": {
+        "id": "8636853611228694068",
+        "name": "dls_virtual-sky-da00201-fog",
+        "path": "textures/8636853611228694068_dls_virtual-sky-da00201-fog.png",
+        "width": 64,
+        "height": 64
+      },
+      "textures": {
+        "_MainTex": {
+          "id": "8636853611228694068",
+          "name": "dls_virtual-sky-da00201-fog",
+          "path": "textures/8636853611228694068_dls_virtual-sky-da00201-fog.png",
+          "width": 64,
+          "height": 64
+        }
+      },
+      "colors": {
+        "_MainColor": [
+          1.4415,
+          3.0992,
+          3.9461,
+          0.451
+        ],
+        "_Softnearfar": [
+          0.0,
+          10.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "11",
+      "name": "stage_plain-spcl-00501_fog",
+      "shader": "",
+      "mainTexture": {
+        "id": "8636853611228694068",
+        "name": "dls_virtual-sky-da00201-fog",
+        "path": "textures/8636853611228694068_dls_virtual-sky-da00201-fog.png",
+        "width": 64,
+        "height": 64
+      },
+      "textures": {
+        "_MainTex": {
+          "id": "8636853611228694068",
+          "name": "dls_virtual-sky-da00201-fog",
+          "path": "textures/8636853611228694068_dls_virtual-sky-da00201-fog.png",
+          "width": 64,
+          "height": 64
+        }
+      },
+      "colors": {
+        "_MainColor": [
+          0.312,
+          0.6741,
+          0.8591,
+          0.451
+        ],
+        "_Softnearfar": [
+          0.0,
+          10.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "12",
+      "name": "capital_lxy-os-00101-props00",
+      "shader": "",
+      "mainTexture": {
+        "id": "7790057109662606265",
+        "name": "capital_lxy-os-00101-props00",
+        "path": "textures/7790057109662606265_capital_lxy-os-00101-props00.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "7790057109662606265",
+          "name": "capital_lxy-os-00101-props00",
+          "path": "textures/7790057109662606265_capital_lxy-os-00101-props00.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "7790057109662606265",
+          "name": "capital_lxy-os-00101-props00",
+          "path": "textures/7790057109662606265_capital_lxy-os-00101-props00.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.6321,
+          0.6321,
+          0.6321,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "13",
+      "name": "stage_plain-spcl-00501-zhengti00",
+      "shader": "",
+      "mainTexture": {
+        "id": "-3463696629386750438",
+        "name": "stage_plain-spcl-00501-zhengti00",
+        "path": "textures/-3463696629386750438_stage_plain-spcl-00501-zhengti00.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-3463696629386750438",
+          "name": "stage_plain-spcl-00501-zhengti00",
+          "path": "textures/-3463696629386750438_stage_plain-spcl-00501-zhengti00.png",
+          "width": 1024,
+          "height": 1024
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.5566,
+          0.5566,
+          0.5566,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_IceColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_ReflectionPlaneNormal": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "_ReflectionPlanePos": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "name": "capital_lxy-os-00101-zhiwu00",
+      "shader": "",
+      "mainTexture": {
+        "id": "-1929747106808074349",
+        "name": "capital_lxy-os-00101-zhiwu",
+        "path": "textures/-1929747106808074349_capital_lxy-os-00101-zhiwu.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-1929747106808074349",
+          "name": "capital_lxy-os-00101-zhiwu",
+          "path": "textures/-1929747106808074349_capital_lxy-os-00101-zhiwu.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "-1929747106808074349",
+          "name": "capital_lxy-os-00101-zhiwu",
+          "path": "textures/-1929747106808074349_capital_lxy-os-00101-zhiwu.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.65,
+          0.65,
+          0.65,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "name": "capital_lxy-os-00101-props01",
+      "shader": "",
+      "mainTexture": {
+        "id": "8165233984891676537",
+        "name": "capital_lxy-os-00101-props01",
+        "path": "textures/8165233984891676537_capital_lxy-os-00101-props01.png",
+        "width": 512,
+        "height": 512
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "8165233984891676537",
+          "name": "capital_lxy-os-00101-props01",
+          "path": "textures/8165233984891676537_capital_lxy-os-00101-props01.png",
+          "width": 512,
+          "height": 512
+        },
+        "_MainTex": {
+          "id": "8165233984891676537",
+          "name": "capital_lxy-os-00101-props01",
+          "path": "textures/8165233984891676537_capital_lxy-os-00101-props01.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.6321,
+          0.6321,
+          0.6321,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "name": "BG-plane-capital-common00-snow",
+      "shader": "",
+      "mainTexture": {
+        "id": "-5192757134376888944",
+        "name": "BG-plane-new-capital02",
+        "path": "textures/-5192757134376888944_BG-plane-new-capital02.png",
+        "width": 128,
+        "height": 128
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-5192757134376888944",
+          "name": "BG-plane-new-capital02",
+          "path": "textures/-5192757134376888944_BG-plane-new-capital02.png",
+          "width": 128,
+          "height": 128
+        },
+        "_MainTex": {
+          "id": "-5192757134376888944",
+          "name": "BG-plane-new-capital02",
+          "path": "textures/-5192757134376888944_BG-plane-new-capital02.png",
+          "width": 128,
+          "height": 128
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.6462,
+          0.982,
+          1.0,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "name": "stage_plain-spcl-00501-zhengti00-alpha",
+      "shader": "",
+      "mainTexture": {
+        "id": "-3463696629386750438",
+        "name": "stage_plain-spcl-00501-zhengti00",
+        "path": "textures/-3463696629386750438_stage_plain-spcl-00501-zhengti00.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "textures": {
+        "_BaseMap": {
+          "id": "-3463696629386750438",
+          "name": "stage_plain-spcl-00501-zhengti00",
+          "path": "textures/-3463696629386750438_stage_plain-spcl-00501-zhengti00.png",
+          "width": 1024,
+          "height": 1024
+        },
+        "_MainTex": {
+          "id": "-3463696629386750438",
+          "name": "stage_plain-spcl-00501-zhengti00",
+          "path": "textures/-3463696629386750438_stage_plain-spcl-00501-zhengti00.png",
+          "width": 1024,
+          "height": 1024
+        }
+      },
+      "colors": {
+        "_BaseColor": [
+          0.5566,
+          0.5566,
+          0.5566,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "name": "shadowonly",
+      "shader": "",
+      "mainTexture": null,
+      "textures": {},
+      "colors": {
+        "_BaseColor": [
+          0.5189,
+          0.5189,
+          0.5189,
+          1.0
+        ],
+        "_Color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "_CustomAmbientColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_OcclusionTint": [
+          0.7,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "_OutlineColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_SpecColor": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      }
+    }
+  ]
+}
