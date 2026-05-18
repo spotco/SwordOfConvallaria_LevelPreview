@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_city-spcl-da00801",
+  "source": {
+    "collidersCsv": "level_probe/reports/stage_city-spcl-da00801_colliders.csv",
+    "sceneObjectsCsv": "level_probe/reports/stage_city-spcl-da00801_scene_objects.csv"
+  },
+  "stats": {
+    "colliderCount": 1,
+    "drawableCount": 1,
+    "typeCounts": {
+      "BoxCollider": 1
+    }
+  },
+  "colliders": [
+    {
+      "id": "608",
+      "type": "BoxCollider",
+      "gameObjectId": "75",
+      "gameObjectName": "props_shed00",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": 1.033182,
+        "y": 12.856408,
+        "z": 20.640613
+      },
+      "positionSource": "scene_object_transform",
+      "center": {
+        "x": -0.059425,
+        "y": -0.188678,
+        "z": 0.174206
+      },
+      "size": {
+        "x": 1.0,
+        "y": 1.5,
+        "z": 2.0
+      },
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    }
+  ]
+}
