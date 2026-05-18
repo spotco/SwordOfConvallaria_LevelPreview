@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "mapName": "mapeditor",
+  "source": {
+    "gridCsv": "level_probe/reports/mapeditor_grid_blocks.csv",
+    "metadataJson": "level_probe/reports/mapeditor_map_metadata.json"
+  },
+  "metadata": {
+    "bundle": "battle/map/mapeditor.unity3d",
+    "resolvedBundle": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sword of Convallaria\\assets\\battle\\map\\mapeditor.unity3d",
+    "blockCount": 2,
+    "blockTypeCounts": {
+      "1": 1,
+      "27": 1
+    },
+    "mapProperty": {
+      "useBound": 0,
+      "useBattle": 0,
+      "boundMin": "int3_storage(x=0, y=0, z=0)",
+      "boundMax": "int3_storage(x=0, y=0, z=0)",
+      "boundMinCamera": "Vector3f(0.0, 0.0, 0.0)",
+      "boundMaxCamera": "Vector3f(0.0, 0.0, 0.0)",
+      "orthographicSize": 3.7200000286102295,
+      "path": "map_tool/Map"
+    },
+    "defaultCamera": {
+      "source": "MapProperty.camera",
+      "cameraId": "51",
+      "gameObjectId": "8",
+      "transformId": "43",
+      "position": {
+        "x": -0.0,
+        "y": 6.769284,
+        "z": -2.275256
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "forward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "right": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "up": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "orthographic": true,
+      "orthographicSize": 2.4000000953674316,
+      "fieldOfView": 20.0
+    },
+    "exportFrame": {
+      "type": "camera_aligned_world",
+      "pointFormula": "export = (dot(world,right), dot(world,up), dot(world,forward))",
+      "basis": {
+        "right": {
+          "x": -0.707107,
+          "y": -0.0,
+          "z": 0.707107
+        },
+        "up": {
+          "x": 0.353553,
+          "y": 0.866025,
+          "z": 0.353553
+        },
+        "forward": {
+          "x": 0.612372,
+          "y": -0.5,
+          "z": 0.612372
+        }
+      }
+    }
+  },
+  "stats": {
+    "tileCount": 2,
+    "walkabilityCounts": {
+      "unknown": 2
+    },
+    "extent": {
+      "min": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "max": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  },
+  "tiles": [
+    {
+      "id": "155",
+      "monoId": "302",
+      "name": "garagekits_special",
+      "path": "garagekits_special",
+      "walkability": "unknown",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "blockType": 1,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -1.732051,
+          "z": 1.0
+        },
+        "size": {
+          "x": 1.0,
+          "y": 4.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "id": "175",
+      "monoId": "307",
+      "name": "garagekits_empty",
+      "path": "garagekits_empty",
+      "walkability": "unknown",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "blockType": 27,
+      "isGamepadCursorMovable": "1",
+      "layer": "24",
+      "collider": {
+        "type": "BoxCollider",
+        "isTrigger": "True",
+        "center": {
+          "x": 0.0,
+          "y": -1.732051,
+          "z": 1.0
+        },
+        "size": {
+          "x": 1.0,
+          "y": 4.0,
+          "z": 1.0
+        }
+      }
+    }
+  ]
+}

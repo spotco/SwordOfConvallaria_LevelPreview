@@ -1,0 +1,1012 @@
+{
+  "schemaVersion": 1,
+  "mapName": "mapeditor",
+  "source": {
+    "bundle": "battle/map/mapeditor.unity3d",
+    "resolvedBundle": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sword of Convallaria\\assets\\battle\\map\\mapeditor.unity3d",
+    "dependencyBundles": [
+      "battle/unit/battle_unit10.unity3d",
+      "shaders.unity3d",
+      "share/anim/share_animation.unity3d",
+      "share/anim/share_effect.unity3d",
+      "share/fbx/share_fbx1.unity3d",
+      "share/fbx/share_fbx3.unity3d",
+      "share/tex/share_tex17.unity3d",
+      "share/tex/share_tex19.unity3d",
+      "share/tex/share_tex20.unity3d",
+      "share/tex/share_tex31.unity3d",
+      "share/tex/share_tex32.unity3d",
+      "share/tex/share_tex39.unity3d",
+      "share/tex/share_tex4.unity3d",
+      "share/tex/share_tex47.unity3d",
+      "share/tex/share_tex6.unity3d"
+    ]
+  },
+  "exportFrame": {
+    "type": "camera_aligned_world",
+    "pointFormula": "export = (dot(world,right), dot(world,up), dot(world,forward))",
+    "basis": {
+      "right": {
+        "x": -0.707107,
+        "y": -0.0,
+        "z": 0.707107
+      },
+      "up": {
+        "x": 0.353553,
+        "y": 0.866025,
+        "z": 0.353553
+      },
+      "forward": {
+        "x": 0.612372,
+        "y": -0.5,
+        "z": 0.612372
+      }
+    }
+  },
+  "stats": {
+    "meshFilterCount": 19,
+    "meshInstanceCount": 13,
+    "skippedCount": 6,
+    "skippedReasons": {
+      "FileNotFoundError": 6
+    },
+    "vertexCount": 56,
+    "triangleCount": 28
+  },
+  "instances": [
+    {
+      "id": "129",
+      "name": "mesh",
+      "path": "garagekits_top_8_stone/mesh",
+      "layer": 0,
+      "meshFilterId": "247",
+      "meshId": "1134017616073252960",
+      "meshName": "Mesh Object",
+      "coordinateSpace": "camera_aligned_from_local_transformed_to_world",
+      "staticBatch": {
+        "firstSubMesh": 0,
+        "subMeshCount": 0
+      },
+      "rendererEnabled": true,
+      "materialIds": [
+        "3",
+        "3"
+      ],
+      "sourceVertexCount": 4,
+      "vertexCount": 4,
+      "triangleCount": 2,
+      "submeshes": [
+        {
+          "index": 0,
+          "triangleCount": 1,
+          "start": 0,
+          "materialId": "3"
+        },
+        {
+          "index": 1,
+          "triangleCount": 1,
+          "start": 3,
+          "materialId": "3"
+        }
+      ],
+      "vertices": [
+        0.0,
+        0.35355,
+        0.61237,
+        -0.0,
+        -0.35355,
+        -0.61237,
+        0.70711,
+        0.0,
+        -0.0,
+        -0.70711,
+        -0.0,
+        0.0
+      ],
+      "uvs": [
+        0.49219,
+        0.96095,
+        0.49219,
+        0.0078,
+        0.01562,
+        0.48438,
+        0.96875,
+        0.48438
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "131",
+      "name": "mesh",
+      "path": "garagekits_top_1_mud/mesh",
+      "layer": 0,
+      "meshFilterId": "248",
+      "meshId": "1134017616073252960",
+      "meshName": "Mesh Object",
+      "coordinateSpace": "camera_aligned_from_local_transformed_to_world",
+      "staticBatch": {
+        "firstSubMesh": 0,
+        "subMeshCount": 0
+      },
+      "rendererEnabled": true,
+      "materialIds": [
+        "10",
+        "10"
+      ],
+      "sourceVertexCount": 4,
+      "vertexCount": 4,
+      "triangleCount": 2,
+      "submeshes": [
+        {
+          "index": 0,
+          "triangleCount": 1,
+          "start": 0,
+          "materialId": "10"
+        },
+        {
+          "index": 1,
+          "triangleCount": 1,
+          "start": 3,
+          "materialId": "10"
+        }
+      ],
+      "vertices": [
+        0.0,
+        0.35355,
+        0.61237,
+        -0.0,
+        -0.35355,
+        -0.61237,
+        0.70711,
+        0.0,
+        -0.0,
+        -0.70711,
+        -0.0,
+        0.0
+      ],
+      "uvs": [
+        0.49219,
+        0.96095,
+        0.49219,
+        0.0078,
+        0.01562,
+        0.48438,
+        0.96875,
+        0.48438
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "133",
+      "name": "mesh",
+      "path": "garagekits_top_11_toxicswamp/mesh",
+      "layer": 0,
+      "meshFilterId": "249",
+      "meshId": "1134017616073252960",
+      "meshName": "Mesh Object",
+      "coordinateSpace": "camera_aligned_from_local_transformed_to_world",
+      "staticBatch": {
+        "firstSubMesh": 0,
+        "subMeshCount": 0
+      },
+      "rendererEnabled": true,
+      "materialIds": [
+        "9",
+        "9"
+      ],
+      "sourceVertexCount": 4,
+      "vertexCount": 4,
+      "triangleCount": 2,
+      "submeshes": [
+        {
+          "index": 0,
+          "triangleCount": 1,
+          "start": 0,
+          "materialId": "9"
+        },
+        {
+          "index": 1,
+          "triangleCount": 1,
+          "start": 3,
+          "materialId": "9"
+        }
+      ],
+      "vertices": [
+        0.0,
+        0.35355,
+        0.61237,
+        -0.0,
+        -0.35355,
+        -0.61237,
+        0.70711,
+        0.0,
+        -0.0,
+        -0.70711,
+        -0.0,
+        0.0
+      ],
+      "uvs": [
+        0.49219,
+        0.96095,
+        0.49219,
+        0.0078,
+        0.01562,
+        0.48438,
+        0.96875,
+        0.48438
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "134",
+      "name": "mesh-half0.4",
+      "path": "garagekits_half/mesh-half0.4",
+      "layer": 0,
+      "meshFilterId": "250",
+      "meshId": "-5921414935021100906",
+      "meshName": "half_0.4",
+      "coordinateSpace": "camera_aligned_from_local_transformed_to_world",
+      "staticBatch": {
+        "firstSubMesh": 0,
+        "subMeshCount": 0
+      },
+      "rendererEnabled": true,
+      "materialIds": [
+        "16",
+        "16"
+      ],
+      "sourceVertexCount": 8,
+      "vertexCount": 8,
+      "triangleCount": 4,
+      "submeshes": [
+        {
+          "index": 0,
+          "triangleCount": 2,
+          "start": 0,
+          "materialId": "16"
+        },
+        {
+          "index": 1,
+          "triangleCount": 2,
+          "start": 6,
+          "materialId": "16"
+        }
+      ],
+      "vertices": [
+        -0.0,
+        -0.69996,
+        -0.41237,
+        0.70711,
+        -0.34641,
+        0.2,
+        0.70711,
+        -0.0,
+        0.0,
+        -0.0,
+        -0.35355,
+        -0.61237,
+        -0.70711,
+        -0.34641,
+        0.2,
+        -0.0,
+        -0.69996,
+        -0.41237,
+        -0.0,
+        -0.35355,
+        -0.61237,
+        -0.70711,
+        0.0,
+        -0.0
+      ],
+      "uvs": [
+        0.5,
+        0.25,
+        -0.0,
+        0.5,
+        -0.0,
+        0.75,
+        0.5,
+        0.5,
+        1.0,
+        0.5,
+        0.5,
+        0.25,
+        0.5,
+        0.5,
+        1.0,
+        0.75
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "137",
+      "name": "mesh",
+      "path": "garagekits_top_4_macadam/mesh",
+      "layer": 0,
+      "meshFilterId": "251",
+      "meshId": "1134017616073252960",
+      "meshName": "Mesh Object",
+      "coordinateSpace": "camera_aligned_from_local_transformed_to_world",
+      "staticBatch": {
+        "firstSubMesh": 0,
+        "subMeshCount": 0
+      },
+      "rendererEnabled": true,
+      "materialIds": [
+        "8",
+        "8"
+      ],
+      "sourceVertexCount": 4,
+      "vertexCount": 4,
+      "triangleCount": 2,
+      "submeshes": [
+        {
+          "index": 0,
+          "triangleCount": 1,
+          "start": 0,
+          "materialId": "8"
+        },
+        {
+          "index": 1,
+          "triangleCount": 1,
+          "start": 3,
+          "materialId": "8"
+        }
+      ],
+      "vertices": [
+        0.0,
+        0.35355,
+        0.61237,
+        -0.0,
+        -0.35355,
+        -0.61237,
+        0.70711,
+        0.0,
+        -0.0,
+        -0.70711,
+        -0.0,
+        0.0
+      ],
+      "uvs": [
+        0.49219,
+        0.96095,
+        0.49219,
+        0.0078,
+        0.01562,
+        0.48438,
+        0.96875,
+        0.48438
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "139",
+      "name": "mesh",
+      "path": "garagekits_top_6_wetland/mesh",
+      "layer": 0,
+      "meshFilterId": "252",
+      "meshId": "1134017616073252960",
+      "meshName": "Mesh Object",
+      "coordinateSpace": "camera_aligned_from_local_transformed_to_world",
+      "staticBatch": {
+        "firstSubMesh": 0,
+        "subMeshCount": 0
+      },
+      "rendererEnabled": true,
+      "materialIds": [
+        "14",
+        "14"
+      ],
+      "sourceVertexCount": 4,
+      "vertexCount": 4,
+      "triangleCount": 2,
+      "submeshes": [
+        {
+          "index": 0,
+          "triangleCount": 1,
+          "start": 0,
+          "materialId": "14"
+        },
+        {
+          "index": 1,
+          "triangleCount": 1,
+          "start": 3,
+          "materialId": "14"
+        }
+      ],
+      "vertices": [
+        0.0,
+        0.35355,
+        0.61237,
+        -0.0,
+        -0.35355,
+        -0.61237,
+        0.70711,
+        0.0,
+        -0.0,
+        -0.70711,
+        -0.0,
+        0.0
+      ],
+      "uvs": [
+        0.49219,
+        0.96095,
+        0.49219,
+        0.0078,
+        0.01562,
+        0.48438,
+        0.96875,
+        0.48438
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "141",
+      "name": "mesh",
+      "path": "garagekits_top_9_wood/mesh",
+      "layer": 0,
+      "meshFilterId": "253",
+      "meshId": "1134017616073252960",
+      "meshName": "Mesh Object",
+      "coordinateSpace": "camera_aligned_from_local_transformed_to_world",
+      "staticBatch": {
+        "firstSubMesh": 0,
+        "subMeshCount": 0
+      },
+      "rendererEnabled": true,
+      "materialIds": [
+        "21",
+        "21"
+      ],
+      "sourceVertexCount": 4,
+      "vertexCount": 4,
+      "triangleCount": 2,
+      "submeshes": [
+        {
+          "index": 0,
+          "triangleCount": 1,
+          "start": 0,
+          "materialId": "21"
+        },
+        {
+          "index": 1,
+          "triangleCount": 1,
+          "start": 3,
+          "materialId": "21"
+        }
+      ],
+      "vertices": [
+        0.0,
+        0.35355,
+        0.61237,
+        -0.0,
+        -0.35355,
+        -0.61237,
+        0.70711,
+        0.0,
+        -0.0,
+        -0.70711,
+        -0.0,
+        0.0
+      ],
+      "uvs": [
+        0.49219,
+        0.96095,
+        0.49219,
+        0.0078,
+        0.01562,
+        0.48438,
+        0.96875,
+        0.48438
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "145",
+      "name": "mesh",
+      "path": "garagekits_top_10_water/mesh",
+      "layer": 0,
+      "meshFilterId": "255",
+      "meshId": "1134017616073252960",
+      "meshName": "Mesh Object",
+      "coordinateSpace": "camera_aligned_from_local_transformed_to_world",
+      "staticBatch": {
+        "firstSubMesh": 0,
+        "subMeshCount": 0
+      },
+      "rendererEnabled": true,
+      "materialIds": [
+        "6",
+        "6"
+      ],
+      "sourceVertexCount": 4,
+      "vertexCount": 4,
+      "triangleCount": 2,
+      "submeshes": [
+        {
+          "index": 0,
+          "triangleCount": 1,
+          "start": 0,
+          "materialId": "6"
+        },
+        {
+          "index": 1,
+          "triangleCount": 1,
+          "start": 3,
+          "materialId": "6"
+        }
+      ],
+      "vertices": [
+        0.0,
+        0.35355,
+        0.61237,
+        -0.0,
+        -0.35355,
+        -0.61237,
+        0.70711,
+        0.0,
+        -0.0,
+        -0.70711,
+        -0.0,
+        0.0
+      ],
+      "uvs": [
+        0.49219,
+        0.96095,
+        0.49219,
+        0.0078,
+        0.01562,
+        0.48438,
+        0.96875,
+        0.48438
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "147",
+      "name": "mesh",
+      "path": "garagekits_top_12_ice/mesh",
+      "layer": 0,
+      "meshFilterId": "256",
+      "meshId": "1134017616073252960",
+      "meshName": "Mesh Object",
+      "coordinateSpace": "camera_aligned_from_local_transformed_to_world",
+      "staticBatch": {
+        "firstSubMesh": 0,
+        "subMeshCount": 0
+      },
+      "rendererEnabled": true,
+      "materialIds": [
+        "11",
+        "11"
+      ],
+      "sourceVertexCount": 4,
+      "vertexCount": 4,
+      "triangleCount": 2,
+      "submeshes": [
+        {
+          "index": 0,
+          "triangleCount": 1,
+          "start": 0,
+          "materialId": "11"
+        },
+        {
+          "index": 1,
+          "triangleCount": 1,
+          "start": 3,
+          "materialId": "11"
+        }
+      ],
+      "vertices": [
+        0.0,
+        0.35355,
+        0.61237,
+        -0.0,
+        -0.35355,
+        -0.61237,
+        0.70711,
+        0.0,
+        -0.0,
+        -0.70711,
+        -0.0,
+        0.0
+      ],
+      "uvs": [
+        0.49219,
+        0.96095,
+        0.49219,
+        0.0078,
+        0.01562,
+        0.48438,
+        0.96875,
+        0.48438
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "149",
+      "name": "mesh",
+      "path": "garagekits_top_3_sand/mesh",
+      "layer": 0,
+      "meshFilterId": "257",
+      "meshId": "1134017616073252960",
+      "meshName": "Mesh Object",
+      "coordinateSpace": "camera_aligned_from_local_transformed_to_world",
+      "staticBatch": {
+        "firstSubMesh": 0,
+        "subMeshCount": 0
+      },
+      "rendererEnabled": true,
+      "materialIds": [
+        "22",
+        "22"
+      ],
+      "sourceVertexCount": 4,
+      "vertexCount": 4,
+      "triangleCount": 2,
+      "submeshes": [
+        {
+          "index": 0,
+          "triangleCount": 1,
+          "start": 0,
+          "materialId": "22"
+        },
+        {
+          "index": 1,
+          "triangleCount": 1,
+          "start": 3,
+          "materialId": "22"
+        }
+      ],
+      "vertices": [
+        0.0,
+        0.35355,
+        0.61237,
+        -0.0,
+        -0.35355,
+        -0.61237,
+        0.70711,
+        0.0,
+        -0.0,
+        -0.70711,
+        -0.0,
+        0.0
+      ],
+      "uvs": [
+        0.49219,
+        0.96095,
+        0.49219,
+        0.0078,
+        0.01562,
+        0.48438,
+        0.96875,
+        0.48438
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "151",
+      "name": "mesh",
+      "path": "garagekits_top_5_wasteland/mesh",
+      "layer": 0,
+      "meshFilterId": "258",
+      "meshId": "1134017616073252960",
+      "meshName": "Mesh Object",
+      "coordinateSpace": "camera_aligned_from_local_transformed_to_world",
+      "staticBatch": {
+        "firstSubMesh": 0,
+        "subMeshCount": 0
+      },
+      "rendererEnabled": true,
+      "materialIds": [
+        "18",
+        "18"
+      ],
+      "sourceVertexCount": 4,
+      "vertexCount": 4,
+      "triangleCount": 2,
+      "submeshes": [
+        {
+          "index": 0,
+          "triangleCount": 1,
+          "start": 0,
+          "materialId": "18"
+        },
+        {
+          "index": 1,
+          "triangleCount": 1,
+          "start": 3,
+          "materialId": "18"
+        }
+      ],
+      "vertices": [
+        0.0,
+        0.35355,
+        0.61237,
+        -0.0,
+        -0.35355,
+        -0.61237,
+        0.70711,
+        0.0,
+        -0.0,
+        -0.70711,
+        -0.0,
+        0.0
+      ],
+      "uvs": [
+        0.49219,
+        0.96095,
+        0.49219,
+        0.0078,
+        0.01562,
+        0.48438,
+        0.96875,
+        0.48438
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "153",
+      "name": "mesh",
+      "path": "garagekits_top_2_grass/mesh",
+      "layer": 0,
+      "meshFilterId": "259",
+      "meshId": "1134017616073252960",
+      "meshName": "Mesh Object",
+      "coordinateSpace": "camera_aligned_from_local_transformed_to_world",
+      "staticBatch": {
+        "firstSubMesh": 0,
+        "subMeshCount": 0
+      },
+      "rendererEnabled": true,
+      "materialIds": [
+        "19",
+        "19"
+      ],
+      "sourceVertexCount": 4,
+      "vertexCount": 4,
+      "triangleCount": 2,
+      "submeshes": [
+        {
+          "index": 0,
+          "triangleCount": 1,
+          "start": 0,
+          "materialId": "19"
+        },
+        {
+          "index": 1,
+          "triangleCount": 1,
+          "start": 3,
+          "materialId": "19"
+        }
+      ],
+      "vertices": [
+        0.0,
+        0.35355,
+        0.61237,
+        -0.0,
+        -0.35355,
+        -0.61237,
+        0.70711,
+        0.0,
+        -0.0,
+        -0.70711,
+        -0.0,
+        0.0
+      ],
+      "uvs": [
+        0.49219,
+        0.96095,
+        0.49219,
+        0.0078,
+        0.01562,
+        0.48438,
+        0.96875,
+        0.48438
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "178",
+      "name": "mesh",
+      "path": "garagekits_top_7_road/mesh",
+      "layer": 0,
+      "meshFilterId": "263",
+      "meshId": "1134017616073252960",
+      "meshName": "Mesh Object",
+      "coordinateSpace": "camera_aligned_from_local_transformed_to_world",
+      "staticBatch": {
+        "firstSubMesh": 0,
+        "subMeshCount": 0
+      },
+      "rendererEnabled": true,
+      "materialIds": [
+        "12",
+        "12"
+      ],
+      "sourceVertexCount": 4,
+      "vertexCount": 4,
+      "triangleCount": 2,
+      "submeshes": [
+        {
+          "index": 0,
+          "triangleCount": 1,
+          "start": 0,
+          "materialId": "12"
+        },
+        {
+          "index": 1,
+          "triangleCount": 1,
+          "start": 3,
+          "materialId": "12"
+        }
+      ],
+      "vertices": [
+        0.0,
+        0.35355,
+        0.61237,
+        -0.0,
+        -0.35355,
+        -0.61237,
+        0.70711,
+        0.0,
+        -0.0,
+        -0.70711,
+        -0.0,
+        0.0
+      ],
+      "uvs": [
+        0.49219,
+        0.96095,
+        0.49219,
+        0.0078,
+        0.01562,
+        0.48438,
+        0.96875,
+        0.48438
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        0
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "gameObjectId": "142",
+      "path": "garagekits_logic/Cube",
+      "meshId": "10202",
+      "reason": "FileNotFoundError",
+      "detail": "File unity default resources not found in C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sword of Convallaria\\assets\\share\\tex"
+    },
+    {
+      "gameObjectId": "154",
+      "path": "garagekits_special/Cube",
+      "meshId": "10202",
+      "reason": "FileNotFoundError",
+      "detail": "File unity default resources not found in C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sword of Convallaria\\assets\\share\\tex"
+    },
+    {
+      "gameObjectId": "169",
+      "path": "garagekits_empty/papalpriestf/adjust_offset/effect/shadow_low",
+      "meshId": "10202",
+      "reason": "FileNotFoundError",
+      "detail": "File unity default resources not found in C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sword of Convallaria\\assets\\share\\tex"
+    },
+    {
+      "gameObjectId": "156",
+      "path": "garagekits_empty/Cube",
+      "meshId": "10202",
+      "reason": "FileNotFoundError",
+      "detail": "File unity default resources not found in C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sword of Convallaria\\assets\\share\\tex"
+    },
+    {
+      "gameObjectId": "12",
+      "path": "map_tool/Map/bg_plane/Plane2",
+      "meshId": "10209",
+      "reason": "FileNotFoundError",
+      "detail": "File unity default resources not found in C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sword of Convallaria\\assets\\share\\tex"
+    },
+    {
+      "gameObjectId": "13",
+      "path": "map_tool/Map/bg_plane/Plane1",
+      "meshId": "10209",
+      "reason": "FileNotFoundError",
+      "detail": "File unity default resources not found in C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sword of Convallaria\\assets\\share\\tex"
+    }
+  ]
+}
