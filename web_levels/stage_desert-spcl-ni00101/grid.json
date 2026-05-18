@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_desert-spcl-ni00101",
+  "source": {
+    "gridCsv": "level_probe/reports/stage_desert-spcl-ni00101_grid_blocks.csv",
+    "metadataJson": "level_probe/reports/stage_desert-spcl-ni00101_map_metadata.json"
+  },
+  "metadata": {
+    "bundle": "battle/map/stage_desert-spcl-ni00101.unity3d",
+    "resolvedBundle": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sword of Convallaria\\assets\\battle\\map\\stage_desert-spcl-ni00101.unity3d",
+    "blockCount": 2,
+    "blockTypeCounts": {
+      "0": 2
+    },
+    "mapProperty": {
+      "useBound": 1,
+      "useBattle": 0,
+      "boundMin": "int3_storage(x=-8, y=0, z=-8)",
+      "boundMax": "int3_storage(x=36, y=0, z=30)",
+      "boundMinCamera": "Vector3f(-3.200000047683716, 0.0, -3.5899999141693115)",
+      "boundMaxCamera": "Vector3f(30.799999237060547, 0.0, 26.200000762939453)",
+      "orthographicSize": 3.7200000286102295,
+      "path": "MapTool/Map"
+    },
+    "defaultCamera": {
+      "source": "MapProperty.camera",
+      "cameraId": "587",
+      "gameObjectId": "287",
+      "transformId": "571",
+      "position": {
+        "x": -1.555637,
+        "y": 7.954225,
+        "z": -17.01177
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "forward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "right": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "up": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "orthographic": true,
+      "orthographicSize": 7.0,
+      "fieldOfView": 23.799999237060547
+    },
+    "exportFrame": {
+      "type": "camera_aligned_world",
+      "pointFormula": "export = (dot(world,right), dot(world,up), dot(world,forward))",
+      "basis": {
+        "right": {
+          "x": -0.707107,
+          "y": -0.0,
+          "z": 0.707107
+        },
+        "up": {
+          "x": 0.348196,
+          "y": 0.870356,
+          "z": 0.348196
+        },
+        "forward": {
+          "x": 0.615435,
+          "y": -0.492423,
+          "z": 0.615434
+        }
+      }
+    }
+  },
+  "stats": {
+    "tileCount": 2,
+    "walkabilityCounts": {
+      "unknown": 2
+    },
+    "extent": {
+      "min": {
+        "x": 0.0,
+        "y": 0.348196,
+        "z": 0.615434
+      },
+      "max": {
+        "x": 0.0,
+        "y": 0.348196,
+        "z": 0.615434
+      },
+      "center": {
+        "x": 0.0,
+        "y": 0.348196,
+        "z": 0.615434
+      }
+    }
+  },
+  "tiles": [
+    {
+      "id": "277",
+      "monoId": "1092",
+      "name": "qiao",
+      "path": "MapTool/Map/block_root/stage_desert-spcl-00101/qiao",
+      "walkability": "unknown",
+      "position": {
+        "x": 0.0,
+        "y": 0.348196,
+        "z": 0.615434
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "blockType": 0,
+      "isGamepadCursorMovable": "1",
+      "layer": "0",
+      "collider": {
+        "type": "MeshCollider",
+        "isTrigger": "False",
+        "center": null,
+        "size": null
+      }
+    },
+    {
+      "id": "273",
+      "monoId": "1093",
+      "name": "dimian",
+      "path": "MapTool/Map/block_root/stage_desert-spcl-00101/dimian",
+      "walkability": "unknown",
+      "position": {
+        "x": 0.0,
+        "y": 0.348196,
+        "z": 0.615434
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "blockType": 0,
+      "isGamepadCursorMovable": "1",
+      "layer": "0",
+      "collider": {
+        "type": "MeshCollider",
+        "isTrigger": "False",
+        "center": null,
+        "size": null
+      }
+    }
+  ]
+}
