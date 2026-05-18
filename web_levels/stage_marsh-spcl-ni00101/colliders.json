@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_marsh-spcl-ni00101",
+  "source": {
+    "collidersCsv": "level_probe/reports/stage_marsh-spcl-ni00101_colliders.csv",
+    "sceneObjectsCsv": "level_probe/reports/stage_marsh-spcl-ni00101_scene_objects.csv"
+  },
+  "stats": {
+    "colliderCount": 3,
+    "drawableCount": 3,
+    "typeCounts": {
+      "BoxCollider": 3
+    }
+  },
+  "colliders": [
+    {
+      "id": "886",
+      "type": "BoxCollider",
+      "gameObjectId": "260",
+      "gameObjectName": "empty -1_0",
+      "layer": "24",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "positionSource": "grid_tile",
+      "center": {
+        "x": 0.0,
+        "y": -0.043518,
+        "z": 0.024621
+      },
+      "size": {
+        "x": 1.0,
+        "y": 0.10000000149011612,
+        "z": 1.0
+      },
+      "tilePath": "MapTool/Map/block_root/emptyblock/noenter/empty -1_0",
+      "walkability": "noenter",
+      "blockType": 15
+    },
+    {
+      "id": "887",
+      "type": "BoxCollider",
+      "gameObjectId": "266",
+      "gameObjectName": "hplayerlittlewitchfset02",
+      "layer": "18",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -0.281428,
+        "y": 1.805396,
+        "z": 3.19509
+      },
+      "positionSource": "scene_object_transform",
+      "center": {
+        "x": -0.0,
+        "y": 0.435178,
+        "z": -0.246212
+      },
+      "size": {
+        "x": 0.5,
+        "y": 1.0,
+        "z": 0.5
+      },
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    },
+    {
+      "id": "888",
+      "type": "BoxCollider",
+      "gameObjectId": "273",
+      "gameObjectName": "hpapalswampwitchfset01",
+      "layer": "18",
+      "enabled": "True",
+      "isTrigger": "True",
+      "position": {
+        "x": -0.982878,
+        "y": 1.855885,
+        "z": 3.280266
+      },
+      "positionSource": "scene_object_transform",
+      "center": {
+        "x": -0.0,
+        "y": 0.435178,
+        "z": -0.246212
+      },
+      "size": {
+        "x": 0.5,
+        "y": 1.0,
+        "z": 0.5
+      },
+      "tilePath": "",
+      "walkability": "",
+      "blockType": ""
+    }
+  ]
+}
