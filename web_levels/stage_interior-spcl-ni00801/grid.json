@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_interior-spcl-ni00801",
+  "source": {
+    "gridCsv": "level_probe/reports/stage_interior-spcl-ni00801_grid_blocks.csv",
+    "metadataJson": "level_probe/reports/stage_interior-spcl-ni00801_map_metadata.json"
+  },
+  "metadata": {
+    "bundle": "battle/map/stage_interior-spcl-ni00801.unity3d",
+    "resolvedBundle": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sword of Convallaria\\assets\\battle\\map\\stage_interior-spcl-ni00801.unity3d",
+    "blockCount": 1,
+    "blockTypeCounts": {
+      "20": 1
+    },
+    "mapProperty": {
+      "useBound": 1,
+      "useBattle": 0,
+      "boundMin": "int3_storage(x=-12, y=0, z=-16)",
+      "boundMax": "int3_storage(x=25, y=0, z=14)",
+      "boundMinCamera": "Vector3f(-5.800000190734863, 0.0, -11.170000076293945)",
+      "boundMaxCamera": "Vector3f(18.729999542236328, 0.0, 10.199999809265137)",
+      "orthographicSize": 3.7200000286102295,
+      "path": "MapTool/Map"
+    },
+    "defaultCamera": {
+      "source": "MapProperty.camera",
+      "cameraId": "692",
+      "gameObjectId": "295",
+      "transformId": "561",
+      "position": {
+        "x": -4.200216,
+        "y": 3.02255,
+        "z": -17.828771
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "forward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "right": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "up": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "orthographic": true,
+      "orthographicSize": 5.639999866485596,
+      "fieldOfView": 23.799999237060547
+    },
+    "exportFrame": {
+      "type": "camera_aligned_world",
+      "pointFormula": "export = (dot(world,right), dot(world,up), dot(world,forward))",
+      "basis": {
+        "right": {
+          "x": -0.707107,
+          "y": -0.0,
+          "z": 0.707107
+        },
+        "up": {
+          "x": 0.348196,
+          "y": 0.870356,
+          "z": 0.348196
+        },
+        "forward": {
+          "x": 0.615435,
+          "y": -0.492423,
+          "z": 0.615434
+        }
+      }
+    }
+  },
+  "stats": {
+    "tileCount": 1,
+    "walkabilityCounts": {
+      "unknown": 1
+    },
+    "extent": {
+      "min": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "max": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  },
+  "tiles": [
+    {
+      "id": "257",
+      "monoId": "1339",
+      "name": "dimian01",
+      "path": "MapTool/Map/block_root/stage_interior-spcl-00801/dimian01",
+      "walkability": "unknown",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "blockType": 20,
+      "isGamepadCursorMovable": "1",
+      "layer": "0",
+      "collider": {
+        "type": "MeshCollider",
+        "isTrigger": "False",
+        "center": null,
+        "size": null
+      }
+    }
+  ]
+}

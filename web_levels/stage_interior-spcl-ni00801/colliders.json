@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "mapName": "stage_interior-spcl-ni00801",
+  "source": {
+    "collidersCsv": "level_probe/reports/stage_interior-spcl-ni00801_colliders.csv",
+    "sceneObjectsCsv": "level_probe/reports/stage_interior-spcl-ni00801_scene_objects.csv"
+  },
+  "stats": {
+    "colliderCount": 1,
+    "drawableCount": 0,
+    "typeCounts": {
+      "MeshCollider": 1
+    }
+  },
+  "colliders": [
+    {
+      "id": "1276",
+      "type": "MeshCollider",
+      "gameObjectId": "257",
+      "gameObjectName": "dimian01",
+      "layer": "0",
+      "enabled": "True",
+      "isTrigger": "False",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "positionSource": "grid_tile",
+      "center": null,
+      "size": null,
+      "tilePath": "MapTool/Map/block_root/stage_interior-spcl-00801/dimian01",
+      "walkability": "unknown",
+      "blockType": 20
+    }
+  ]
+}
